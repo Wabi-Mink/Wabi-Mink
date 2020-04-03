@@ -1,3 +1,4 @@
+Imports SwinGameSDK
 ''' <summary>
 ''' This includes a number of utility methods for
 ''' drawing and interacting with the Mouse.
@@ -223,12 +224,12 @@ Module UtilityFunctions
 
     Private Sub AddAnimation(ByVal row As Integer, ByVal col As Integer, ByVal image As String)
         Dim s As Sprite
-        Dim imgObj as Bitmap
+        Dim imgObj As Bitmap
 
         imgObj = GameImage(image)
         imgObj.SetCellDetails(40, 40, 3, 3, 7)
 
-        Dim animation as AnimationScript
+        Dim animation As AnimationScript
         animation = SwinGame.LoadAnimationScript("splash.txt")
 
         s = SwinGame.CreateSprite(imgObj, animation)
@@ -243,7 +244,7 @@ Module UtilityFunctions
         Dim ended As New List(Of Sprite)()
         For Each s As Sprite In _Animations
             SwinGame.UpdateSprite(s)
-            If s.animationHasEnded Then
+            If s.AnimationHasEnded Then
                 ended.Add(s)
             End If
         Next
@@ -261,8 +262,8 @@ Module UtilityFunctions
     End Sub
 
     Public Sub DrawAnimationSequence()
-        Dim i as Integer
-For i  = 1 To ANIMATION_CELLS * FRAMES_PER_CELL
+        Dim i As Integer
+        For i = 1 To ANIMATION_CELLS * FRAMES_PER_CELL
             UpdateAnimations()
             DrawScreen()
         Next

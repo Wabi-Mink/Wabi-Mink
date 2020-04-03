@@ -1,3 +1,4 @@
+Imports SwinGameSDK
 ''' <summary>
 ''' The AIPlayer is a type of player. It can readomly deploy ships, it also has the
 ''' functionality to generate coordinates and shoot at tiles
@@ -90,7 +91,7 @@ Public MustInherit Class AIPlayer : Inherits Player
     ''' <param name="result">The result of the shot</param>
     ''' <param name="row">the row shot</param>
     ''' <param name="col">the column shot</param>
-    protected mustoverride sub ProcessShot(row as integer, col as integer, result as AttackResult)
+    Protected MustOverride Sub ProcessShot(row As Integer, col As Integer, result As AttackResult)
 
     ''' <summary>
     ''' The AI takes its attacks until its go is over.
@@ -116,8 +117,8 @@ Public MustInherit Class AIPlayer : Inherits Player
     ''' Wait a short period to simulate the think time
     ''' </summary>
     Private Sub Delay()
-        Dim i as Integer
-For i  = 0 To 150
+        Dim i As Integer
+        For i = 0 To 150
             'Dont delay if window is closed
             If SwinGame.WindowCloseRequested Then Return
 

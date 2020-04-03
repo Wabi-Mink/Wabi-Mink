@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\battleships"
+    "\\battleships",
+    "\\battleships\\Resources",
+    "\\battleships\\src"
   ],
+  "SelectedNode": "\\battleships\\src\\DeploymentController.vb",
   "PreviewInSolutionExplorer": false
 }

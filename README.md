@@ -1,2 +1,0 @@
-# Wabi-Mink
-battleship
