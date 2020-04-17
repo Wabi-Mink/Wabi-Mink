@@ -32,21 +32,25 @@ namespace battleships
 
         /* TODO ERROR: Skipped RegionDirectiveTrivia */
         /// <summary>
-    /// Changes the discovery grid. Where there is a ship we will sea water
-    /// </summary>
-    /// <param name="x">tile x coordinate</param>
-    /// <param name="y">tile y coordinate</param>
-    /// <returns>a tile, either what it actually is, or if it was a ship then return a sea tile</returns>
-        public TileView get_Item(int x, int y)
+        /// Changes the discovery grid. Where there is a ship we will sea water
+        /// </summary>
+        /// <param name="x">tile x coordinate</param>
+        /// <param name="y">tile y coordinate</param>
+        /// <returns>a tile, either what it actually is, or if it was a ship then return a sea tile</returns>
+        public TileView this[int x, int y]
+        //public TileView get_Item(int x, int y)
         {
-            var result = _MyGrid.get_Item(x, y);
-            if (result == TileView.Ship)
+            get
             {
-                return TileView.Sea;
-            }
-            else
-            {
-                return result;
+                var result = _MyGrid[x, y];
+                if (result == TileView.Ship)
+                {
+                    return TileView.Sea;
+                }
+                else
+                {
+                    return result;
+                }
             }
         }
 

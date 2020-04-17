@@ -119,7 +119,7 @@ namespace battleships
                     var fillColor = default(Color);
                     bool draw;
                     draw = true;
-                    var switchExpr = grid.get_Item(row, col);
+                    var switchExpr = grid[row, col];
                     switch (switchExpr)
                     {
                         case TileView.Ship:
