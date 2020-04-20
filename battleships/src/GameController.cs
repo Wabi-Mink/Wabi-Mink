@@ -246,7 +246,7 @@ namespace battleships
             SwitchState(GameState.Discovering);
         }
 
-        public static string HelloWorld()
+        public static str HelloWorld()
         {
             return "Hello World!";
         }

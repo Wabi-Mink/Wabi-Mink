@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_my_1_1_my_project_1_1_thread_safe_object_provider_3_01_t_01_4" kind="class" prot="package">
+    <compoundname>battleships::My::MyProject::ThreadSafeObjectProvider&lt; T &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_my_1_1_my_project_1_1_thread_safe_object_provider_3_01_t_01_4_1a8a8feef738276808445c29c8bbc40610" prot="package" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>T</type>
+        <definition>T battleships.My.MyProject.ThreadSafeObjectProvider&lt; T &gt;.GetInstance</definition>
+        <argsstring></argsstring>
+        <name>GetInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="162" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_my_1_1_my_project_1_1_thread_safe_object_provider_3_01_t_01_4_1a6ac59e37c553a00dfba3b18a94e9e3d4" prot="private" static="yes" mutable="no">
+        <type>T</type>
+        <definition>T battleships.My.MyProject.ThreadSafeObjectProvider&lt; T &gt;.m_ThreadStaticValue</definition>
+        <argsstring></argsstring>
+        <name>m_ThreadStaticValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="184" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_my_project_1_1_thread_safe_object_provider_3_01_t_01_4_1a489832866a0f4aa8b51afbdaa0ed06d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.My.MyProject.ThreadSafeObjectProvider&lt; T &gt;.ThreadSafeObjectProvider</definition>
+        <argsstring>()</argsstring>
+        <name>ThreadSafeObjectProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="177" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="177" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="161" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="160" bodyend="186"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_thread_safe_object_provider_3_01_t_01_4_1a8a8feef738276808445c29c8bbc40610" prot="package" virt="non-virtual"><scope>battleships::My::MyProject::ThreadSafeObjectProvider&lt; T &gt;</scope><name>GetInstance</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_thread_safe_object_provider_3_01_t_01_4_1a6ac59e37c553a00dfba3b18a94e9e3d4" prot="private" virt="non-virtual"><scope>battleships::My::MyProject::ThreadSafeObjectProvider&lt; T &gt;</scope><name>m_ThreadStaticValue</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_thread_safe_object_provider_3_01_t_01_4_1a489832866a0f4aa8b51afbdaa0ed06d7" prot="public" virt="non-virtual"><scope>battleships::My::MyProject::ThreadSafeObjectProvider&lt; T &gt;</scope><name>ThreadSafeObjectProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

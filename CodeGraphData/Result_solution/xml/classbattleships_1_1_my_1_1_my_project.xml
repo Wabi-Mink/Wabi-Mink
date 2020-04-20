@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_my_1_1_my_project" kind="class" prot="package">
+    <compoundname>battleships::My::MyProject</compoundname>
+    <innerclass refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services" prot="package">battleships::My::MyProject::MyWebServices</innerclass>
+    <innerclass refid="classbattleships_1_1_my_1_1_my_project_1_1_thread_safe_object_provider_3_01_t_01_4" prot="package">battleships::My::MyProject::ThreadSafeObjectProvider&lt; T &gt;</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_my_1_1_my_project_1a86e832bb1447cbbbcd909eeedc600fe0" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="classbattleships_1_1_my_1_1_my_computer" kindref="compound">MyComputer</ref></type>
+        <definition>MyComputer battleships.My.MyProject.Computer</definition>
+        <argsstring></argsstring>
+        <name>Computer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="48" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_my_1_1_my_project_1a76996ccc3862108ca9feb6fc792e3275" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="classbattleships_1_1_my_1_1_my_application" kindref="compound">MyApplication</ref></type>
+        <definition>MyApplication battleships.My.MyProject.Application</definition>
+        <argsstring></argsstring>
+        <name>Application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="61" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_my_1_1_my_project_1ac33ce863da40c17294d65785edb252e8" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Microsoft.VisualBasic.ApplicationServices.User</type>
+        <definition>Microsoft.VisualBasic.ApplicationServices.User battleships.My.MyProject.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="74" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_my_1_1_my_project_1a0b3aa02d1d21ff23489924f90367a7cd" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services" kindref="compound">MyWebServices</ref></type>
+        <definition>MyWebServices battleships.My.MyProject.WebServices</definition>
+        <argsstring></argsstring>
+        <name>WebServices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="88" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_my_1_1_my_project_1a161869743fca9c4cfde99117eefb28f8" prot="private" static="yes" mutable="no">
+        <type>readonly ThreadSafeObjectProvider&lt; <ref refid="classbattleships_1_1_my_1_1_my_computer" kindref="compound">MyComputer</ref> &gt;</type>
+        <definition>readonly ThreadSafeObjectProvider&lt;MyComputer&gt; battleships.My.MyProject.m_ComputerObjectProvider</definition>
+        <argsstring></argsstring>
+        <name>m_ComputerObjectProvider</name>
+        <initializer>= new ThreadSafeObjectProvider&lt;<ref refid="classbattleships_1_1_my_1_1_my_computer" kindref="compound">MyComputer</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="57" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_my_1_1_my_project_1a53634a24f347812185836704b6d08aa3" prot="private" static="yes" mutable="no">
+        <type>readonly ThreadSafeObjectProvider&lt; <ref refid="classbattleships_1_1_my_1_1_my_application" kindref="compound">MyApplication</ref> &gt;</type>
+        <definition>readonly ThreadSafeObjectProvider&lt;MyApplication&gt; battleships.My.MyProject.m_AppObjectProvider</definition>
+        <argsstring></argsstring>
+        <name>m_AppObjectProvider</name>
+        <initializer>= new ThreadSafeObjectProvider&lt;<ref refid="classbattleships_1_1_my_1_1_my_application" kindref="compound">MyApplication</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="70" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_my_1_1_my_project_1a24ff3347912d581db9d568259b662fff" prot="private" static="yes" mutable="no">
+        <type>readonly ThreadSafeObjectProvider&lt; Microsoft.VisualBasic.ApplicationServices.User &gt;</type>
+        <definition>readonly ThreadSafeObjectProvider&lt;Microsoft.VisualBasic.ApplicationServices.User&gt; battleships.My.MyProject.m_UserObjectProvider</definition>
+        <argsstring></argsstring>
+        <name>m_UserObjectProvider</name>
+        <initializer>= new ThreadSafeObjectProvider&lt;Microsoft.VisualBasic.ApplicationServices.User&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="83" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_my_1_1_my_project_1a2c8ca211aa2124730eb5eeef262dbfa7" prot="private" static="yes" mutable="no">
+        <type>readonly ThreadSafeObjectProvider&lt; <ref refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services" kindref="compound">MyWebServices</ref> &gt;</type>
+        <definition>readonly ThreadSafeObjectProvider&lt;MyWebServices&gt; battleships.My.MyProject.m_MyWebServicesObjectProvider</definition>
+        <argsstring></argsstring>
+        <name>m_MyWebServicesObjectProvider</name>
+        <initializer>= new ThreadSafeObjectProvider&lt;<ref refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services" kindref="compound">MyWebServices</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="155" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="44" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="43" bodyend="187"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1a76996ccc3862108ca9feb6fc792e3275" prot="package" virt="non-virtual"><scope>battleships::My::MyProject</scope><name>Application</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1a86e832bb1447cbbbcd909eeedc600fe0" prot="package" virt="non-virtual"><scope>battleships::My::MyProject</scope><name>Computer</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1a53634a24f347812185836704b6d08aa3" prot="private" virt="non-virtual"><scope>battleships::My::MyProject</scope><name>m_AppObjectProvider</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1a161869743fca9c4cfde99117eefb28f8" prot="private" virt="non-virtual"><scope>battleships::My::MyProject</scope><name>m_ComputerObjectProvider</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1a2c8ca211aa2124730eb5eeef262dbfa7" prot="private" virt="non-virtual"><scope>battleships::My::MyProject</scope><name>m_MyWebServicesObjectProvider</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1a24ff3347912d581db9d568259b662fff" prot="private" virt="non-virtual"><scope>battleships::My::MyProject</scope><name>m_UserObjectProvider</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1ac33ce863da40c17294d65785edb252e8" prot="package" virt="non-virtual"><scope>battleships::My::MyProject</scope><name>User</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1a0b3aa02d1d21ff23489924f90367a7cd" prot="package" virt="non-virtual"><scope>battleships::My::MyProject</scope><name>WebServices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

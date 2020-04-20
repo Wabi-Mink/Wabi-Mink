@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services" kind="class" prot="package">
+    <compoundname>battleships::My::MyProject::MyWebServices</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a52e8bde65c65903cdbc2113cff0e571e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool battleships.My.MyProject.MyWebServices.Equals</definition>
+        <argsstring>(object o)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="103" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a0c8adaa5b6dcc8955840920475c58772" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int battleships.My.MyProject.MyWebServices.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="110" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1aa7dbb42e17615db80a1918a38641df97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string battleships.My.MyProject.MyWebServices.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="124" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a0c10e0ecdf8b36d14319ff7d57e98399" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.My.MyProject.MyWebServices.MyWebServices</definition>
+        <argsstring>()</argsstring>
+        <name>MyWebServices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="150" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="150" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a996dae3550cfec97a69e7fbc1a60c2da" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new Type</type>
+        <definition>new Type battleships.My.MyProject.MyWebServices.GetType</definition>
+        <argsstring>()</argsstring>
+        <name>GetType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="117" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="117" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a375a1eb6f5de9a9312421cca8af549e3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T battleships.My.MyProject.MyWebServices.Create__Instance__&lt; T &gt;</definition>
+        <argsstring>(T instance)</argsstring>
+        <name>Create__Instance__&lt; T &gt;</name>
+        <param>
+          <type>T</type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="130" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="130" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a4b8b3d2031eafbf3e576b2763efac4a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.My.MyProject.MyWebServices.Dispose__Instance__&lt; T &gt;</definition>
+        <argsstring>(ref T instance)</argsstring>
+        <name>Dispose__Instance__&lt; T &gt;</name>
+        <param>
+          <type>ref T</type>
+          <declname>instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="143" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="143" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="100" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="99" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a375a1eb6f5de9a9312421cca8af549e3" prot="private" virt="non-virtual"><scope>battleships::My::MyProject::MyWebServices</scope><name>Create__Instance__&lt; T &gt;</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a4b8b3d2031eafbf3e576b2763efac4a9" prot="private" virt="non-virtual"><scope>battleships::My::MyProject::MyWebServices</scope><name>Dispose__Instance__&lt; T &gt;</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a52e8bde65c65903cdbc2113cff0e571e" prot="public" virt="non-virtual"><scope>battleships::My::MyProject::MyWebServices</scope><name>Equals</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a0c8adaa5b6dcc8955840920475c58772" prot="public" virt="non-virtual"><scope>battleships::My::MyProject::MyWebServices</scope><name>GetHashCode</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a996dae3550cfec97a69e7fbc1a60c2da" prot="package" virt="non-virtual"><scope>battleships::My::MyProject::MyWebServices</scope><name>GetType</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a0c10e0ecdf8b36d14319ff7d57e98399" prot="public" virt="non-virtual"><scope>battleships::My::MyProject::MyWebServices</scope><name>MyWebServices</name></member>
+      <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1aa7dbb42e17615db80a1918a38641df97" prot="public" virt="non-virtual"><scope>battleships::My::MyProject::MyWebServices</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_754a81ae0a54fc06a1a5e68f21df354d" kind="dir">
+    <compoundname>src</compoundname>
+    <innerdir refid="dir_f60cc705f543b49b0f6db02194fc8a21">src/Model</innerdir>
+    <innerfile refid="_deployment_controller_8cs">DeploymentController.cs</innerfile>
+    <innerfile refid="_discovery_controller_8cs">DiscoveryController.cs</innerfile>
+    <innerfile refid="_ending_game_controller_8cs">EndingGameController.cs</innerfile>
+    <innerfile refid="_game_controller_8cs">GameController.cs</innerfile>
+    <innerfile refid="_game_logic_8cs">GameLogic.cs</innerfile>
+    <innerfile refid="_game_resources_8cs">GameResources.cs</innerfile>
+    <innerfile refid="_game_state_8cs">GameState.cs</innerfile>
+    <innerfile refid="_high_score_controller_8cs">HighScoreController.cs</innerfile>
+    <innerfile refid="_menu_controller_8cs">MenuController.cs</innerfile>
+    <innerfile refid="_utility_functions_8cs">UtilityFunctions.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/"/>
+  </compounddef>
+</doxygen>
