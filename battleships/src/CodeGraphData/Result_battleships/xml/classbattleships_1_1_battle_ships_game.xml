@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_battle_ships_game" kind="class" prot="public">
+    <compoundname>battleships::BattleShipsGame</compoundname>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="classbattleships_1_1_battle_ships_game_1a56339a02bc60ed82f4205849c4ac2da8" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="classbattleships_1_1_battle_ships_game_1ac59c4cafe565c61ed92b1598e362bbbc" kindref="member">AttackCompletedHandler</ref></type>
+        <definition>AttackCompletedHandler battleships.BattleShipsGame.AttackCompleted</definition>
+        <argsstring></argsstring>
+        <name>AttackCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The AttackCompleted event is raised when an attack has completed. </para><para>This is used by the UI to play sound effects etc. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" line="28" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_battle_ships_game_1a058986527b62dda1d12d5fa93390ce2e" compoundref="_battle_ships_game_8cs" startline="86" endline="107">battleships.BattleShipsGame.Shoot</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_battle_ships_game_1a9ca80add15442a88838119986ac687d6" prot="private" static="no" mutable="no">
+        <type><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref>[]</type>
+        <definition>Player [] battleships.BattleShipsGame._players</definition>
+        <argsstring></argsstring>
+        <name>_players</name>
+        <initializer>= new <ref refid="classbattleships_1_1_player" kindref="compound">Player</ref>[3]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" line="30" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_battle_ships_game_1a78960cfb26dc05315697946fc3e3d39a" compoundref="_battle_ships_game_8cs" startline="52" endline="67">battleships.BattleShipsGame.AddDeployedPlayer</referencedby>
+        <referencedby refid="classbattleships_1_1_battle_ships_game_1a905dfd334ae24585438aebc879f6da91" compoundref="_battle_ships_game_8cs" startline="73" endline="77">battleships.BattleShipsGame.CompleteDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_battle_ships_game_1a058986527b62dda1d12d5fa93390ce2e" compoundref="_battle_ships_game_8cs" startline="86" endline="107">battleships.BattleShipsGame.Shoot</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_battle_ships_game_1ab27750f99f78191657b485960e40f3fa" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int battleships.BattleShipsGame._playerIndex</definition>
+        <argsstring></argsstring>
+        <name>_playerIndex</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" line="31" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_battle_ships_game_1a058986527b62dda1d12d5fa93390ce2e" compoundref="_battle_ships_game_8cs" startline="86" endline="107">battleships.BattleShipsGame.Shoot</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_battle_ships_game_1a71bc711f050339a4fb1372e62d2de395" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref></type>
+        <definition>Player battleships.BattleShipsGame.Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The current player. </para><para>The current player</para><para><simplesect kind="return"><para>The current player</para></simplesect>
+</para><para>This value will switch between the two players as they have their attacks</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" line="39" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" compoundref="_game_controller_8cs" startline="285" endline="303">battleships.GameController.CheckAttackResult</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbattleships_1_1_battle_ships_game_1ac59c4cafe565c61ed92b1598e362bbbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void battleships.BattleShipsGame.AttackCompletedHandler</definition>
+        <argsstring>(object sender, AttackResult result)</argsstring>
+        <name>AttackCompletedHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_attack_result" kindref="compound">AttackResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The attack delegate type is used to send notifications of the end of an attack by a player or the AI. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the game sending the notification</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the result of the attack</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_battle_ships_game_1a78960cfb26dc05315697946fc3e3d39a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.BattleShipsGame.AddDeployedPlayer</definition>
+        <argsstring>(Player p)</argsstring>
+        <name>AddDeployedPlayer</name>
+        <param>
+          <type><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>AddDeployedPlayer adds both players and will make sure that the AI player deploys all ships </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" line="52" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" bodystart="52" bodyend="67"/>
+        <references refid="classbattleships_1_1_battle_ships_game_1a9ca80add15442a88838119986ac687d6" compoundref="_battle_ships_game_8cs" startline="30">battleships.BattleShipsGame._players</references>
+        <references refid="classbattleships_1_1_battle_ships_game_1a905dfd334ae24585438aebc879f6da91" compoundref="_battle_ships_game_8cs" startline="73" endline="77">battleships.BattleShipsGame.CompleteDeployment</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_battle_ships_game_1a058986527b62dda1d12d5fa93390ce2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classbattleships_1_1_attack_result" kindref="compound">AttackResult</ref></type>
+        <definition>AttackResult battleships.BattleShipsGame.Shoot</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>Shoot</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shoot will swap between players and check if a player has been killed. It also allows the current player to hit on the enemygrid. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row fired upon</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the column fired upon</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The result of the attack</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" line="86" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" bodystart="86" bodyend="107"/>
+        <references refid="classbattleships_1_1_battle_ships_game_1ab27750f99f78191657b485960e40f3fa" compoundref="_battle_ships_game_8cs" startline="31">battleships.BattleShipsGame._playerIndex</references>
+        <references refid="classbattleships_1_1_battle_ships_game_1a9ca80add15442a88838119986ac687d6" compoundref="_battle_ships_game_8cs" startline="30">battleships.BattleShipsGame._players</references>
+        <references refid="classbattleships_1_1_battle_ships_game_1a56339a02bc60ed82f4205849c4ac2da8" compoundref="_battle_ships_game_8cs" startline="28">battleships.BattleShipsGame.AttackCompleted</references>
+        <references refid="classbattleships_1_1_attack_result_1a285f922e10db965479f5bc7ff3b74b30" compoundref="_attack_result_8cs" startline="34">battleships.AttackResult.Ship</references>
+        <references refid="classbattleships_1_1_attack_result_1abbdf7dafbc0d2f7c929742df9e2e167d" compoundref="_attack_result_8cs" startline="48">battleships.AttackResult.Text</references>
+        <references refid="classbattleships_1_1_attack_result_1aaf59a980720cd5896f56b370ff6f4700" compoundref="_attack_result_8cs" startline="21">battleships.AttackResult.Value</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbattleships_1_1_battle_ships_game_1a905dfd334ae24585438aebc879f6da91" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.BattleShipsGame.CompleteDeployment</definition>
+        <argsstring>()</argsstring>
+        <name>CompleteDeployment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns each player the other&apos;s grid as the enemy grid. This allows each player to examine the details visable on the other&apos;s sea grid. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" line="73" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" bodystart="73" bodyend="77"/>
+        <references refid="classbattleships_1_1_battle_ships_game_1a9ca80add15442a88838119986ac687d6" compoundref="_battle_ships_game_8cs" startline="30">battleships.BattleShipsGame._players</references>
+        <referencedby refid="classbattleships_1_1_battle_ships_game_1a78960cfb26dc05315697946fc3e3d39a" compoundref="_battle_ships_game_8cs" startline="52" endline="67">battleships.BattleShipsGame.AddDeployedPlayer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="55">
+        <label>ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+      <node id="56">
+        <label>battleships.Tile</label>
+        <link refid="classbattleships_1_1_tile"/>
+        <childnode refid="57" relation="usage">
+          <edgelabel>_Ship</edgelabel>
+        </childnode>
+      </node>
+      <node id="50">
+        <label>battleships.BattleShipsGame</label>
+        <link refid="classbattleships_1_1_battle_ships_game"/>
+        <childnode refid="51" relation="usage">
+          <edgelabel>_players</edgelabel>
+        </childnode>
+      </node>
+      <node id="57">
+        <label>battleships.Ship</label>
+        <link refid="classbattleships_1_1_ship"/>
+      </node>
+      <node id="51">
+        <label>battleships.Player</label>
+        <link refid="classbattleships_1_1_player"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>_game</edgelabel>
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>_enemyGrid</edgelabel>
+        </childnode>
+        <childnode refid="54" relation="usage">
+          <edgelabel>_playerGrid</edgelabel>
+        </childnode>
+      </node>
+      <node id="52">
+        <label>IEnumerable</label>
+      </node>
+      <node id="54">
+        <label>battleships.SeaGrid</label>
+        <link refid="classbattleships_1_1_sea_grid"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+        <childnode refid="56" relation="usage">
+          <edgelabel>_GameTiles</edgelabel>
+        </childnode>
+      </node>
+      <node id="53">
+        <label>battleships.ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/BattleShipsGame.cs" bodystart="11" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_battle_ships_game_1ab27750f99f78191657b485960e40f3fa" prot="private" virt="non-virtual"><scope>battleships::BattleShipsGame</scope><name>_playerIndex</name></member>
+      <member refid="classbattleships_1_1_battle_ships_game_1a9ca80add15442a88838119986ac687d6" prot="private" virt="non-virtual"><scope>battleships::BattleShipsGame</scope><name>_players</name></member>
+      <member refid="classbattleships_1_1_battle_ships_game_1a78960cfb26dc05315697946fc3e3d39a" prot="public" virt="non-virtual"><scope>battleships::BattleShipsGame</scope><name>AddDeployedPlayer</name></member>
+      <member refid="classbattleships_1_1_battle_ships_game_1a56339a02bc60ed82f4205849c4ac2da8" prot="public" virt="non-virtual"><scope>battleships::BattleShipsGame</scope><name>AttackCompleted</name></member>
+      <member refid="classbattleships_1_1_battle_ships_game_1ac59c4cafe565c61ed92b1598e362bbbc" prot="public" virt="non-virtual"><scope>battleships::BattleShipsGame</scope><name>AttackCompletedHandler</name></member>
+      <member refid="classbattleships_1_1_battle_ships_game_1a905dfd334ae24585438aebc879f6da91" prot="private" virt="non-virtual"><scope>battleships::BattleShipsGame</scope><name>CompleteDeployment</name></member>
+      <member refid="classbattleships_1_1_battle_ships_game_1a71bc711f050339a4fb1372e62d2de395" prot="public" virt="non-virtual"><scope>battleships::BattleShipsGame</scope><name>Player</name></member>
+      <member refid="classbattleships_1_1_battle_ships_game_1a058986527b62dda1d12d5fa93390ce2e" prot="public" virt="non-virtual"><scope>battleships::BattleShipsGame</scope><name>Shoot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

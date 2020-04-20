@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_ship_name_8cs" kind="file">
+    <compoundname>ShipName.cs</compoundname>
+    <innernamespace refid="namespacebattleships">battleships</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">battleships</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0" kindref="member">ShipName</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0a3be2b32bd65baca61933645168bdbb6a" kindref="member">Tug</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0a0d234e5bcf75c768eb0db6bf96e3c22d" kindref="member">Submarine</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0af90034e6810bf57cdb3d99a298221fc9" kindref="member">Destroyer</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0ab846373e48cf002363110ff72973f24b" kindref="member">Battleship</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0acb5d70c01adb9f48ed13aa2273eef339" kindref="member">AircraftCarrier</ref><sp/>=<sp/>5</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ShipName.cs"/>
+  </compounddef>
+</doxygen>

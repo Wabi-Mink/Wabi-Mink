@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_my_1_1_internal_xml_helper" kind="class" prot="package">
+    <compoundname>battleships::My::InternalXmlHelper</compoundname>
+    <innerclass refid="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure" prot="private">battleships::My::InternalXmlHelper::RemoveNamespaceAttributesClosure</innerclass>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1af6820fd4efc43a5388248decbc5f92fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.My.InternalXmlHelper.InternalXmlHelper</definition>
+        <argsstring>()</argsstring>
+        <name>InternalXmlHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="22" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1a38dcc2a190d9f66d4a9bf9b524359f82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string battleships.My.InternalXmlHelper.get_Value</definition>
+        <argsstring>(IEnumerable&lt; XElement &gt; source)</argsstring>
+        <name>get_Value</name>
+        <param>
+          <type>IEnumerable&lt; XElement &gt;</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="26" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1a23c65a9be0c621448cf1ff3f5f622b0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.My.InternalXmlHelper.set_Value</definition>
+        <argsstring>(IEnumerable&lt; XElement &gt; source, string value)</argsstring>
+        <name>set_Value</name>
+        <param>
+          <type>IEnumerable&lt; XElement &gt;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="33" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1a0ef4ff382ef4d1383f2dd55a4ca18762" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string battleships.My.InternalXmlHelper.get_AttributeValue</definition>
+        <argsstring>(IEnumerable&lt; XElement &gt; source, XName name)</argsstring>
+        <name>get_AttributeValue</name>
+        <param>
+          <type>IEnumerable&lt; XElement &gt;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>XName</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="42" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1af0b63b64134913e55400bde57025b47e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.My.InternalXmlHelper.set_AttributeValue</definition>
+        <argsstring>(IEnumerable&lt; XElement &gt; source, XName name, string value)</argsstring>
+        <name>set_AttributeValue</name>
+        <param>
+          <type>IEnumerable&lt; XElement &gt;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>XName</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="49" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="49" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1ac295a1c28eb3d2d340159233490d01e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string battleships.My.InternalXmlHelper.get_AttributeValue</definition>
+        <argsstring>(XElement source, XName name)</argsstring>
+        <name>get_AttributeValue</name>
+        <param>
+          <type>XElement</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>XName</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="58" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1a6fb388e7f94c24d717a466bef943be88" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.My.InternalXmlHelper.set_AttributeValue</definition>
+        <argsstring>(XElement source, XName name, string value)</argsstring>
+        <name>set_AttributeValue</name>
+        <param>
+          <type>XElement</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>XName</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="63" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1a2823b94920982bc15910881cfa43f421" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XAttribute</type>
+        <definition>static XAttribute battleships.My.InternalXmlHelper.CreateAttribute</definition>
+        <argsstring>(XName name, object value)</argsstring>
+        <name>CreateAttribute</name>
+        <param>
+          <type>XName</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="69" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="69" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1aa641efa6e912c8392ddf1d740499b65f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XAttribute</type>
+        <definition>static XAttribute battleships.My.InternalXmlHelper.CreateNamespaceAttribute</definition>
+        <argsstring>(XName name, XNamespace ns)</argsstring>
+        <name>CreateNamespaceAttribute</name>
+        <param>
+          <type>XName</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>XNamespace</type>
+          <declname>ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="80" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="80" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1abce25694b160f393d03ee88b82e667ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object battleships.My.InternalXmlHelper.RemoveNamespaceAttributes</definition>
+        <argsstring>(string[] inScopePrefixes, XNamespace[] inScopeNs, List&lt; XAttribute &gt; attributes, object obj)</argsstring>
+        <name>RemoveNamespaceAttributes</name>
+        <param>
+          <type>string[]</type>
+          <declname>inScopePrefixes</declname>
+        </param>
+        <param>
+          <type>XNamespace[]</type>
+          <declname>inScopeNs</declname>
+        </param>
+        <param>
+          <type>List&lt; XAttribute &gt;</type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="88" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="88" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1a360292c3388019c446b22d867390588e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable</type>
+        <definition>static IEnumerable battleships.My.InternalXmlHelper.RemoveNamespaceAttributes</definition>
+        <argsstring>(string[] inScopePrefixes, XNamespace[] inScopeNs, List&lt; XAttribute &gt; attributes, IEnumerable obj)</argsstring>
+        <name>RemoveNamespaceAttributes</name>
+        <param>
+          <type>string[]</type>
+          <declname>inScopePrefixes</declname>
+        </param>
+        <param>
+          <type>XNamespace[]</type>
+          <declname>inScopeNs</declname>
+        </param>
+        <param>
+          <type>List&lt; XAttribute &gt;</type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>IEnumerable</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="111" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="111" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1acf651eb2de595bc3011a916b75063459" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>static XElement battleships.My.InternalXmlHelper.RemoveNamespaceAttributes</definition>
+        <argsstring>(string[] inScopePrefixes, XNamespace[] inScopeNs, List&lt; XAttribute &gt; attributes, XElement e)</argsstring>
+        <name>RemoveNamespaceAttributes</name>
+        <param>
+          <type>string[]</type>
+          <declname>inScopePrefixes</declname>
+        </param>
+        <param>
+          <type>XNamespace[]</type>
+          <declname>inScopeNs</declname>
+        </param>
+        <param>
+          <type>List&lt; XAttribute &gt;</type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>XElement</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="168" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="168" bodyend="251"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="20" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="19" bodyend="252"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a2823b94920982bc15910881cfa43f421" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>CreateAttribute</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1aa641efa6e912c8392ddf1d740499b65f" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>CreateNamespaceAttribute</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a0ef4ff382ef4d1383f2dd55a4ca18762" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>get_AttributeValue</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1ac295a1c28eb3d2d340159233490d01e2" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>get_AttributeValue</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a38dcc2a190d9f66d4a9bf9b524359f82" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>get_Value</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1af6820fd4efc43a5388248decbc5f92fc" prot="private" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>InternalXmlHelper</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1abce25694b160f393d03ee88b82e667ed" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>RemoveNamespaceAttributes</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a360292c3388019c446b22d867390588e" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>RemoveNamespaceAttributes</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1acf651eb2de595bc3011a916b75063459" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>RemoveNamespaceAttributes</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1af0b63b64134913e55400bde57025b47e" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>set_AttributeValue</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a6fb388e7f94c24d717a466bef943be88" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>set_AttributeValue</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a23c65a9be0c621448cf1ff3f5f622b0a" prot="public" virt="non-virtual"><scope>battleships::My::InternalXmlHelper</scope><name>set_Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

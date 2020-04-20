@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8831eab6d755b27760fcb839193e1e2b" kind="dir">
+    <compoundname>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model</compoundname>
+    <innerfile refid="_a_i_hard_player_8cs">AIHardPlayer.cs</innerfile>
+    <innerfile refid="_a_i_medium_player_8cs">AIMediumPlayer.cs</innerfile>
+    <innerfile refid="_a_i_option_8cs">AIOption.cs</innerfile>
+    <innerfile refid="_a_i_player_8cs">AIPlayer.cs</innerfile>
+    <innerfile refid="_attack_result_8cs">AttackResult.cs</innerfile>
+    <innerfile refid="_battle_ships_game_8cs">BattleShipsGame.cs</innerfile>
+    <innerfile refid="_direction_8cs">Direction.cs</innerfile>
+    <innerfile refid="_i_sea_grid_8cs">ISeaGrid.cs</innerfile>
+    <innerfile refid="_player_8cs">Player.cs</innerfile>
+    <innerfile refid="_result_of_attack_8cs">ResultOfAttack.cs</innerfile>
+    <innerfile refid="_sea_grid_8cs">SeaGrid.cs</innerfile>
+    <innerfile refid="_sea_grid_adapter_8cs">SeaGridAdapter.cs</innerfile>
+    <innerfile refid="_ship_8cs">Ship.cs</innerfile>
+    <innerfile refid="_ship_name_8cs">ShipName.cs</innerfile>
+    <innerfile refid="_tile_8cs">Tile.cs</innerfile>
+    <innerfile refid="_tile_view_8cs">TileView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/"/>
+  </compounddef>
+</doxygen>

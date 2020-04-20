@@ -1,0 +1,675 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_game_controller" kind="class" prot="public">
+    <compoundname>battleships::GameController</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_game_controller_1a4fcf77c43f35a387d35c323fc0b78001" prot="private" static="yes" mutable="no">
+        <type><ref refid="classbattleships_1_1_battle_ships_game" kindref="compound">BattleShipsGame</ref></type>
+        <definition>BattleShipsGame battleships.GameController._theGame</definition>
+        <argsstring></argsstring>
+        <name>_theGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="15" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" compoundref="_game_controller_8cs" startline="285" endline="303">battleships.GameController.CheckAttackResult</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" compoundref="_game_controller_8cs" startline="76" endline="113">battleships.GameController.StartGame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_controller_1a27532bfae20a0f09b65dfb5846c8f562" prot="private" static="yes" mutable="no">
+        <type><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref></type>
+        <definition>Player battleships.GameController._human</definition>
+        <argsstring></argsstring>
+        <name>_human</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="16" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1ab23ef85fb0ef040e19e50bfd3bdb2705" compoundref="_game_controller_8cs" startline="241" endline="247">battleships.GameController.EndDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" compoundref="_game_controller_8cs" startline="76" endline="113">battleships.GameController.StartGame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_controller_1ac9d97850f99aa380185174d4ffcbe2d9" prot="private" static="yes" mutable="no">
+        <type><ref refid="classbattleships_1_1_a_i_player" kindref="compound">AIPlayer</ref></type>
+        <definition>AIPlayer battleships.GameController._ai</definition>
+        <argsstring></argsstring>
+        <name>_ai</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="17" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1ab23ef85fb0ef040e19e50bfd3bdb2705" compoundref="_game_controller_8cs" startline="241" endline="247">battleships.GameController.EndDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" compoundref="_game_controller_8cs" startline="76" endline="113">battleships.GameController.StartGame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_controller_1af2a5e952b4a57e1f55a703ac82de3165" prot="private" static="yes" mutable="no">
+        <type>Stack&lt; <ref refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09" kindref="member">GameState</ref> &gt;</type>
+        <definition>Stack&lt;GameState&gt; battleships.GameController._state</definition>
+        <argsstring></argsstring>
+        <name>_state</name>
+        <initializer>= new Stack&lt;<ref refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09" kindref="member">GameState</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="18" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_controller_1ad99ac2988a8d8ce219a37a6bcc393ab3" prot="private" static="yes" mutable="no">
+        <type><ref refid="namespacebattleships_1a0d4318a5997729df6a087d0abbaf8dde" kindref="member">AIOption</ref></type>
+        <definition>AIOption battleships.GameController._aiSetting</definition>
+        <argsstring></argsstring>
+        <name>_aiSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="19" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1ad69569c07ceb078efb606d06735b7b0d" compoundref="_game_controller_8cs" startline="458" endline="461">battleships.GameController.SetDifficulty</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" compoundref="_game_controller_8cs" startline="76" endline="113">battleships.GameController.StartGame</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_game_controller_1afd98da917d4ade22cf7302ff6e61aa3e" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09" kindref="member">GameState</ref></type>
+        <definition>GameState battleships.GameController.CurrentState</definition>
+        <argsstring></argsstring>
+        <name>CurrentState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current state of the game, indicating which screen is currently being used </para><para>The current state</para><para><simplesect kind="return"><para>The current state</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="27" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a0c34c7f2326c060f9f80eefca1a29173" compoundref="_utility_functions_8cs" startline="243" endline="278">battleships.UtilityFunctions.DrawBackground</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1a898fb9ca29c884c004fe2281c9622ee1" compoundref="_game_controller_8cs" startline="372" endline="423">battleships.GameController.DrawScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1a64335e0908b94cf40a66410d0e3763f8" compoundref="_game_controller_8cs" startline="313" endline="364">battleships.GameController.HandleUserInput</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref></type>
+        <definition>Player battleships.GameController.HumanPlayer</definition>
+        <argsstring></argsstring>
+        <name>HumanPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the human player. </para><para>the human player</para><para><simplesect kind="return"><para>the human player</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="40" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="168" endline="231">battleships.GameController.AttackCompleted</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1a642809d8631bc2887fe80628e1581f7b" compoundref="_discovery_controller_8cs" startline="57" endline="77">battleships.DiscoveryController.DrawDiscovery</referencedby>
+        <referencedby refid="classbattleships_1_1_ending_game_controller_1abe5a332e65ac372b395b88241647d07f" compoundref="_ending_game_controller_8cs" startline="17" endline="37">battleships.EndingGameController.DrawEndOfGame</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_game_controller_1a679058c3607982aac28fb19c3a42ce01" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref></type>
+        <definition>Player battleships.GameController.ComputerPlayer</definition>
+        <argsstring></argsstring>
+        <name>ComputerPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the computer player. </para><para>the computer player</para><para><simplesect kind="return"><para>the conputer player</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="53" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" compoundref="_game_controller_8cs" startline="285" endline="303">battleships.GameController.CheckAttackResult</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1a642809d8631bc2887fe80628e1581f7b" compoundref="_discovery_controller_8cs" startline="57" endline="77">battleships.DiscoveryController.DrawDiscovery</referencedby>
+        <referencedby refid="classbattleships_1_1_ending_game_controller_1abe5a332e65ac372b395b88241647d07f" compoundref="_ending_game_controller_8cs" startline="17" endline="37">battleships.EndingGameController.DrawEndOfGame</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a20aeec682e39d4c74312c36dcf0bf7ee" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static battleships.GameController.GameController</definition>
+        <argsstring>()</argsstring>
+        <name>GameController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="61" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="61" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a4b12792b9c01c60426734e31a5bd7efa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.EndGame</definition>
+        <argsstring>()</argsstring>
+        <name>EndGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stops listening to the old game once a new game is started </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="119" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="119" bodyend="124"/>
+        <references refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="168" endline="231">battleships.GameController.AttackCompleted</references>
+        <references refid="classbattleships_1_1_game_controller_1a4a8ef26503693a7c320bdf798dd935fb" compoundref="_game_controller_8cs" startline="132" endline="136">battleships.GameController.GridChanged</references>
+        <referencedby refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" compoundref="_game_controller_8cs" startline="76" endline="113">battleships.GameController.StartGame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a4a8ef26503693a7c320bdf798dd935fb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.GridChanged</definition>
+        <argsstring>(object sender, EventArgs args)</argsstring>
+        <name>GridChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Listens to the game grids for any changes and redraws the screen when the grids change </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the grid that changed</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>not used</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="132" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="132" bodyend="136"/>
+        <references refid="classbattleships_1_1_game_controller_1a898fb9ca29c884c004fe2281c9622ee1" compoundref="_game_controller_8cs" startline="372" endline="423">battleships.GameController.DrawScreen</references>
+        <referencedby refid="classbattleships_1_1_game_controller_1a4b12792b9c01c60426734e31a5bd7efa" compoundref="_game_controller_8cs" startline="119" endline="124">battleships.GameController.EndGame</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" compoundref="_game_controller_8cs" startline="76" endline="113">battleships.GameController.StartGame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a8d9c0143adf23bc837300e51b2c06d85" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.PlayHitSequence</definition>
+        <argsstring>(int row, int column, bool showAnimation)</argsstring>
+        <name>PlayHitSequence</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showAnimation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="138" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="138" bodyend="147"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="168" endline="231">battleships.GameController.AttackCompleted</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1ad7597d6b14312ceb1a314b27716bac7b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.PlayMissSequence</definition>
+        <argsstring>(int row, int column, bool showAnimation)</argsstring>
+        <name>PlayMissSequence</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showAnimation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="149" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="149" bodyend="158"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="168" endline="231">battleships.GameController.AttackCompleted</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.AttackCompleted</definition>
+        <argsstring>(object sender, AttackResult result)</argsstring>
+        <name>AttackCompleted</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_attack_result" kindref="compound">AttackResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Listens for attacks to be completed. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the game</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the result of the attack</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>Displays a message, plays sound and redraws the screen </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="168" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="168" bodyend="231"/>
+        <references refid="classbattleships_1_1_attack_result_1a1618c4397a41613f7e932857aa1a1534" compoundref="_attack_result_8cs" startline="70">battleships.AttackResult.Column</references>
+        <references refid="classbattleships_1_1_game_resources_1af980623df0dca10c249a8d906e952ea7" compoundref="_game_resources_8cs" startline="87" endline="90">battleships.GameResources.GameSound</references>
+        <references refid="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" compoundref="_game_controller_8cs" startline="41">battleships.GameController.HumanPlayer</references>
+        <references refid="classbattleships_1_1_player_1adebb7ac02d1131965556b5b59455f37e" compoundref="_player_8cs" startline="109">battleships.Player.IsDestroyed</references>
+        <references refid="classbattleships_1_1_game_controller_1a8d9c0143adf23bc837300e51b2c06d85" compoundref="_game_controller_8cs" startline="138" endline="147">battleships.GameController.PlayHitSequence</references>
+        <references refid="classbattleships_1_1_game_controller_1ad7597d6b14312ceb1a314b27716bac7b" compoundref="_game_controller_8cs" startline="149" endline="158">battleships.GameController.PlayMissSequence</references>
+        <references refid="classbattleships_1_1_attack_result_1a5e8e8e49d1cfccb3a284933f9b5dc632" compoundref="_attack_result_8cs" startline="59">battleships.AttackResult.Row</references>
+        <referencedby refid="classbattleships_1_1_game_controller_1a4b12792b9c01c60426734e31a5bd7efa" compoundref="_game_controller_8cs" startline="119" endline="124">battleships.GameController.EndGame</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" compoundref="_game_controller_8cs" startline="76" endline="113">battleships.GameController.StartGame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a7a92f18217c2bdeb0b674dd0e844a486" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.AIAttack</definition>
+        <argsstring>()</argsstring>
+        <name>AIAttack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the AI to attack. </para><para>Checks the attack result once the attack is complete. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="270" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="270" bodyend="275"/>
+        <references refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" compoundref="_game_controller_8cs" startline="285" endline="303">battleships.GameController.CheckAttackResult</references>
+        <referencedby refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" compoundref="_game_controller_8cs" startline="285" endline="303">battleships.GameController.CheckAttackResult</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.CheckAttackResult</definition>
+        <argsstring>(AttackResult result)</argsstring>
+        <name>CheckAttackResult</name>
+        <param>
+          <type><ref refid="classbattleships_1_1_attack_result" kindref="compound">AttackResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the results of the attack and switches to Ending the Game if the result was game over. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the result of the last attack</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>Gets the AI to attack if the result switched to the AI player.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="285" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="285" bodyend="303"/>
+        <references refid="classbattleships_1_1_game_controller_1a4fcf77c43f35a387d35c323fc0b78001" compoundref="_game_controller_8cs" startline="15">battleships.GameController._theGame</references>
+        <references refid="classbattleships_1_1_game_controller_1a7a92f18217c2bdeb0b674dd0e844a486" compoundref="_game_controller_8cs" startline="270" endline="275">battleships.GameController.AIAttack</references>
+        <references refid="classbattleships_1_1_game_controller_1a679058c3607982aac28fb19c3a42ce01" compoundref="_game_controller_8cs" startline="54">battleships.GameController.ComputerPlayer</references>
+        <references refid="classbattleships_1_1_battle_ships_game_1a71bc711f050339a4fb1372e62d2de395" compoundref="_battle_ships_game_8cs" startline="40">battleships.BattleShipsGame.Player</references>
+        <references refid="classbattleships_1_1_game_controller_1a4a911383a668cc03472e27b23b5cbc91" compoundref="_game_controller_8cs" startline="440" endline="444">battleships.GameController.SwitchState</references>
+        <referencedby refid="classbattleships_1_1_game_controller_1a7a92f18217c2bdeb0b674dd0e844a486" compoundref="_game_controller_8cs" startline="270" endline="275">battleships.GameController.AIAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1afe6772f328fd1c6a2d504f03db534133" compoundref="_game_controller_8cs" startline="257" endline="262">battleships.GameController.Attack</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.StartGame</definition>
+        <argsstring>()</argsstring>
+        <name>StartGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Starts a new game. </para><para>Creates an AI player based upon the _aiSetting. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="76" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="76" bodyend="113"/>
+        <references refid="classbattleships_1_1_game_controller_1ac9d97850f99aa380185174d4ffcbe2d9" compoundref="_game_controller_8cs" startline="17">battleships.GameController._ai</references>
+        <references refid="classbattleships_1_1_game_controller_1ad99ac2988a8d8ce219a37a6bcc393ab3" compoundref="_game_controller_8cs" startline="19">battleships.GameController._aiSetting</references>
+        <references refid="classbattleships_1_1_game_controller_1a27532bfae20a0f09b65dfb5846c8f562" compoundref="_game_controller_8cs" startline="16">battleships.GameController._human</references>
+        <references refid="classbattleships_1_1_game_controller_1a4fcf77c43f35a387d35c323fc0b78001" compoundref="_game_controller_8cs" startline="15">battleships.GameController._theGame</references>
+        <references refid="classbattleships_1_1_game_controller_1a09e2710f42a0b2cba0b59ce4f6b53a62" compoundref="_game_controller_8cs" startline="430" endline="434">battleships.GameController.AddNewState</references>
+        <references refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="168" endline="231">battleships.GameController.AttackCompleted</references>
+        <references refid="classbattleships_1_1_game_controller_1a4b12792b9c01c60426734e31a5bd7efa" compoundref="_game_controller_8cs" startline="119" endline="124">battleships.GameController.EndGame</references>
+        <references refid="classbattleships_1_1_game_controller_1a4a8ef26503693a7c320bdf798dd935fb" compoundref="_game_controller_8cs" startline="132" endline="136">battleships.GameController.GridChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1ab23ef85fb0ef040e19e50bfd3bdb2705" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.EndDeployment</definition>
+        <argsstring>()</argsstring>
+        <name>EndDeployment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Completes the deployment phase of the game and switches to the battle mode (Discovering state) </para><para>This adds the players to the game before switching state. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="241" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="241" bodyend="247"/>
+        <references refid="classbattleships_1_1_game_controller_1ac9d97850f99aa380185174d4ffcbe2d9" compoundref="_game_controller_8cs" startline="17">battleships.GameController._ai</references>
+        <references refid="classbattleships_1_1_game_controller_1a27532bfae20a0f09b65dfb5846c8f562" compoundref="_game_controller_8cs" startline="16">battleships.GameController._human</references>
+        <references refid="classbattleships_1_1_game_controller_1a4a911383a668cc03472e27b23b5cbc91" compoundref="_game_controller_8cs" startline="440" endline="444">battleships.GameController.SwitchState</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1afe6772f328fd1c6a2d504f03db534133" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.Attack</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>Attack</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the player to attack the indicated row and column. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row to attack</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the column to attack</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>Checks the attack result once the attack is complete </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="257" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="257" bodyend="262"/>
+        <references refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" compoundref="_game_controller_8cs" startline="285" endline="303">battleships.GameController.CheckAttackResult</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a64335e0908b94cf40a66410d0e3763f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.HandleUserInput</definition>
+        <argsstring>()</argsstring>
+        <name>HandleUserInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles the user SwinGame. </para><para>Reads key and mouse input and converts these into actions for the game to perform. The actions performed depend upon the state of the game. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="313" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="313" bodyend="364"/>
+        <references refid="classbattleships_1_1_game_controller_1afd98da917d4ade22cf7302ff6e61aa3e" compoundref="_game_controller_8cs" startline="28">battleships.GameController.CurrentState</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a898fb9ca29c884c004fe2281c9622ee1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.DrawScreen</definition>
+        <argsstring>()</argsstring>
+        <name>DrawScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws the current state of the game to the screen. </para><para>What is drawn depends upon the state of the game. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="372" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="372" bodyend="423"/>
+        <references refid="classbattleships_1_1_game_controller_1afd98da917d4ade22cf7302ff6e61aa3e" compoundref="_game_controller_8cs" startline="28">battleships.GameController.CurrentState</references>
+        <referencedby refid="classbattleships_1_1_game_controller_1a4a8ef26503693a7c320bdf798dd935fb" compoundref="_game_controller_8cs" startline="132" endline="136">battleships.GameController.GridChanged</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a09e2710f42a0b2cba0b59ce4f6b53a62" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.AddNewState</definition>
+        <argsstring>(GameState state)</argsstring>
+        <name>AddNewState</name>
+        <param>
+          <type><ref refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09" kindref="member">GameState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Move the game to a new state. The current state is maintained so that it can be returned to. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new game state</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="430" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="430" bodyend="434"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" compoundref="_game_controller_8cs" startline="76" endline="113">battleships.GameController.StartGame</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1a4a911383a668cc03472e27b23b5cbc91" compoundref="_game_controller_8cs" startline="440" endline="444">battleships.GameController.SwitchState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1a4a911383a668cc03472e27b23b5cbc91" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.SwitchState</definition>
+        <argsstring>(GameState newState)</argsstring>
+        <name>SwitchState</name>
+        <param>
+          <type><ref refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09" kindref="member">GameState</ref></type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>End the current state and add in the new state. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newState</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new state of the game</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="440" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="440" bodyend="444"/>
+        <references refid="classbattleships_1_1_game_controller_1a09e2710f42a0b2cba0b59ce4f6b53a62" compoundref="_game_controller_8cs" startline="430" endline="434">battleships.GameController.AddNewState</references>
+        <references refid="classbattleships_1_1_game_controller_1abdb6d700d59d414180802cfbb6181b27" compoundref="_game_controller_8cs" startline="449" endline="452">battleships.GameController.EndCurrentState</references>
+        <referencedby refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" compoundref="_game_controller_8cs" startline="285" endline="303">battleships.GameController.CheckAttackResult</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1ab23ef85fb0ef040e19e50bfd3bdb2705" compoundref="_game_controller_8cs" startline="241" endline="247">battleships.GameController.EndDeployment</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1abdb6d700d59d414180802cfbb6181b27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.EndCurrentState</definition>
+        <argsstring>()</argsstring>
+        <name>EndCurrentState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ends the current state, returning to the prior state </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="449" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="449" bodyend="452"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1a4a911383a668cc03472e27b23b5cbc91" compoundref="_game_controller_8cs" startline="440" endline="444">battleships.GameController.SwitchState</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_controller_1ad69569c07ceb078efb606d06735b7b0d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameController.SetDifficulty</definition>
+        <argsstring>(AIOption setting)</argsstring>
+        <name>SetDifficulty</name>
+        <param>
+          <type><ref refid="namespacebattleships_1a0d4318a5997729df6a087d0abbaf8dde" kindref="member">AIOption</ref></type>
+          <declname>setting</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the difficulty for the next level of the game. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>setting</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new difficulty level</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="458" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="458" bodyend="461"/>
+        <references refid="classbattleships_1_1_game_controller_1ad99ac2988a8d8ce219a37a6bcc393ab3" compoundref="_game_controller_8cs" startline="19">battleships.GameController._aiSetting</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="classbattleships_1_1_game_controller" kindref="compound">GameController</ref> is responsible for controlling the game, managing user input, and displaying the current state of the game. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="69">
+        <label>battleships.GameController</label>
+        <link refid="classbattleships_1_1_game_controller"/>
+        <childnode refid="70" relation="usage">
+          <edgelabel>_human</edgelabel>
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>_theGame</edgelabel>
+        </childnode>
+        <childnode refid="78" relation="usage">
+          <edgelabel>_ai</edgelabel>
+        </childnode>
+      </node>
+      <node id="75">
+        <label>ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+      <node id="76">
+        <label>battleships.Tile</label>
+        <link refid="classbattleships_1_1_tile"/>
+        <childnode refid="77" relation="usage">
+          <edgelabel>_Ship</edgelabel>
+        </childnode>
+      </node>
+      <node id="72">
+        <label>battleships.BattleShipsGame</label>
+        <link refid="classbattleships_1_1_battle_ships_game"/>
+        <childnode refid="70" relation="usage">
+          <edgelabel>_players</edgelabel>
+        </childnode>
+      </node>
+      <node id="77">
+        <label>battleships.Ship</label>
+        <link refid="classbattleships_1_1_ship"/>
+      </node>
+      <node id="78">
+        <label>battleships.AIPlayer</label>
+        <link refid="classbattleships_1_1_a_i_player"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>battleships.Player</label>
+        <link refid="classbattleships_1_1_player"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>_game</edgelabel>
+        </childnode>
+        <childnode refid="73" relation="usage">
+          <edgelabel>_enemyGrid</edgelabel>
+        </childnode>
+        <childnode refid="74" relation="usage">
+          <edgelabel>_playerGrid</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>IEnumerable</label>
+      </node>
+      <node id="74">
+        <label>battleships.SeaGrid</label>
+        <link refid="classbattleships_1_1_sea_grid"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+        <childnode refid="76" relation="usage">
+          <edgelabel>_GameTiles</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Player</label>
+        <link refid="classbattleships_1_1_player"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>_game</edgelabel>
+        </childnode>
+        <childnode refid="73" relation="usage">
+          <edgelabel>_enemyGrid</edgelabel>
+        </childnode>
+        <childnode refid="74" relation="usage">
+          <edgelabel>_playerGrid</edgelabel>
+        </childnode>
+      </node>
+      <node id="73">
+        <label>battleships.ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" line="14" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameController.cs" bodystart="13" bodyend="462"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_game_controller_1ac9d97850f99aa380185174d4ffcbe2d9" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>_ai</name></member>
+      <member refid="classbattleships_1_1_game_controller_1ad99ac2988a8d8ce219a37a6bcc393ab3" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>_aiSetting</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a27532bfae20a0f09b65dfb5846c8f562" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>_human</name></member>
+      <member refid="classbattleships_1_1_game_controller_1af2a5e952b4a57e1f55a703ac82de3165" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>_state</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a4fcf77c43f35a387d35c323fc0b78001" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>_theGame</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a09e2710f42a0b2cba0b59ce4f6b53a62" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>AddNewState</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a7a92f18217c2bdeb0b674dd0e844a486" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>AIAttack</name></member>
+      <member refid="classbattleships_1_1_game_controller_1afe6772f328fd1c6a2d504f03db534133" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>Attack</name></member>
+      <member refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>AttackCompleted</name></member>
+      <member refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>CheckAttackResult</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a679058c3607982aac28fb19c3a42ce01" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>ComputerPlayer</name></member>
+      <member refid="classbattleships_1_1_game_controller_1afd98da917d4ade22cf7302ff6e61aa3e" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>CurrentState</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a898fb9ca29c884c004fe2281c9622ee1" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>DrawScreen</name></member>
+      <member refid="classbattleships_1_1_game_controller_1abdb6d700d59d414180802cfbb6181b27" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>EndCurrentState</name></member>
+      <member refid="classbattleships_1_1_game_controller_1ab23ef85fb0ef040e19e50bfd3bdb2705" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>EndDeployment</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a4b12792b9c01c60426734e31a5bd7efa" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>EndGame</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a20aeec682e39d4c74312c36dcf0bf7ee" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>GameController</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a4a8ef26503693a7c320bdf798dd935fb" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>GridChanged</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a64335e0908b94cf40a66410d0e3763f8" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>HandleUserInput</name></member>
+      <member refid="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>HumanPlayer</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a8d9c0143adf23bc837300e51b2c06d85" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>PlayHitSequence</name></member>
+      <member refid="classbattleships_1_1_game_controller_1ad7597d6b14312ceb1a314b27716bac7b" prot="private" virt="non-virtual"><scope>battleships::GameController</scope><name>PlayMissSequence</name></member>
+      <member refid="classbattleships_1_1_game_controller_1ad69569c07ceb078efb606d06735b7b0d" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>SetDifficulty</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>StartGame</name></member>
+      <member refid="classbattleships_1_1_game_controller_1a4a911383a668cc03472e27b23b5cbc91" prot="public" virt="non-virtual"><scope>battleships::GameController</scope><name>SwitchState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

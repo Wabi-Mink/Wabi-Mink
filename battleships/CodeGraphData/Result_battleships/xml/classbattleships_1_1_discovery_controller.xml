@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_discovery_controller" kind="class" prot="public">
+    <compoundname>battleships::DiscoveryController</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_discovery_controller_1a3383850b9bbf3f1e479d9c1b924abb86" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.DiscoveryController.HandleDiscoveryInput</definition>
+        <argsstring>()</argsstring>
+        <name>HandleDiscoveryInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles input during the discovery phase of the game. </para><para>Escape opens the game menu. Clicking the mouse will attack a location. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" line="20" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" bodystart="20" bodyend="31"/>
+        <references refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_discovery_controller_1a642809d8631bc2887fe80628e1581f7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.DiscoveryController.DrawDiscovery</definition>
+        <argsstring>()</argsstring>
+        <name>DrawDiscovery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws the game during the attack phase. </para><para>s </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" line="57" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" bodystart="57" bodyend="77"/>
+        <references refid="classbattleships_1_1_game_controller_1a679058c3607982aac28fb19c3a42ce01" compoundref="_game_controller_8cs" startline="54">battleships.GameController.ComputerPlayer</references>
+        <references refid="classbattleships_1_1_game_resources_1a3cc1471d94c19c40a9ed66b635a67a7a" compoundref="_game_resources_8cs" startline="65" endline="68">battleships.GameResources.GameFont</references>
+        <references refid="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" compoundref="_game_controller_8cs" startline="41">battleships.GameController.HumanPlayer</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.DiscoveryController.DoAttack</definition>
+        <argsstring>()</argsstring>
+        <name>DoAttack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attack the location that the mouse if over. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" line="36" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" bodystart="36" bodyend="52"/>
+        <references refid="classbattleships_1_1_utility_functions_1adf5c8b6bad4a36757a747bb7011d3e20" compoundref="_utility_functions_8cs" startline="19">battleships.UtilityFunctions.CELL_GAP</references>
+        <references refid="classbattleships_1_1_utility_functions_1a41deedaf7288c05b307ae9f3d78d2753" compoundref="_utility_functions_8cs" startline="18">battleships.UtilityFunctions.CELL_HEIGHT</references>
+        <references refid="classbattleships_1_1_utility_functions_1a2b78d55087a034dc21c8ee50a9094a00" compoundref="_utility_functions_8cs" startline="17">battleships.UtilityFunctions.CELL_WIDTH</references>
+        <references refid="classbattleships_1_1_player_1afa4e3c2651f0100aff0f7802af8e94f1" compoundref="_player_8cs" startline="74">battleships.Player.EnemyGrid</references>
+        <references refid="classbattleships_1_1_utility_functions_1abf5b945acd3d2fccb5fe17a96fec96ea" compoundref="_utility_functions_8cs" startline="13">battleships.UtilityFunctions.FIELD_LEFT</references>
+        <references refid="classbattleships_1_1_utility_functions_1ac41a65c0495c3246d6535a78351a1121" compoundref="_utility_functions_8cs" startline="12">battleships.UtilityFunctions.FIELD_TOP</references>
+        <references refid="interfacebattleships_1_1_i_sea_grid_1a5ec9d3c93bf25602616426e4ff81a142" compoundref="_i_sea_grid_8cs" startline="12">battleships.ISeaGrid.Height</references>
+        <references refid="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" compoundref="_game_controller_8cs" startline="41">battleships.GameController.HumanPlayer</references>
+        <references refid="interfacebattleships_1_1_i_sea_grid_1ac6829a2f526e915b1fa33444d73286d8" compoundref="_i_sea_grid_8cs" startline="11">battleships.ISeaGrid.Width</references>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1a3383850b9bbf3f1e479d9c1b924abb86" compoundref="_discovery_controller_8cs" startline="20" endline="31">battleships.DiscoveryController.HandleDiscoveryInput</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The battle phase is handled by the <ref refid="classbattleships_1_1_discovery_controller" kindref="compound">DiscoveryController</ref>. </para>    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" line="11" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" bodystart="10" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" prot="private" virt="non-virtual"><scope>battleships::DiscoveryController</scope><name>DoAttack</name></member>
+      <member refid="classbattleships_1_1_discovery_controller_1a642809d8631bc2887fe80628e1581f7b" prot="public" virt="non-virtual"><scope>battleships::DiscoveryController</scope><name>DrawDiscovery</name></member>
+      <member refid="classbattleships_1_1_discovery_controller_1a3383850b9bbf3f1e479d9c1b924abb86" prot="public" virt="non-virtual"><scope>battleships::DiscoveryController</scope><name>HandleDiscoveryInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

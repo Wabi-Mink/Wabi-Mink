@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_sea_grid" kind="class" prot="public">
+    <compoundname>battleships::SeaGrid</compoundname>
+    <basecompoundref refid="interfacebattleships_1_1_i_sea_grid" prot="public" virt="non-virtual">battleships.ISeaGrid</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_sea_grid_1a39293dfd1cb9687948c7d45c3fef0fcf" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.SeaGrid._WIDTH</definition>
+        <argsstring></argsstring>
+        <name>_WIDTH</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="16" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_sea_grid_1ab04f3e312ee10bffd1a76be258d8c994" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.SeaGrid._HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>_HEIGHT</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="17" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_sea_grid_1a94ee761c59595d142b1424538797d0b0" prot="private" static="no" mutable="no">
+        <type><ref refid="classbattleships_1_1_tile" kindref="compound">Tile</ref>[,]</type>
+        <definition>Tile [,] battleships.SeaGrid._GameTiles</definition>
+        <argsstring></argsstring>
+        <name>_GameTiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="18" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_sea_grid_1ae9e1e8b71118f1b0f66cad1bb8221822" compoundref="_sea_grid_8cs" startline="136" endline="181">battleships.SeaGrid.AddShip</referencedby>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a1971f89446a830b49c8d84292aea50f9" compoundref="_sea_grid_8cs" startline="190" endline="223">battleships.SeaGrid.HitTile</referencedby>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a715606f70653af42fd8c586980131458" compoundref="_sea_grid_8cs" startline="100" endline="113">battleships.SeaGrid.SeaGrid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_sea_grid_1ad0d22e8e181f4c415a42bdabe10f77fe" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0" kindref="member">ShipName</ref>, <ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref> &gt;</type>
+        <definition>Dictionary&lt;ShipName, Ship&gt; battleships.SeaGrid._Ships</definition>
+        <argsstring></argsstring>
+        <name>_Ships</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="20" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a63a95115237c66bdc6c055d3fbf6b2fb" compoundref="_sea_grid_8cs" startline="122" endline="127">battleships.SeaGrid.MoveShip</referencedby>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a715606f70653af42fd8c586980131458" compoundref="_sea_grid_8cs" startline="100" endline="113">battleships.SeaGrid.SeaGrid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_sea_grid_1a8433a0a591df2fc4a4a5bd13eec49199" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int battleships.SeaGrid._ShipsKilled</definition>
+        <argsstring></argsstring>
+        <name>_ShipsKilled</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="21" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a1971f89446a830b49c8d84292aea50f9" compoundref="_sea_grid_8cs" startline="190" endline="223">battleships.SeaGrid.HitTile</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="classbattleships_1_1_sea_grid_1afd3ecaa435b47d37898bd685f21ce5d6" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler battleships.SeaGrid.Changed</definition>
+        <argsstring></argsstring>
+        <name>Changed</name>
+        <briefdescription>
+<para>The sea grid has changed and should be redrawn. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="26" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_sea_grid_1ae9e1e8b71118f1b0f66cad1bb8221822" compoundref="_sea_grid_8cs" startline="136" endline="181">battleships.SeaGrid.AddShip</referencedby>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a1971f89446a830b49c8d84292aea50f9" compoundref="_sea_grid_8cs" startline="190" endline="223">battleships.SeaGrid.HitTile</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_sea_grid_1a117214af565be9d29ef1b613f0193fd9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int battleships.SeaGrid.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <briefdescription>
+<para>The width of the sea grid. </para>        </briefdescription>
+        <detaileddescription>
+<para>The width of the sea grid.</para><para><simplesect kind="return"><para>The width of the sea grid.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="33" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_sea_grid_1ae9e1e8b71118f1b0f66cad1bb8221822" compoundref="_sea_grid_8cs" startline="136" endline="181">battleships.SeaGrid.AddShip</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a715606f70653af42fd8c586980131458" compoundref="_sea_grid_8cs" startline="100" endline="113">battleships.SeaGrid.SeaGrid</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_sea_grid_1a31a72501f7cb5eb71de7f3e6b899770b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int battleships.SeaGrid.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <briefdescription>
+<para>The height of the sea grid </para>        </briefdescription>
+        <detaileddescription>
+<para>The height of the sea grid</para><para><simplesect kind="return"><para>The height of the sea grid</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="46" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_sea_grid_1ae9e1e8b71118f1b0f66cad1bb8221822" compoundref="_sea_grid_8cs" startline="136" endline="181">battleships.SeaGrid.AddShip</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a715606f70653af42fd8c586980131458" compoundref="_sea_grid_8cs" startline="100" endline="113">battleships.SeaGrid.SeaGrid</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_sea_grid_1af2c7a0477f53ab421823aff57e9c6631" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int battleships.SeaGrid.ShipsKilled</definition>
+        <argsstring></argsstring>
+        <name>ShipsKilled</name>
+        <briefdescription>
+<para>ShipsKilled returns the number of ships killed </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="57" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_sea_grid_1a0243387a384c6549530108f3ef07b7cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719f" kindref="member">TileView</ref></type>
+        <definition>TileView battleships.SeaGrid.this[int x, int y]</definition>
+        <argsstring></argsstring>
+        <name>this[int x, int y]</name>
+        <briefdescription>
+<para>Show the tile view </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x coordinate of the tile</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y coordiante of the tile</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="71" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_sea_grid_1ac1c21d8ef66e4532713711cd2189b13f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool battleships.SeaGrid.AllDeployed</definition>
+        <argsstring></argsstring>
+        <name>AllDeployed</name>
+        <briefdescription>
+<para>AllDeployed checks if all the ships are deployed </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="81" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbattleships_1_1_sea_grid_1a715606f70653af42fd8c586980131458" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.SeaGrid.SeaGrid</definition>
+        <argsstring>(Dictionary&lt; ShipName, Ship &gt; ships)</argsstring>
+        <name>SeaGrid</name>
+        <param>
+          <type>Dictionary&lt; <ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0" kindref="member">ShipName</ref>, <ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref> &gt;</type>
+          <declname>ships</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classbattleships_1_1_sea_grid" kindref="compound">SeaGrid</ref> constructor, a seagrid has a number of tiles stored in an array </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="100" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="100" bodyend="113"/>
+        <references refid="classbattleships_1_1_sea_grid_1a94ee761c59595d142b1424538797d0b0" compoundref="_sea_grid_8cs" startline="18">battleships.SeaGrid._GameTiles</references>
+        <references refid="classbattleships_1_1_sea_grid_1ad0d22e8e181f4c415a42bdabe10f77fe" compoundref="_sea_grid_8cs" startline="20">battleships.SeaGrid._Ships</references>
+        <references refid="classbattleships_1_1_sea_grid_1a31a72501f7cb5eb71de7f3e6b899770b" compoundref="_sea_grid_8cs" startline="47">battleships.SeaGrid.Height</references>
+        <references refid="classbattleships_1_1_sea_grid_1a117214af565be9d29ef1b613f0193fd9" compoundref="_sea_grid_8cs" startline="34">battleships.SeaGrid.Width</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_sea_grid_1a63a95115237c66bdc6c055d3fbf6b2fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.SeaGrid.MoveShip</definition>
+        <argsstring>(int row, int col, ShipName ship, Direction direction)</argsstring>
+        <name>MoveShip</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0" kindref="member">ShipName</ref></type>
+          <declname>ship</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacebattleships_1a31579d4016b629dcd72a504f2ce1bbf5" kindref="member">Direction</ref></type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+<para>MoveShips allows for ships to be placed on the seagrid </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row selected</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the column selected</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ship</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the ship selected</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the direction the ship is going</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="122" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="122" bodyend="127"/>
+        <references refid="classbattleships_1_1_sea_grid_1ad0d22e8e181f4c415a42bdabe10f77fe" compoundref="_sea_grid_8cs" startline="20">battleships.SeaGrid._Ships</references>
+        <references refid="classbattleships_1_1_sea_grid_1ae9e1e8b71118f1b0f66cad1bb8221822" compoundref="_sea_grid_8cs" startline="136" endline="181">battleships.SeaGrid.AddShip</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_sea_grid_1a1971f89446a830b49c8d84292aea50f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classbattleships_1_1_attack_result" kindref="compound">AttackResult</ref></type>
+        <definition>AttackResult battleships.SeaGrid.HitTile</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>HitTile</name>
+        <reimplements refid="interfacebattleships_1_1_i_sea_grid_1a428fa6fa9e969f6a2d23e3d28fcdf4b7">HitTile</reimplements>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>HitTile hits a tile at a row/col, and whatever tile has been hit, a result will be displayed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row at which is being shot</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the cloumn at which is being shot</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An attackresult (hit, miss, sunk, shotalready)</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="190" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="190" bodyend="223"/>
+        <references refid="classbattleships_1_1_sea_grid_1a94ee761c59595d142b1424538797d0b0" compoundref="_sea_grid_8cs" startline="18">battleships.SeaGrid._GameTiles</references>
+        <references refid="classbattleships_1_1_sea_grid_1a8433a0a591df2fc4a4a5bd13eec49199" compoundref="_sea_grid_8cs" startline="21">battleships.SeaGrid._ShipsKilled</references>
+        <references refid="classbattleships_1_1_sea_grid_1afd3ecaa435b47d37898bd685f21ce5d6" compoundref="_sea_grid_8cs" startline="26">battleships.SeaGrid.Changed</references>
+        <references refid="classbattleships_1_1_ship_1a994d78ba5a4dba6d79dbc81c803c8a2b" compoundref="_ship_8cs" startline="143">battleships.Ship.IsDestroyed</references>
+        <references refid="classbattleships_1_1_tile_1a21b3d1b2fb78e54b5bcef9cad7793da5" compoundref="_tile_8cs" startline="64">battleships.Tile.Ship</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbattleships_1_1_sea_grid_1ae9e1e8b71118f1b0f66cad1bb8221822" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.SeaGrid.AddShip</definition>
+        <argsstring>(int row, int col, Direction direction, Ship newShip)</argsstring>
+        <name>AddShip</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacebattleships_1a31579d4016b629dcd72a504f2ce1bbf5" kindref="member">Direction</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref></type>
+          <declname>newShip</declname>
+        </param>
+        <briefdescription>
+<para>AddShip add a ship to the <ref refid="classbattleships_1_1_sea_grid" kindref="compound">SeaGrid</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>row coordinate</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>col coordinate</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>direction of ship</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newShip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the ship</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="136" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="136" bodyend="181"/>
+        <references refid="classbattleships_1_1_sea_grid_1a94ee761c59595d142b1424538797d0b0" compoundref="_sea_grid_8cs" startline="18">battleships.SeaGrid._GameTiles</references>
+        <references refid="classbattleships_1_1_sea_grid_1afd3ecaa435b47d37898bd685f21ce5d6" compoundref="_sea_grid_8cs" startline="26">battleships.SeaGrid.Changed</references>
+        <references refid="classbattleships_1_1_sea_grid_1a31a72501f7cb5eb71de7f3e6b899770b" compoundref="_sea_grid_8cs" startline="47">battleships.SeaGrid.Height</references>
+        <references refid="classbattleships_1_1_sea_grid_1a117214af565be9d29ef1b613f0193fd9" compoundref="_sea_grid_8cs" startline="34">battleships.SeaGrid.Width</references>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a63a95115237c66bdc6c055d3fbf6b2fb" compoundref="_sea_grid_8cs" startline="122" endline="127">battleships.SeaGrid.MoveShip</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="126">
+        <label>ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+      <node id="125">
+        <label>battleships.SeaGrid</label>
+        <link refid="classbattleships_1_1_sea_grid"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="128">
+        <label>ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+      <node id="129">
+        <label>battleships.Tile</label>
+        <link refid="classbattleships_1_1_tile"/>
+        <childnode refid="130" relation="usage">
+          <edgelabel>_Ship</edgelabel>
+        </childnode>
+      </node>
+      <node id="130">
+        <label>battleships.Ship</label>
+        <link refid="classbattleships_1_1_ship"/>
+      </node>
+      <node id="127">
+        <label>battleships.SeaGrid</label>
+        <link refid="classbattleships_1_1_sea_grid"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+        <childnode refid="129" relation="usage">
+          <edgelabel>_GameTiles</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" line="15" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGrid.cs" bodystart="14" bodyend="224"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_sea_grid_1a94ee761c59595d142b1424538797d0b0" prot="private" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>_GameTiles</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1ab04f3e312ee10bffd1a76be258d8c994" prot="private" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>_HEIGHT</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1ad0d22e8e181f4c415a42bdabe10f77fe" prot="private" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>_Ships</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1a8433a0a591df2fc4a4a5bd13eec49199" prot="private" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>_ShipsKilled</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1a39293dfd1cb9687948c7d45c3fef0fcf" prot="private" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>_WIDTH</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1ae9e1e8b71118f1b0f66cad1bb8221822" prot="private" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>AddShip</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1ac1c21d8ef66e4532713711cd2189b13f" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>AllDeployed</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1afd3ecaa435b47d37898bd685f21ce5d6" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>Changed</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1a31a72501f7cb5eb71de7f3e6b899770b" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>Height</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1a1971f89446a830b49c8d84292aea50f9" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>HitTile</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1a63a95115237c66bdc6c055d3fbf6b2fb" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>MoveShip</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1a715606f70653af42fd8c586980131458" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>SeaGrid</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1af2c7a0477f53ab421823aff57e9c6631" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>ShipsKilled</name></member>
+      <member refid="interfacebattleships_1_1_i_sea_grid_1ac735f266f126c5bc1768b5f6e9e05045" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>this[int row, int column]</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1a0243387a384c6549530108f3ef07b7cb" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>this[int x, int y]</name></member>
+      <member refid="classbattleships_1_1_sea_grid_1a117214af565be9d29ef1b613f0193fd9" prot="public" virt="non-virtual"><scope>battleships::SeaGrid</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

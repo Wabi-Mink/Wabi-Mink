@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5f49feb4f56ddd492b52c9d34844048d" kind="dir">
+    <compoundname>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project</compoundname>
+    <innerfile refid="_my_namespace_8_static_81_8_designer_8cs">MyNamespace.Static.1.Designer.cs</innerfile>
+    <innerfile refid="_my_namespace_8_static_82_8_designer_8cs">MyNamespace.Static.2.Designer.cs</innerfile>
+    <innerfile refid="_my_namespace_8_static_83_8_designer_8cs">MyNamespace.Static.3.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/"/>
+  </compounddef>
+</doxygen>

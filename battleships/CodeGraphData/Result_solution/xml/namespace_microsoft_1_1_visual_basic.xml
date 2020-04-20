@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_microsoft_1_1_visual_basic" kind="namespace">
+    <compoundname>Microsoft::VisualBasic</compoundname>
+    <innerclass refid="class_microsoft_1_1_visual_basic_1_1_embedded" prot="package">Microsoft::VisualBasic::Embedded</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.3.Designer.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

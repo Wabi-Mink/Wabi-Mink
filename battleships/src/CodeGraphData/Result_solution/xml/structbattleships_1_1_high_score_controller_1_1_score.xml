@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structbattleships_1_1_high_score_controller_1_1_score" kind="struct" prot="private">
+    <compoundname>battleships::HighScoreController::Score</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IComparable</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structbattleships_1_1_high_score_controller_1_1_score_1ab6178e5dde538b1f2044f596df4b6a85" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string battleships.HighScoreController.Score.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="27" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" compoundref="_high_score_controller_8cs" startline="112" endline="139">battleships.HighScoreController.DrawHighScores</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbattleships_1_1_high_score_controller_1_1_score_1adfa426d065892f29e4a9bda0b9eec336" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int battleships.HighScoreController.Score.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="28" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="structbattleships_1_1_high_score_controller_1_1_score_1aaec14ab9d2b45c51fd5498f2be89750b" compoundref="_high_score_controller_8cs" startline="35" endline="46">battleships.HighScoreController.Score.CompareTo</referencedby>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" compoundref="_high_score_controller_8cs" startline="112" endline="139">battleships.HighScoreController.DrawHighScores</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structbattleships_1_1_high_score_controller_1_1_score_1aaec14ab9d2b45c51fd5498f2be89750b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int battleships.HighScoreController.Score.CompareTo</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CompareTo</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Allows scores to be compared to facilitate sorting </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object to compare to</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a value that indicates the sort order</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="35" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="35" bodyend="46"/>
+        <references refid="structbattleships_1_1_high_score_controller_1_1_score_1adfa426d065892f29e4a9bda0b9eec336" compoundref="_high_score_controller_8cs" startline="28">battleships.HighScoreController.Score.Value</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The score structure is used to keep the name and score of the top players together. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="122">
+        <label>IComparable</label>
+      </node>
+      <node id="121">
+        <label>battleships.HighScoreController.Score</label>
+        <link refid="structbattleships_1_1_high_score_controller_1_1_score"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="124">
+        <label>IComparable</label>
+      </node>
+      <node id="123">
+        <label>battleships.HighScoreController.Score</label>
+        <link refid="structbattleships_1_1_high_score_controller_1_1_score"/>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="26" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="25" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structbattleships_1_1_high_score_controller_1_1_score_1aaec14ab9d2b45c51fd5498f2be89750b" prot="public" virt="non-virtual"><scope>battleships::HighScoreController::Score</scope><name>CompareTo</name></member>
+      <member refid="structbattleships_1_1_high_score_controller_1_1_score_1ab6178e5dde538b1f2044f596df4b6a85" prot="public" virt="non-virtual"><scope>battleships::HighScoreController::Score</scope><name>Name</name></member>
+      <member refid="structbattleships_1_1_high_score_controller_1_1_score_1adfa426d065892f29e4a9bda0b9eec336" prot="public" virt="non-virtual"><scope>battleships::HighScoreController::Score</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_tile" kind="class" prot="public">
+    <compoundname>battleships::Tile</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_tile_1a3d708b4f9903d0f78122b9cd548bc2fb" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int battleships.Tile._RowValue</definition>
+        <argsstring></argsstring>
+        <name>_RowValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="11" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" compoundref="_tile_8cs" startline="93" endline="98">battleships.Tile.Tile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_tile_1a1665e2054c3ad5f5f0ce9c28fac6cb43" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int battleships.Tile._ColumnValue</definition>
+        <argsstring></argsstring>
+        <name>_ColumnValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" compoundref="_tile_8cs" startline="93" endline="98">battleships.Tile.Tile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" prot="private" static="no" mutable="no">
+        <type><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref></type>
+        <definition>Ship battleships.Tile._Ship</definition>
+        <argsstring></argsstring>
+        <name>_Ship</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="13" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_tile_1ae7ae35a2045db5f5757461c1ae49235e" compoundref="_tile_8cs" startline="103" endline="106">battleships.Tile.ClearShip</referencedby>
+        <referencedby refid="classbattleships_1_1_tile_1a58fe254854b558ab338423d3b94281a7" compoundref="_tile_8cs" startline="146" endline="160">battleships.Tile.Shoot</referencedby>
+        <referencedby refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" compoundref="_tile_8cs" startline="93" endline="98">battleships.Tile.Tile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_tile_1a23c8e479a492c147a4a62b8d6001d151" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool battleships.Tile._Shot</definition>
+        <argsstring></argsstring>
+        <name>_Shot</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="14" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_tile_1a2b28b52e7082b6a91f64f5be2f22ab60" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool battleships.Tile.Shot</definition>
+        <argsstring></argsstring>
+        <name>Shot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Has the tile been shot? </para><para>indicate if the tile has been shot</para><para><simplesect kind="return"><para>true if the tile was shot</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="21" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_tile_1a58fe254854b558ab338423d3b94281a7" compoundref="_tile_8cs" startline="146" endline="160">battleships.Tile.Shoot</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_tile_1aaf399d74565746e4f5a17d1ba45650a6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int battleships.Tile.Row</definition>
+        <argsstring></argsstring>
+        <name>Row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The row of the tile in the grid </para><para>the row index of the tile in the grid</para><para><simplesect kind="return"><para>the row index of the tile</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="39" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_tile_1a9cdd6a13155241522733f0174b39c19b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int battleships.Tile.Column</definition>
+        <argsstring></argsstring>
+        <name>Column</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The column of the tile in the grid </para><para>the column of the tile in the grid</para><para><simplesect kind="return"><para>the column of the tile in the grid</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="52" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_tile_1a21b3d1b2fb78e54b5bcef9cad7793da5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref></type>
+        <definition>Ship battleships.Tile.Ship</definition>
+        <argsstring></argsstring>
+        <name>Ship</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref> allows for a tile to check if there is ship and add a ship to a tile </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="63" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_sea_grid_1a1971f89446a830b49c8d84292aea50f9" compoundref="_sea_grid_8cs" startline="190" endline="223">battleships.SeaGrid.HitTile</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_tile_1ab38b212a1d40033da697d5926829a7d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719f" kindref="member">TileView</ref></type>
+        <definition>TileView battleships.Tile.View</definition>
+        <argsstring></argsstring>
+        <name>View</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>View is able to tell the grid what the tile is </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="111" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.Tile.Tile</definition>
+        <argsstring>(int row, int col, Ship ship)</argsstring>
+        <name>Tile</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref></type>
+          <declname>ship</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The tile constructor will know where it is on the grid, and is its a ship </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row on the grid</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the col on the grid</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ship</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>what ship it is</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="93" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="93" bodyend="98"/>
+        <references refid="classbattleships_1_1_tile_1a1665e2054c3ad5f5f0ce9c28fac6cb43" compoundref="_tile_8cs" startline="12">battleships.Tile._ColumnValue</references>
+        <references refid="classbattleships_1_1_tile_1a3d708b4f9903d0f78122b9cd548bc2fb" compoundref="_tile_8cs" startline="11">battleships.Tile._RowValue</references>
+        <references refid="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" compoundref="_tile_8cs" startline="13">battleships.Tile._Ship</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_tile_1ae7ae35a2045db5f5757461c1ae49235e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.Tile.ClearShip</definition>
+        <argsstring>()</argsstring>
+        <name>ClearShip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clearship will remove the ship from the tile </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="103" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="103" bodyend="106"/>
+        <references refid="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" compoundref="_tile_8cs" startline="13">battleships.Tile._Ship</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classbattleships_1_1_tile_1a58fe254854b558ab338423d3b94281a7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.Tile.Shoot</definition>
+        <argsstring>()</argsstring>
+        <name>Shoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shoot allows a tile to be shot at, and if the tile has been hit before it will give an error </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="146" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="146" bodyend="160"/>
+        <references refid="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" compoundref="_tile_8cs" startline="13">battleships.Tile._Ship</references>
+        <references refid="classbattleships_1_1_tile_1a2b28b52e7082b6a91f64f5be2f22ab60" compoundref="_tile_8cs" startline="22">battleships.Tile.Shot</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="143">
+        <label>battleships.Tile</label>
+        <link refid="classbattleships_1_1_tile"/>
+        <childnode refid="144" relation="usage">
+          <edgelabel>_Ship</edgelabel>
+        </childnode>
+      </node>
+      <node id="144">
+        <label>battleships.Ship</label>
+        <link refid="classbattleships_1_1_ship"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="10" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="9" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_tile_1a1665e2054c3ad5f5f0ce9c28fac6cb43" prot="private" virt="non-virtual"><scope>battleships::Tile</scope><name>_ColumnValue</name></member>
+      <member refid="classbattleships_1_1_tile_1a3d708b4f9903d0f78122b9cd548bc2fb" prot="private" virt="non-virtual"><scope>battleships::Tile</scope><name>_RowValue</name></member>
+      <member refid="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" prot="private" virt="non-virtual"><scope>battleships::Tile</scope><name>_Ship</name></member>
+      <member refid="classbattleships_1_1_tile_1a23c8e479a492c147a4a62b8d6001d151" prot="private" virt="non-virtual"><scope>battleships::Tile</scope><name>_Shot</name></member>
+      <member refid="classbattleships_1_1_tile_1ae7ae35a2045db5f5757461c1ae49235e" prot="public" virt="non-virtual"><scope>battleships::Tile</scope><name>ClearShip</name></member>
+      <member refid="classbattleships_1_1_tile_1a9cdd6a13155241522733f0174b39c19b" prot="public" virt="non-virtual"><scope>battleships::Tile</scope><name>Column</name></member>
+      <member refid="classbattleships_1_1_tile_1aaf399d74565746e4f5a17d1ba45650a6" prot="public" virt="non-virtual"><scope>battleships::Tile</scope><name>Row</name></member>
+      <member refid="classbattleships_1_1_tile_1a21b3d1b2fb78e54b5bcef9cad7793da5" prot="public" virt="non-virtual"><scope>battleships::Tile</scope><name>Ship</name></member>
+      <member refid="classbattleships_1_1_tile_1a58fe254854b558ab338423d3b94281a7" prot="package" virt="non-virtual"><scope>battleships::Tile</scope><name>Shoot</name></member>
+      <member refid="classbattleships_1_1_tile_1a2b28b52e7082b6a91f64f5be2f22ab60" prot="public" virt="non-virtual"><scope>battleships::Tile</scope><name>Shot</name></member>
+      <member refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" prot="public" virt="non-virtual"><scope>battleships::Tile</scope><name>Tile</name></member>
+      <member refid="classbattleships_1_1_tile_1ab38b212a1d40033da697d5926829a7d5" prot="public" virt="non-virtual"><scope>battleships::Tile</scope><name>View</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

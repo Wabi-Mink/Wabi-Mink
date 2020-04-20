@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_ending_game_controller" kind="class" prot="public">
+    <compoundname>battleships::EndingGameController</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_ending_game_controller_1abe5a332e65ac372b395b88241647d07f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.EndingGameController.DrawEndOfGame</definition>
+        <argsstring>()</argsstring>
+        <name>DrawEndOfGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draw the end of the game screen, shows the win/lose state </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/EndingGameController.cs" line="17" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/EndingGameController.cs" bodystart="17" bodyend="37"/>
+        <references refid="classbattleships_1_1_game_controller_1a679058c3607982aac28fb19c3a42ce01" compoundref="_game_controller_8cs" startline="54">battleships.GameController.ComputerPlayer</references>
+        <references refid="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" compoundref="_game_controller_8cs" startline="41">battleships.GameController.HumanPlayer</references>
+        <references refid="classbattleships_1_1_player_1adebb7ac02d1131965556b5b59455f37e" compoundref="_player_8cs" startline="109">battleships.Player.IsDestroyed</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_ending_game_controller_1a8af0629e3a9a912a04ce2c2658c17f64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.EndingGameController.HandleEndOfGameInput</definition>
+        <argsstring>()</argsstring>
+        <name>HandleEndOfGameInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle the input during the end of the game. Any interaction will result in it reading in the highsSwinGame. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/EndingGameController.cs" line="43" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/EndingGameController.cs" bodystart="43" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="classbattleships_1_1_ending_game_controller" kindref="compound">EndingGameController</ref> is responsible for managing the interactions at the end of a game. </para>    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/EndingGameController.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/EndingGameController.cs" bodystart="11" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_ending_game_controller_1abe5a332e65ac372b395b88241647d07f" prot="public" virt="non-virtual"><scope>battleships::EndingGameController</scope><name>DrawEndOfGame</name></member>
+      <member refid="classbattleships_1_1_ending_game_controller_1a8af0629e3a9a912a04ce2c2658c17f64" prot="public" virt="non-virtual"><scope>battleships::EndingGameController</scope><name>HandleEndOfGameInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -246,14 +246,21 @@ namespace battleships
             SwitchState(GameState.Discovering);
         }
 
+        public static void HelloWorld()
+        {
+            Console.WriteLine("Hello World!");
+        }
+
+
+
         /// <summary>
-    /// Gets the player to attack the indicated row and column.
-    /// </summary>
-    /// <param name="row">the row to attack</param>
-    /// <param name="col">the column to attack</param>
-    /// <remarks>
-    /// Checks the attack result once the attack is complete
-    /// </remarks>
+        /// Gets the player to attack the indicated row and column.
+        /// </summary>
+        /// <param name="row">the row to attack</param>
+        /// <param name="col">the column to attack</param>
+        /// <remarks>
+        /// Checks the attack result once the attack is complete
+        /// </remarks>
         public static void Attack(int row, int col)
         {
             AttackResult result;
