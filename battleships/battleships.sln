@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "battleships", "battleships.csproj", "{553B1F56-4E23-0C03-045F-319B4C15590A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "battleshipsUnitTest", "..\UnitTestProject1\battleshipsUnitTest.csproj", "{3769839E-A176-4480-82EE-A0FEDBB55A9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "battleshipsTests", "..\battleshipsTests\battleshipsTests.csproj", "{34E17C09-7F51-4F0C-8F95-2CD7A9E2851A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +21,14 @@ Global
 		{553B1F56-4E23-0C03-045F-319B4C15590A}.Release|Any CPU.ActiveCfg = Release|x86
 		{553B1F56-4E23-0C03-045F-319B4C15590A}.Release|x86.ActiveCfg = Release|x86
 		{553B1F56-4E23-0C03-045F-319B4C15590A}.Release|x86.Build.0 = Release|x86
-		{3769839E-A176-4480-82EE-A0FEDBB55A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3769839E-A176-4480-82EE-A0FEDBB55A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3769839E-A176-4480-82EE-A0FEDBB55A9F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3769839E-A176-4480-82EE-A0FEDBB55A9F}.Debug|x86.Build.0 = Debug|Any CPU
-		{3769839E-A176-4480-82EE-A0FEDBB55A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3769839E-A176-4480-82EE-A0FEDBB55A9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3769839E-A176-4480-82EE-A0FEDBB55A9F}.Release|x86.ActiveCfg = Release|Any CPU
-		{3769839E-A176-4480-82EE-A0FEDBB55A9F}.Release|x86.Build.0 = Release|Any CPU
+		{34E17C09-7F51-4F0C-8F95-2CD7A9E2851A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E17C09-7F51-4F0C-8F95-2CD7A9E2851A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E17C09-7F51-4F0C-8F95-2CD7A9E2851A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{34E17C09-7F51-4F0C-8F95-2CD7A9E2851A}.Debug|x86.Build.0 = Debug|Any CPU
+		{34E17C09-7F51-4F0C-8F95-2CD7A9E2851A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E17C09-7F51-4F0C-8F95-2CD7A9E2851A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E17C09-7F51-4F0C-8F95-2CD7A9E2851A}.Release|x86.ActiveCfg = Release|Any CPU
+		{34E17C09-7F51-4F0C-8F95-2CD7A9E2851A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
