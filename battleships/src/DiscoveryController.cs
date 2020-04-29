@@ -5,18 +5,18 @@ namespace battleships
 {
 
     /// <summary>
-/// The battle phase is handled by the DiscoveryController.
-/// </summary>
+    /// The battle phase is handled by the DiscoveryController.
+    /// </summary>
     static class DiscoveryController
     {
 
         /// <summary>
-    /// Handles input during the discovery phase of the game.
-    /// </summary>
-    /// <remarks>
-    /// Escape opens the game menu. Clicking the mouse will
-    /// attack a location.
-    /// </remarks>
+        /// Handles input during the discovery phase of the game.
+        /// </summary>
+        /// <remarks>
+        /// Escape opens the game menu. Clicking the mouse will
+        /// attack a location.
+        /// </remarks>
         public static void HandleDiscoveryInput()
         {
             if (SwinGame.KeyTyped(KeyCode.vk_ESCAPE))
@@ -31,8 +31,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// Attack the location that the mouse if over.
-    /// </summary>
+        /// Attack the location that the mouse if over.
+        /// </summary>
         private static void DoAttack()
         {
             Point2D mouse;
@@ -52,8 +52,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// Draws the game during the attack phase.
-    /// </summary>s
+        /// Draws the game during the attack phase.
+        /// </summary>s
         public static void DrawDiscovery()
         {
             const int SCORES_LEFT = 172;

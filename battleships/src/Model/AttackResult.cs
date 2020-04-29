@@ -13,10 +13,10 @@ namespace battleships
         private int _Column;
 
         /// <summary>
-    /// The result of the attack
-    /// </summary>
-    /// <value>The result of the attack</value>
-    /// <returns>The result of the attack</returns>
+        /// The result of the attack
+        /// </summary>
+        /// <value>The result of the attack</value>
+        /// <returns>The result of the attack</returns>
         public ResultOfAttack Value
         {
             get
@@ -26,10 +26,10 @@ namespace battleships
         }
 
         /// <summary>
-    /// The ship, if any, involved in this result
-    /// </summary>
-    /// <value>The ship, if any, involved in this result</value>
-    /// <returns>The ship, if any, involved in this result</returns>
+        /// The ship, if any, involved in this result
+        /// </summary>
+        /// <value>The ship, if any, involved in this result</value>
+        /// <returns>The ship, if any, involved in this result</returns>
         public Ship Ship
         {
             get
@@ -39,11 +39,11 @@ namespace battleships
         }
 
         /// <summary>
-    /// A textual description of the result.
-    /// </summary>
-    /// <value>A textual description of the result.</value>
-    /// <returns>A textual description of the result.</returns>
-    /// <remarks>A textual description of the result.</remarks>
+        /// A textual description of the result.
+        /// </summary>
+        /// <value>A textual description of the result.</value>
+        /// <returns>A textual description of the result.</returns>
+        /// <remarks>A textual description of the result.</remarks>
         public string Text
         {
             get
@@ -53,8 +53,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// The row where the attack occurred
-    /// </summary>
+        /// The row where the attack occurred
+        /// </summary>
         public int Row
         {
             get
@@ -64,8 +64,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// The column where the attack occurred
-    /// </summary>
+        /// The column where the attack occurred
+        /// </summary>
         public int Column
         {
             get
@@ -75,9 +75,9 @@ namespace battleships
         }
 
         /// <summary>
-    /// Set the _Value to the PossibleAttack value
-    /// </summary>
-    /// <param name="value">either hit, miss, destroyed, shotalready</param>
+        /// Set the _Value to the PossibleAttack value
+        /// </summary>
+        /// <param name="value">either hit, miss, destroyed, shotalready</param>
         public AttackResult(ResultOfAttack value, string text, int row, int column)
         {
             _Value = value;
@@ -88,19 +88,19 @@ namespace battleships
         }
 
         /// <summary>
-    /// Set the _Value to the PossibleAttack value, and the _Ship to the ship
-    /// </summary>
-    /// <param name="value">either hit, miss, destroyed, shotalready</param>
-    /// <param name="ship">the ship information</param>
+        /// Set the _Value to the PossibleAttack value, and the _Ship to the ship
+        /// </summary>
+        /// <param name="value">either hit, miss, destroyed, shotalready</param>
+        /// <param name="ship">the ship information</param>
         public AttackResult(ResultOfAttack value, Ship ship, string text, int row, int column) : this(value, text, row, column)
         {
             _Ship = ship;
         }
 
         /// <summary>
-    /// Displays the textual information about the attack
-    /// </summary>
-    /// <returns>The textual information about the attack</returns>
+        /// Displays the textual information about the attack
+        /// </summary>
+        /// <returns>The textual information about the attack</returns>
         public override string ToString()
         {
             if (_Ship is null)

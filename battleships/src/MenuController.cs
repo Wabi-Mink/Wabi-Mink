@@ -4,20 +4,20 @@ namespace battleships
 {
 
     /// <summary>
-/// The menu controller handles the drawing and user interactions
-/// from the menus in the game. These include the main menu, game
-/// menu and the settings m,enu.
-/// </summary>
+    /// The menu controller handles the drawing and user interactions
+    /// from the menus in the game. These include the main menu, game
+    /// menu and the settings m,enu.
+    /// </summary>
 
     static class MenuController
     {
 
         /// <summary>
-    /// The menu structure for the game.
-    /// </summary>
-    /// <remarks>
-    /// These are the text captions for the menu items.
-    /// </remarks>
+        /// The menu structure for the game.
+        /// </summary>
+        /// <remarks>
+        /// These are the text captions for the menu items.
+        /// </remarks>
         private readonly static string[][] _menuStructure = new[] { new string[] { "PLAY", "SETUP", "SCORES", "QUIT" }, new string[] { "RETURN", "SURRENDER", "QUIT" }, new string[] { "EASY", "MEDIUM", "HARD" } };
 
 
@@ -46,16 +46,16 @@ namespace battleships
         private readonly static Color HIGHLIGHT_COLOR = SwinGame.RGBAColor(1, 57, 86, 255);
 
         /// <summary>
-    /// Handles the processing of user input when the main menu is showing
-    /// </summary>
+        /// Handles the processing of user input when the main menu is showing
+        /// </summary>
         public static void HandleMainMenuInput()
         {
             HandleMenuInput(MAIN_MENU, 0, 0);
         }
 
         /// <summary>
-    /// Handles the processing of user input when the main menu is showing
-    /// </summary>
+        /// Handles the processing of user input when the main menu is showing
+        /// </summary>
         public static void HandleSetupMenuInput()
         {
             bool handled;
@@ -67,23 +67,23 @@ namespace battleships
         }
 
         /// <summary>
-    /// Handle input in the game menu.
-    /// </summary>
-    /// <remarks>
-    /// Player can return to the game, surrender, or quit entirely
-    /// </remarks>
+        /// Handle input in the game menu.
+        /// </summary>
+        /// <remarks>
+        /// Player can return to the game, surrender, or quit entirely
+        /// </remarks>
         public static void HandleGameMenuInput()
         {
             HandleMenuInput(GAME_MENU, 0, 0);
         }
 
         /// <summary>
-    /// Handles input for the specified menu.
-    /// </summary>
-    /// <param name="menu">the identifier of the menu being processed</param>
-    /// <param name="level">the vertical level of the menu</param>
-    /// <param name="xOffset">the xoffset of the menu</param>
-    /// <returns>false if a clicked missed the buttons. This can be used to check prior menus.</returns>
+        /// Handles input for the specified menu.
+        /// </summary>
+        /// <param name="menu">the identifier of the menu being processed</param>
+        /// <param name="level">the vertical level of the menu</param>
+        /// <param name="xOffset">the xoffset of the menu</param>
+        /// <returns>false if a clicked missed the buttons. This can be used to check prior menus.</returns>
         private static bool HandleMenuInput(int menu, int level, int xOffset)
         {
             if (SwinGame.KeyTyped(KeyCode.vk_ESCAPE))
@@ -117,8 +117,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// Draws the main menu to the screen.
-    /// </summary>
+        /// Draws the main menu to the screen.
+        /// </summary>
         public static void DrawMainMenu()
         {
             // Clears the Screen to Black
@@ -128,8 +128,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// Draws the Game menu to the screen
-    /// </summary>
+        /// Draws the Game menu to the screen
+        /// </summary>
         public static void DrawGameMenu()
         {
             // Clears the Screen to Black
@@ -139,11 +139,11 @@ namespace battleships
         }
 
         /// <summary>
-    /// Draws the settings menu to the screen.
-    /// </summary>
-    /// <remarks>
-    /// Also shows the main menu
-    /// </remarks>
+        /// Draws the settings menu to the screen.
+        /// </summary>
+        /// <remarks>
+        /// Also shows the main menu
+        /// </remarks>
         public static void DrawSettings()
         {
             // Clears the Screen to Black
@@ -154,25 +154,25 @@ namespace battleships
         }
 
         /// <summary>
-    /// Draw the buttons associated with a top level menu.
-    /// </summary>
-    /// <param name="menu">the index of the menu to draw</param>
+        /// Draw the buttons associated with a top level menu.
+        /// </summary>
+        /// <param name="menu">the index of the menu to draw</param>
         private static void DrawButtons(int menu)
         {
             DrawButtons(menu, 0, 0);
         }
 
         /// <summary>
-    /// Draws the menu at the indicated level.
-    /// </summary>
-    /// <param name="menu">the menu to draw</param>
-    /// <param name="level">the level (height) of the menu</param>
-    /// <param name="xOffset">the offset of the menu</param>
-    /// <remarks>
-    /// The menu text comes from the _menuStructure field. The level indicates the height
-    /// of the menu, to enable sub menus. The xOffset repositions the menu horizontally
-    /// to allow the submenus to be positioned correctly.
-    /// </remarks>
+        /// Draws the menu at the indicated level.
+        /// </summary>
+        /// <param name="menu">the menu to draw</param>
+        /// <param name="level">the level (height) of the menu</param>
+        /// <param name="xOffset">the offset of the menu</param>
+        /// <remarks>
+        /// The menu text comes from the _menuStructure field. The level indicates the height
+        /// of the menu, to enable sub menus. The xOffset repositions the menu horizontally
+        /// to allow the submenus to be positioned correctly.
+        /// </remarks>
         private static void DrawButtons(int menu, int level, int xOffset)
         {
             int btnTop;
@@ -198,22 +198,22 @@ namespace battleships
         }
 
         /// <summary>
-    /// Determined if the mouse is over one of the button in the main menu.
-    /// </summary>
-    /// <param name="button">the index of the button to check</param>
-    /// <returns>true if the mouse is over that button</returns>
+        /// Determined if the mouse is over one of the button in the main menu.
+        /// </summary>
+        /// <param name="button">the index of the button to check</param>
+        /// <returns>true if the mouse is over that button</returns>
         private static bool IsMouseOverButton(int button)
         {
             return IsMouseOverMenu(button, 0, 0);
         }
 
         /// <summary>
-    /// Checks if the mouse is over one of the buttons in a menu.
-    /// </summary>
-    /// <param name="button">the index of the button to check</param>
-    /// <param name="level">the level of the menu</param>
-    /// <param name="xOffset">the xOffset of the menu</param>
-    /// <returns>true if the mouse is over the button</returns>
+        /// Checks if the mouse is over one of the buttons in a menu.
+        /// </summary>
+        /// <param name="button">the index of the button to check</param>
+        /// <param name="level">the level of the menu</param>
+        /// <param name="xOffset">the xOffset of the menu</param>
+        /// <returns>true if the mouse is over the button</returns>
         private static bool IsMouseOverMenu(int button, int level, int xOffset)
         {
             int btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level;
@@ -222,124 +222,124 @@ namespace battleships
         }
 
         /// <summary>
-    /// A button has been clicked, perform the associated action.
-    /// </summary>
-    /// <param name="menu">the menu that has been clicked</param>
-    /// <param name="button">the index of the button that was clicked</param>
+        /// A button has been clicked, perform the associated action.
+        /// </summary>
+        /// <param name="menu">the menu that has been clicked</param>
+        /// <param name="button">the index of the button that was clicked</param>
         private static void PerformMenuAction(int menu, int button)
         {
             switch (menu)
             {
                 case MAIN_MENU:
-                    {
-                        PerformMainMenuAction(button);
-                        break;
-                    }
+                {
+                    PerformMainMenuAction(button);
+                    break;
+                }
 
                 case SETUP_MENU:
-                    {
-                        PerformSetupMenuAction(button);
-                        break;
-                    }
+                {
+                    PerformSetupMenuAction(button);
+                    break;
+                }
 
                 case GAME_MENU:
-                    {
-                        PerformGameMenuAction(button);
-                        break;
-                    }
+                {
+                    PerformGameMenuAction(button);
+                    break;
+                }
             }
         }
 
         /// <summary>
-    /// The main menu was clicked, perform the button's action.
-    /// </summary>
-    /// <param name="button">the button pressed</param>
+        /// The main menu was clicked, perform the button's action.
+        /// </summary>
+        /// <param name="button">the button pressed</param>
         private static void PerformMainMenuAction(int button)
         {
             switch (button)
             {
                 case MAIN_MENU_PLAY_BUTTON:
-                    {
-                        GameController.StartGame();
-                        break;
-                    }
+                {
+                    GameController.StartGame();
+                    break;
+                }
 
                 case MAIN_MENU_SETUP_BUTTON:
-                    {
-                        GameController.AddNewState(GameState.AlteringSettings);
-                        break;
-                    }
+                {
+                    GameController.AddNewState(GameState.AlteringSettings);
+                    break;
+                }
 
                 case MAIN_MENU_TOP_SCORES_BUTTON:
-                    {
-                        GameController.AddNewState(GameState.ViewingHighScores);
-                        break;
-                    }
+                {
+                    GameController.AddNewState(GameState.ViewingHighScores);
+                    break;
+                }
 
                 case MAIN_MENU_QUIT_BUTTON:
-                    {
-                        GameController.EndCurrentState();
-                        break;
-                    }
+                {
+                    GameController.EndCurrentState();
+                    break;
+                }
             }
         }
 
         /// <summary>
-    /// The setup menu was clicked, perform the button's action.
-    /// </summary>
-    /// <param name="button">the button pressed</param>
+        /// The setup menu was clicked, perform the button's action.
+        /// </summary>
+        /// <param name="button">the button pressed</param>
         private static void PerformSetupMenuAction(int button)
         {
             switch (button)
             {
                 case SETUP_MENU_EASY_BUTTON:
-                    {
-                        GameController.SetDifficulty(AIOption.Hard);
-                        break;
-                    }
+                {
+                    GameController.SetDifficulty(AIOption.Easy);
+                    break;
+                }
 
                 case SETUP_MENU_MEDIUM_BUTTON:
-                    {
-                        GameController.SetDifficulty(AIOption.Hard);
-                        break;
-                    }
+                {
+                    GameController.SetDifficulty(AIOption.Medium);
+                    break;
+                }
 
                 case SETUP_MENU_HARD_BUTTON:
-                    {
-                        GameController.SetDifficulty(AIOption.Hard);
-                        break;
-                    }
+                {
+                    GameController.SetDifficulty(AIOption.Hard);
+                    break;
+                }
             }
             // Always end state - handles exit button as well
             GameController.EndCurrentState();
         }
 
         /// <summary>
-    /// The game menu was clicked, perform the button's action.
-    /// </summary>
-    /// <param name="button">the button pressed</param>
+        /// The game menu was clicked, perform the button's action.
+        /// </summary>
+        /// <param name="button">the button pressed</param>
         private static void PerformGameMenuAction(int button)
         {
             switch (button)
             {
                 case GAME_MENU_RETURN_BUTTON:
-                    {
-                        GameController.EndCurrentState();
-                        break;
-                    }
+                {
+                    GameController.EndCurrentState();
+                    break;
+                }
 
                 case GAME_MENU_SURRENDER_BUTTON:
-                    {
-                        GameController.EndCurrentState(); // end game menu
-                        GameController.EndCurrentState(); // end game
-                        break;
-                    }
+                {
+                    GameController.EndCurrentState(); // end game menu
+                    GameController.EndCurrentState(); // end game
+                    break;
+                }
 
                 case GAME_MENU_QUIT_BUTTON:
-                    {
-                        GameController.AddNewState(GameState.Quitting);
-                        break;
-                    }
+                {
+                    GameController.AddNewState(GameState.Quitting);
+                    break;
+                }
             }
         }
     }

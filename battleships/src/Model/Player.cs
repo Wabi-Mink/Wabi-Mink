@@ -21,10 +21,10 @@ namespace battleships
         private int _misses;
 
         /// <summary>
-    /// Returns the game that the player is part of.
-    /// </summary>
-    /// <value>The game</value>
-    /// <returns>The game that the player is playing</returns>
+        /// Returns the game that the player is part of.
+        /// </summary>
+        /// <value>The game</value>
+        /// <returns>The game that the player is playing</returns>
         public BattleShipsGame Game
         {
             get
@@ -39,9 +39,9 @@ namespace battleships
         }
 
         /// <summary>
-    /// Sets the grid of the enemy player
-    /// </summary>
-    /// <value>The enemy's sea grid</value>
+        /// Sets the grid of the enemy player
+        /// </summary>
+        /// <value>The enemy's sea grid</value>
         public ISeaGrid Enemy
         {
             set
@@ -68,8 +68,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// The EnemyGrid is a ISeaGrid because you shouldn't be allowed to see the enemies ships
-    /// </summary>
+        /// The EnemyGrid is a ISeaGrid because you shouldn't be allowed to see the enemies ships
+        /// </summary>
         public ISeaGrid EnemyGrid
         {
             get
@@ -84,8 +84,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// The PlayerGrid is just a normal SeaGrid where the players ships can be deployed and seen
-    /// </summary>
+        /// The PlayerGrid is just a normal SeaGrid where the players ships can be deployed and seen
+        /// </summary>
         public SeaGrid PlayerGrid
         {
             get
@@ -95,8 +95,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// ReadyToDeploy returns true if all ships are deployed
-    /// </summary>
+        /// ReadyToDeploy returns true if all ships are deployed
+        /// </summary>
         public bool ReadyToDeploy
         {
             get
@@ -115,12 +115,12 @@ namespace battleships
         }
 
         /// <summary>
-    /// Returns the Player's ship with the given name.
-    /// </summary>
-    /// <param name="name">the name of the ship to return</param>
-    /// <value>The ship</value>
-    /// <returns>The ship with the indicated name</returns>
-    /// <remarks>The none ship returns nothing/null</remarks>
+        /// Returns the Player's ship with the given name.
+        /// </summary>
+        /// <param name="name">the name of the ship to return</param>
+        /// <value>The ship</value>
+        /// <returns>The ship with the indicated name</returns>
+        /// <remarks>The none ship returns nothing/null</remarks>
         public Ship get_Ship(ShipName name)
         {
             if (name == ShipName.None)
@@ -129,10 +129,10 @@ namespace battleships
         }
 
         /// <summary>
-    /// The number of shots the player has made
-    /// </summary>
-    /// <value>shots taken</value>
-    /// <returns>teh number of shots taken</returns>
+        /// The number of shots the player has made
+        /// </summary>
+        /// <value>shots taken</value>
+        /// <returns>teh number of shots taken</returns>
         public int Shots
         {
             get
@@ -150,10 +150,10 @@ namespace battleships
         }
 
         /// <summary>
-    /// Total number of shots that missed
-    /// </summary>
-    /// <value>miss count</value>
-    /// <returns>the number of shots that have missed ships</returns>
+        /// Total number of shots that missed
+        /// </summary>
+        /// <value>miss count</value>
+        /// <returns>the number of shots that have missed ships</returns>
         public int Missed
         {
             get
@@ -172,16 +172,16 @@ namespace battleships
                 }
                 else
                 {
-                    return Hits * 12 - Shots - PlayerGrid.ShipsKilled * 20;
+                    return (Hits * 12) - Shots - (PlayerGrid.ShipsKilled * 20);
                 }
             }
         }
 
         /// <summary>
-    /// Makes it possible to enumerate over the ships the player
-    /// has.
-    /// </summary>
-    /// <returns>A Ship enumerator</returns>
+        /// Makes it possible to enumerate over the ships the player
+        /// has.
+        /// </summary>
+        /// <returns>A Ship enumerator</returns>
         public IEnumerator<Ship> GetShipEnumerator()
         {
             var result = new Ship[_Ships.Values.Count + 1];
@@ -192,10 +192,10 @@ namespace battleships
         }
 
         /// <summary>
-    /// Makes it possible to enumerate over the ships the player
-    /// has.
-    /// </summary>
-    /// <returns>A Ship enumerator</returns>
+        /// Makes it possible to enumerate over the ships the player
+        /// has.
+        /// </summary>
+        /// <returns>A Ship enumerator</returns>
         public IEnumerator GetEnumerator()
         {
             var result = new Ship[_Ships.Values.Count + 1];
@@ -206,8 +206,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// Vitual Attack allows the player to shoot
-    /// </summary>
+        /// Vitual Attack allows the player to shoot
+        /// </summary>
         public virtual AttackResult Attack()
         {
             // human does nothing here...
@@ -215,11 +215,11 @@ namespace battleships
         }
 
         /// <summary>
-    /// Shoot at a given row/column
-    /// </summary>
-    /// <param name="row">the row to attack</param>
-    /// <param name="col">the column to attack</param>
-    /// <returns>the result of the attack</returns>
+        /// Shoot at a given row/column
+        /// </summary>
+        /// <param name="row">the row to attack</param>
+        /// <param name="col">the column to attack</param>
+        /// <returns>the result of the attack</returns>
         internal AttackResult Shoot(int row, int col)
         {
             _shots += 1;
@@ -230,16 +230,16 @@ namespace battleships
             {
                 case ResultOfAttack.Destroyed:
                 case ResultOfAttack.Hit:
-                    {
-                        _hits += 1;
-                        break;
-                    }
+                {
+                    _hits += 1;
+                    break;
+                }
 
                 case ResultOfAttack.Miss:
-                    {
-                        _misses += 1;
-                        break;
-                    }
+                {
+                    _misses += 1;
+                    break;
+                }
             }
 
             return result;

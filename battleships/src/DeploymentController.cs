@@ -6,9 +6,9 @@ namespace battleships
 {
 
     /// <summary>
-/// The DeploymentController controls the players actions
-/// during the deployment phase.
-/// </summary>
+    /// The DeploymentController controls the players actions
+    /// during the deployment phase.
+    /// </summary>
     static class DeploymentController
     {
         private const int SHIPS_TOP = 98;
@@ -29,13 +29,13 @@ namespace battleships
         private static ShipName _selectedShip = ShipName.Tug;
 
         /// <summary>
-    /// Handles user input for the Deployment phase of the game.
-    /// </summary>
-    /// <remarks>
-    /// Involves selecting the ships, deloying ships, changing the direction
-    /// of the ships to add, randomising deployment, end then ending
-    /// deployment
-    /// </remarks>
+        /// Handles user input for the Deployment phase of the game.
+        /// </summary>
+        /// <remarks>
+        /// Involves selecting the ships, deloying ships, changing the direction
+        /// of the ships to add, randomising deployment, end then ending
+        /// deployment
+        /// </remarks>
         public static void HandleDeploymentInput()
         {
             if (SwinGame.KeyTyped(KeyCode.vk_ESCAPE))
@@ -77,7 +77,7 @@ namespace battleships
                 }
                 else if (UtilityFunctions.IsMouseInRectangle(UP_DOWN_BUTTON_LEFT, TOP_BUTTONS_TOP, DIR_BUTTONS_WIDTH, TOP_BUTTONS_HEIGHT))
                 {
-                    _currentDirection = Direction.LeftRight;
+                    _currentDirection = Direction.UpDown;
                 }
                 else if (UtilityFunctions.IsMouseInRectangle(LEFT_RIGHT_BUTTON_LEFT, TOP_BUTTONS_TOP, DIR_BUTTONS_WIDTH, TOP_BUTTONS_HEIGHT))
                 {
@@ -91,13 +91,13 @@ namespace battleships
         }
 
         /// <summary>
-    /// The user has clicked somewhere on the screen, check if its is a deployment and deploy
-    /// the current ship if that is the case.
-    /// </summary>
-    /// <remarks>
-    /// If the click is in the grid it deploys to the selected location
-    /// with the indicated direction
-    /// </remarks>
+        /// The user has clicked somewhere on the screen, check if its is a deployment and deploy
+        /// the current ship if that is the case.
+        /// </summary>
+        /// <remarks>
+        /// If the click is in the grid it deploys to the selected location
+        /// with the indicated direction
+        /// </remarks>
         private static void DoDeployClick()
         {
             Point2D mouse;
@@ -105,7 +105,7 @@ namespace battleships
 
             // Calculate the row/col clicked
             int row, col;
-            row = Convert.ToInt32(Math.Floor(mouse.Y / (UtilityFunctions.CELL_HEIGHT + UtilityFunctions.CELL_GAP)));
+            row = Convert.ToInt32(Math.Floor((mouse.Y - UtilityFunctions.FIELD_TOP) / (UtilityFunctions.CELL_HEIGHT + UtilityFunctions.CELL_GAP)));
             col = Convert.ToInt32(Math.Floor((mouse.X - UtilityFunctions.FIELD_LEFT) / (UtilityFunctions.CELL_WIDTH + UtilityFunctions.CELL_GAP)));
             if (row >= 0 & row < GameController.HumanPlayer.PlayerGrid.Height)
             {
@@ -126,9 +126,9 @@ namespace battleships
         }
 
         /// <summary>
-    /// Draws the deployment screen showing the field and the ships
-    /// that the player can deploy.
-    /// </summary>
+        /// Draws the deployment screen showing the field and the ships
+        /// that the player can deploy.
+        /// </summary>
         public static void DrawDeployment()
         {
             UtilityFunctions.DrawField(GameController.HumanPlayer.PlayerGrid, GameController.HumanPlayer, true);
@@ -180,9 +180,9 @@ namespace battleships
         }
 
         /// <summary>
-    /// Gets the ship that the mouse is currently over in the selection panel.
-    /// </summary>
-    /// <returns>The ship selected or none</returns>
+        /// Gets the ship that the mouse is currently over in the selection panel.
+        /// </summary>
+        /// <returns>The ship selected or none</returns>
         private static ShipName GetShipMouseIsOver()
         {
             foreach (ShipName sn in Enum.GetValues(typeof(ShipName)))

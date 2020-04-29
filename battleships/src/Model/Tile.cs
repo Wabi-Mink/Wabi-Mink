@@ -14,10 +14,10 @@ namespace battleships
         private bool _Shot = false;    // the tile has been shot at
 
         /// <summary>
-    /// Has the tile been shot?
-    /// </summary>
-    /// <value>indicate if the tile has been shot</value>
-    /// <returns>true if the tile was shot</returns>
+        /// Has the tile been shot?
+        /// </summary>
+        /// <value>indicate if the tile has been shot</value>
+        /// <returns>true if the tile was shot</returns>
         public bool Shot
         {
             get
@@ -32,10 +32,10 @@ namespace battleships
         }
 
         /// <summary>
-    /// The row of the tile in the grid
-    /// </summary>
-    /// <value>the row index of the tile in the grid</value>
-    /// <returns>the row index of the tile</returns>
+        /// The row of the tile in the grid
+        /// </summary>
+        /// <value>the row index of the tile in the grid</value>
+        /// <returns>the row index of the tile</returns>
         public int Row
         {
             get
@@ -45,10 +45,10 @@ namespace battleships
         }
 
         /// <summary>
-    /// The column of the tile in the grid
-    /// </summary>
-    /// <value>the column of the tile in the grid</value>
-    /// <returns>the column of the tile in the grid</returns>
+        /// The column of the tile in the grid
+        /// </summary>
+        /// <value>the column of the tile in the grid</value>
+        /// <returns>the column of the tile in the grid</returns>
         public int Column
         {
             get
@@ -58,8 +58,8 @@ namespace battleships
         }
 
         /// <summary>
-    /// Ship allows for a tile to check if there is ship and add a ship to a tile
-    /// </summary>
+        /// Ship allows for a tile to check if there is ship and add a ship to a tile
+        /// </summary>
         public Ship Ship
         {
             get
@@ -72,7 +72,8 @@ namespace battleships
                 if (_Ship is null)
                 {
                     _Ship = value;
-                    if (value is object)
+                    //if (value is object)
+                    if (value != null)
                     {
                         _Ship.AddTile(this);
                     }
@@ -85,11 +86,11 @@ namespace battleships
         }
 
         /// <summary>
-    /// The tile constructor will know where it is on the grid, and is its a ship
-    /// </summary>
-    /// <param name="row">the row on the grid</param>
-    /// <param name="col">the col on the grid</param>
-    /// <param name="ship">what ship it is</param>
+        /// The tile constructor will know where it is on the grid, and is its a ship
+        /// </summary>
+        /// <param name="row">the row on the grid</param>
+        /// <param name="col">the col on the grid</param>
+        /// <param name="ship">what ship it is</param>
         public Tile(int row, int col, Ship ship)
         {
             _RowValue = row;
@@ -98,16 +99,16 @@ namespace battleships
         }
 
         /// <summary>
-    /// Clearship will remove the ship from the tile
-    /// </summary>
+        /// Clearship will remove the ship from the tile
+        /// </summary>
         public void ClearShip()
         {
             _Ship = null;
         }
 
         /// <summary>
-    /// View is able to tell the grid what the tile is
-    /// </summary>
+        /// View is able to tell the grid what the tile is
+        /// </summary>
         public TileView View
         {
             get
@@ -140,15 +141,16 @@ namespace battleships
         }
 
         /// <summary>
-    /// Shoot allows a tile to be shot at, and if the tile has been hit before
-    /// it will give an error
-    /// </summary>
+        /// Shoot allows a tile to be shot at, and if the tile has been hit before
+        /// it will give an error
+        /// </summary>
         internal void Shoot()
         {
             if (false == Shot)
             {
                 Shot = true;
-                if (_Ship is object)
+                //if (_Ship is object)
+                if (_Ship != null)
                 {
                     _Ship.Hit();
                 }
