@@ -9,9 +9,9 @@
         <argsstring>()</argsstring>
         <name>HandleDiscoveryInput</name>
         <briefdescription>
-        </briefdescription>
+<para>Handles input during the discovery phase of the game. </para>        </briefdescription>
         <detaileddescription>
-<para>Handles input during the discovery phase of the game. </para><para>Escape opens the game menu. Clicking the mouse will attack a location. </para>        </detaileddescription>
+<para>Escape opens the game menu. Clicking the mouse will attack a location. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" line="20" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" bodystart="20" bodyend="31"/>
@@ -23,9 +23,9 @@
         <argsstring>()</argsstring>
         <name>DrawDiscovery</name>
         <briefdescription>
-        </briefdescription>
+<para>Draws the game during the attack phase. </para>        </briefdescription>
         <detaileddescription>
-<para>Draws the game during the attack phase. </para><para>s </para>        </detaileddescription>
+<para>s </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" line="57" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" bodystart="57" bodyend="77"/>
@@ -41,9 +41,9 @@
         <argsstring>()</argsstring>
         <name>DoAttack</name>
         <briefdescription>
-        </briefdescription>
+<para>Attack the location that the mouse if over. </para>        </briefdescription>
         <detaileddescription>
-<para>Attack the location that the mouse if over. </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" line="36" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" bodystart="36" bodyend="52"/>
@@ -60,9 +60,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The battle phase is handled by the <ref refid="classbattleships_1_1_discovery_controller" kindref="compound">DiscoveryController</ref>. </para>    </briefdescription>
     <detaileddescription>
-<para>The battle phase is handled by the <ref refid="classbattleships_1_1_discovery_controller" kindref="compound">DiscoveryController</ref>. </para>    </detaileddescription>
+    </detaileddescription>
     <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" line="11" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DiscoveryController.cs" bodystart="10" bodyend="78"/>
     <listofallmembers>
       <member refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" prot="private" virt="non-virtual"><scope>battleships::DiscoveryController</scope><name>DoAttack</name></member>

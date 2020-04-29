@@ -170,8 +170,9 @@ namespace battleships
                 s.Value = value;
                 GameController.AddNewState(GameState.ViewingHighScores);
                 int x;
-                x = SCORES_LEFT + SwinGame.TextWidth(GameResources.GameFont("Courier"), "Name: ");
-                SwinGame.StartReadingText(Color.White, NAME_WIDTH, GameResources.GameFont("Courier"), x, ENTRY_TOP);
+                x = SCORES_LEFT + SwinGame.TextWidth(GameResources.GameFont("Courier"), "Name: ") ;
+                // prints the actual text you're typing
+                SwinGame.StartReadingText(Color.White, NAME_WIDTH + 1, GameResources.GameFont("Courier"), x, ENTRY_TOP);
 
                 // Read the text from the user
                 while (SwinGame.ReadingText())
@@ -186,12 +187,14 @@ namespace battleships
                 s.Name = SwinGame.TextReadAsASCII();
                 if (s.Name.Length < 3)
                 {
-                    s.Name = s.Name + new string(Conversions.ToChar(' '), 3 - s.Name.Length);
+                    s.Name = (s.Name + new string(' ', 3 - s.Name.Length));
                 }
 
                 _Scores.RemoveAt(_Scores.Count - 1);
                 _Scores.Add(s);
                 _Scores.Sort();
+                SaveScores();
+
                 GameController.EndCurrentState();
             }
         }

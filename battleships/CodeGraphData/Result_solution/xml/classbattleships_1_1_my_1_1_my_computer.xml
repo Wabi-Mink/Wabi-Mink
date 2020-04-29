@@ -23,17 +23,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="100">
-        <label>battleships.My.MyComputer</label>
-        <link refid="classbattleships_1_1_my_1_1_my_computer"/>
-        <childnode refid="101" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="101">
-        <label>Microsoft::VisualBasic::Devices::Computer</label>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="102">
         <label>battleships.My.MyComputer</label>
         <link refid="classbattleships_1_1_my_1_1_my_computer"/>
@@ -41,6 +30,17 @@
         </childnode>
       </node>
       <node id="103">
+        <label>Microsoft::VisualBasic::Devices::Computer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="104">
+        <label>battleships.My.MyComputer</label>
+        <link refid="classbattleships_1_1_my_1_1_my_computer"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
         <label>Microsoft::VisualBasic::Devices::Computer</label>
       </node>
     </collaborationgraph>

@@ -63,9 +63,9 @@
         <argsstring>()</argsstring>
         <name>LoadScores</name>
         <briefdescription>
-        </briefdescription>
+<para>Loads the scores from the highscores text file. </para>        </briefdescription>
         <detaileddescription>
-<para>Loads the scores from the highscores text file. </para><para>The format is <heading level="1">of scores</heading>
+<para>The format is <heading level="1">of scores</heading>
 </para><para>NNNSSS</para><para>Where NNN is the name and SSS is the score </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -80,9 +80,9 @@
         <argsstring>()</argsstring>
         <name>SaveScores</name>
         <briefdescription>
-        </briefdescription>
+<para>Saves the scores back to the highscores text file. </para>        </briefdescription>
         <detaileddescription>
-<para>Saves the scores back to the highscores text file. </para><para>The format is <heading level="1">of scores</heading>
+<para>The format is <heading level="1">of scores</heading>
 </para><para>NNNSSS</para><para>Where NNN is the name and SSS is the score </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -97,9 +97,9 @@
         <argsstring>()</argsstring>
         <name>DrawHighScores</name>
         <briefdescription>
-        </briefdescription>
+<para>Draws the high scores to the screen. </para>        </briefdescription>
         <detaileddescription>
-<para>Draws the high scores to the screen. </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="112" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="112" bodyend="139"/>
@@ -117,9 +117,9 @@
         <argsstring>()</argsstring>
         <name>HandleHighScoreInput</name>
         <briefdescription>
-        </briefdescription>
+<para>Handles the user input during the top score screen. </para>        </briefdescription>
         <detaileddescription>
-<para>Handles the user input during the top score screen. </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="145" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="145" bodyend="151"/>
@@ -134,9 +134,9 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Read the user&apos;s name for their highsSwinGame. </para>        </briefdescription>
         <detaileddescription>
-<para>Read the user&apos;s name for their highsSwinGame. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>value</parametername>
 </parameternamelist>
@@ -156,9 +156,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Controls displaying and collecting high score data. </para>    </briefdescription>
     <detaileddescription>
-<para>Controls displaying and collecting high score data. </para><para>Data is saved to a file. </para>    </detaileddescription>
+<para>Data is saved to a file. </para>    </detaileddescription>
     <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="17" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="16" bodyend="198"/>
     <listofallmembers>
       <member refid="classbattleships_1_1_high_score_controller_1a44b0e29af51577906dacf1f6fd29000a" prot="private" virt="non-virtual"><scope>battleships::HighScoreController</scope><name>_Scores</name></member>

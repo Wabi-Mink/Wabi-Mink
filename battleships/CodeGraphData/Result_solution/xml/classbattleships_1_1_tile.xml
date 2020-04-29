@@ -15,7 +15,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="11" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="11" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" compoundref="_tile_8cs" startline="93" endline="98">battleships.Tile.Tile</referencedby>
+        <referencedby refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" compoundref="_tile_8cs" startline="94" endline="99">battleships.Tile.Tile</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classbattleships_1_1_tile_1a1665e2054c3ad5f5f0ce9c28fac6cb43" prot="private" static="no" mutable="no">
         <type>readonly int</type>
@@ -29,7 +29,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="12" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" compoundref="_tile_8cs" startline="93" endline="98">battleships.Tile.Tile</referencedby>
+        <referencedby refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" compoundref="_tile_8cs" startline="94" endline="99">battleships.Tile.Tile</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" prot="private" static="no" mutable="no">
         <type><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref></type>
@@ -44,9 +44,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="13" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="13" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_tile_1ae7ae35a2045db5f5757461c1ae49235e" compoundref="_tile_8cs" startline="103" endline="106">battleships.Tile.ClearShip</referencedby>
-        <referencedby refid="classbattleships_1_1_tile_1a58fe254854b558ab338423d3b94281a7" compoundref="_tile_8cs" startline="146" endline="160">battleships.Tile.Shoot</referencedby>
-        <referencedby refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" compoundref="_tile_8cs" startline="93" endline="98">battleships.Tile.Tile</referencedby>
+        <referencedby refid="classbattleships_1_1_tile_1ae7ae35a2045db5f5757461c1ae49235e" compoundref="_tile_8cs" startline="104" endline="107">battleships.Tile.ClearShip</referencedby>
+        <referencedby refid="classbattleships_1_1_tile_1a58fe254854b558ab338423d3b94281a7" compoundref="_tile_8cs" startline="147" endline="162">battleships.Tile.Shoot</referencedby>
+        <referencedby refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" compoundref="_tile_8cs" startline="94" endline="99">battleships.Tile.Tile</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classbattleships_1_1_tile_1a23c8e479a492c147a4a62b8d6001d151" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -70,14 +70,14 @@
         <argsstring></argsstring>
         <name>Shot</name>
         <briefdescription>
-        </briefdescription>
+<para>Has the tile been shot? </para>        </briefdescription>
         <detaileddescription>
-<para>Has the tile been shot? </para><para>indicate if the tile has been shot</para><para><simplesect kind="return"><para>true if the tile was shot</para></simplesect>
+<para>indicate if the tile has been shot</para><para><simplesect kind="return"><para>true if the tile was shot</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="21" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="22" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_tile_1a58fe254854b558ab338423d3b94281a7" compoundref="_tile_8cs" startline="146" endline="160">battleships.Tile.Shoot</referencedby>
+        <referencedby refid="classbattleships_1_1_tile_1a58fe254854b558ab338423d3b94281a7" compoundref="_tile_8cs" startline="147" endline="162">battleships.Tile.Shoot</referencedby>
       </memberdef>
       <memberdef kind="property" id="classbattleships_1_1_tile_1aaf399d74565746e4f5a17d1ba45650a6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
         <type>int</type>
@@ -85,9 +85,9 @@
         <argsstring></argsstring>
         <name>Row</name>
         <briefdescription>
-        </briefdescription>
+<para>The row of the tile in the grid </para>        </briefdescription>
         <detaileddescription>
-<para>The row of the tile in the grid </para><para>the row index of the tile in the grid</para><para><simplesect kind="return"><para>the row index of the tile</para></simplesect>
+<para>the row index of the tile in the grid</para><para><simplesect kind="return"><para>the row index of the tile</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -99,9 +99,9 @@
         <argsstring></argsstring>
         <name>Column</name>
         <briefdescription>
-        </briefdescription>
+<para>The column of the tile in the grid </para>        </briefdescription>
         <detaileddescription>
-<para>The column of the tile in the grid </para><para>the column of the tile in the grid</para><para><simplesect kind="return"><para>the column of the tile in the grid</para></simplesect>
+<para>the column of the tile in the grid</para><para><simplesect kind="return"><para>the column of the tile in the grid</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -113,9 +113,9 @@
         <argsstring></argsstring>
         <name>Ship</name>
         <briefdescription>
-        </briefdescription>
+<para><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref> allows for a tile to check if there is ship and add a ship to a tile </para>        </briefdescription>
         <detaileddescription>
-<para><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref> allows for a tile to check if there is ship and add a ship to a tile </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="63" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="64" bodyend="-1"/>
@@ -127,12 +127,12 @@
         <argsstring></argsstring>
         <name>View</name>
         <briefdescription>
-        </briefdescription>
+<para>View is able to tell the grid what the tile is </para>        </briefdescription>
         <detaileddescription>
-<para>View is able to tell the grid what the tile is </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="111" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="112" bodyend="-1"/>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="112" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="113" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -154,9 +154,9 @@
           <declname>ship</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>The tile constructor will know where it is on the grid, and is its a ship </para>        </briefdescription>
         <detaileddescription>
-<para>The tile constructor will know where it is on the grid, and is its a ship </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>row</parametername>
 </parameternamelist>
@@ -181,7 +181,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="93" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="93" bodyend="98"/>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="94" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="94" bodyend="99"/>
         <references refid="classbattleships_1_1_tile_1a1665e2054c3ad5f5f0ce9c28fac6cb43" compoundref="_tile_8cs" startline="12">battleships.Tile._ColumnValue</references>
         <references refid="classbattleships_1_1_tile_1a3d708b4f9903d0f78122b9cd548bc2fb" compoundref="_tile_8cs" startline="11">battleships.Tile._RowValue</references>
         <references refid="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" compoundref="_tile_8cs" startline="13">battleships.Tile._Ship</references>
@@ -192,12 +192,12 @@
         <argsstring>()</argsstring>
         <name>ClearShip</name>
         <briefdescription>
-        </briefdescription>
+<para>Clearship will remove the ship from the tile </para>        </briefdescription>
         <detaileddescription>
-<para>Clearship will remove the ship from the tile </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="103" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="103" bodyend="106"/>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="104" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="104" bodyend="107"/>
         <references refid="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" compoundref="_tile_8cs" startline="13">battleships.Tile._Ship</references>
       </memberdef>
       </sectiondef>
@@ -208,12 +208,12 @@
         <argsstring>()</argsstring>
         <name>Shoot</name>
         <briefdescription>
-        </briefdescription>
+<para>Shoot allows a tile to be shot at, and if the tile has been hit before it will give an error </para>        </briefdescription>
         <detaileddescription>
-<para>Shoot allows a tile to be shot at, and if the tile has been hit before it will give an error </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="146" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="146" bodyend="160"/>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="147" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="147" bodyend="162"/>
         <references refid="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" compoundref="_tile_8cs" startline="13">battleships.Tile._Ship</references>
         <references refid="classbattleships_1_1_tile_1a2b28b52e7082b6a91f64f5be2f22ab60" compoundref="_tile_8cs" startline="22">battleships.Tile.Shot</references>
       </memberdef>
@@ -223,19 +223,19 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="143">
+      <node id="145">
         <label>battleships.Tile</label>
         <link refid="classbattleships_1_1_tile"/>
-        <childnode refid="144" relation="usage">
+        <childnode refid="146" relation="usage">
           <edgelabel>_Ship</edgelabel>
         </childnode>
       </node>
-      <node id="144">
+      <node id="146">
         <label>battleships.Ship</label>
         <link refid="classbattleships_1_1_ship"/>
       </node>
     </collaborationgraph>
-    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="10" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="9" bodyend="161"/>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" line="10" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Tile.cs" bodystart="9" bodyend="163"/>
     <listofallmembers>
       <member refid="classbattleships_1_1_tile_1a1665e2054c3ad5f5f0ce9c28fac6cb43" prot="private" virt="non-virtual"><scope>battleships::Tile</scope><name>_ColumnValue</name></member>
       <member refid="classbattleships_1_1_tile_1a3d708b4f9903d0f78122b9cd548bc2fb" prot="private" virt="non-virtual"><scope>battleships::Tile</scope><name>_RowValue</name></member>

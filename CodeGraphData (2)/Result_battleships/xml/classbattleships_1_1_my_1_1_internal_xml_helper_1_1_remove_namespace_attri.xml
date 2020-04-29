@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure" kind="class" prot="private">
+    <compoundname>battleships::My::InternalXmlHelper::RemoveNamespaceAttributesClosure</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1a581074b0f31d14847373ae2bc2d343d4" prot="private" static="no" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] battleships.My.InternalXmlHelper.RemoveNamespaceAttributesClosure.m_inScopePrefixes</definition>
+        <argsstring></argsstring>
+        <name>m_inScopePrefixes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="134" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1a1984d66e3a8ff9b73ab83e74fa616c85" prot="private" static="no" mutable="no">
+        <type>readonly XNamespace[]</type>
+        <definition>readonly XNamespace [] battleships.My.InternalXmlHelper.RemoveNamespaceAttributesClosure.m_inScopeNs</definition>
+        <argsstring></argsstring>
+        <name>m_inScopeNs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="135" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1ad1b7997ee5cca97e54f3a981a3ad3ab1" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; XAttribute &gt;</type>
+        <definition>readonly List&lt;XAttribute&gt; battleships.My.InternalXmlHelper.RemoveNamespaceAttributesClosure.m_attributes</definition>
+        <argsstring></argsstring>
+        <name>m_attributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="136" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1aafff29c569612fb1b477ad6193b9fc2f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.My.InternalXmlHelper.RemoveNamespaceAttributesClosure.RemoveNamespaceAttributesClosure</definition>
+        <argsstring>(string[] inScopePrefixes, XNamespace[] inScopeNs, List&lt; XAttribute &gt; attributes)</argsstring>
+        <name>RemoveNamespaceAttributesClosure</name>
+        <param>
+          <type>string[]</type>
+          <declname>inScopePrefixes</declname>
+        </param>
+        <param>
+          <type>XNamespace[]</type>
+          <declname>inScopeNs</declname>
+        </param>
+        <param>
+          <type>List&lt; XAttribute &gt;</type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="139" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="139" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1ac40e45fa5f3cd9888162de50d073ade3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>XElement battleships.My.InternalXmlHelper.RemoveNamespaceAttributesClosure.ProcessXElement</definition>
+        <argsstring>(XElement elem)</argsstring>
+        <name>ProcessXElement</name>
+        <param>
+          <type>XElement</type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="147" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1a1cfe942c47960c3ba4dc95ec50cc24a5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object battleships.My.InternalXmlHelper.RemoveNamespaceAttributesClosure.ProcessObject</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ProcessObject</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="153" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="153" bodyend="164"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" line="133" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.2.Designer.cs" bodystart="132" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1ad1b7997ee5cca97e54f3a981a3ad3ab1" prot="private" virt="non-virtual"><scope>battleships::My::InternalXmlHelper::RemoveNamespaceAttributesClosure</scope><name>m_attributes</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1a1984d66e3a8ff9b73ab83e74fa616c85" prot="private" virt="non-virtual"><scope>battleships::My::InternalXmlHelper::RemoveNamespaceAttributesClosure</scope><name>m_inScopeNs</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1a581074b0f31d14847373ae2bc2d343d4" prot="private" virt="non-virtual"><scope>battleships::My::InternalXmlHelper::RemoveNamespaceAttributesClosure</scope><name>m_inScopePrefixes</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1a1cfe942c47960c3ba4dc95ec50cc24a5" prot="package" virt="non-virtual"><scope>battleships::My::InternalXmlHelper::RemoveNamespaceAttributesClosure</scope><name>ProcessObject</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1ac40e45fa5f3cd9888162de50d073ade3" prot="package" virt="non-virtual"><scope>battleships::My::InternalXmlHelper::RemoveNamespaceAttributesClosure</scope><name>ProcessXElement</name></member>
+      <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure_1aafff29c569612fb1b477ad6193b9fc2f" prot="package" virt="non-virtual"><scope>battleships::My::InternalXmlHelper::RemoveNamespaceAttributesClosure</scope><name>RemoveNamespaceAttributesClosure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

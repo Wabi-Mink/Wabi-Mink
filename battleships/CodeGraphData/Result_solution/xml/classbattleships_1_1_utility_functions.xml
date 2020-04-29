@@ -18,6 +18,7 @@
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="12" bodyend="-1"/>
         <referencedby refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" compoundref="_utility_functions_8cs" startline="292" endline="305">battleships.UtilityFunctions.AddAnimation</referencedby>
         <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
         <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1abf5b945acd3d2fccb5fe17a96fec96ea" prot="public" static="no" mutable="no">
@@ -117,6 +118,7 @@
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="18" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="18" bodyend="-1"/>
         <referencedby refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" compoundref="_utility_functions_8cs" startline="292" endline="305">battleships.UtilityFunctions.AddAnimation</referencedby>
         <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
         <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1adf5c8b6bad4a36757a747bb7011d3e20" prot="public" static="no" mutable="no">
@@ -398,9 +400,9 @@
         <argsstring></argsstring>
         <name>Message</name>
         <briefdescription>
-        </briefdescription>
+<para>The message to display </para>        </briefdescription>
         <detaileddescription>
-<para>The message to display </para><para>The message to display</para><para><simplesect kind="return"><para>The message to display</para></simplesect>
+<para>The message to display</para><para><simplesect kind="return"><para>The message to display</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -431,9 +433,9 @@
           <declname>h</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Determines if the mouse is in a given rectangle. </para>        </briefdescription>
         <detaileddescription>
-<para>Determines if the mouse is in a given rectangle. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>x</parametername>
 </parameternamelist>
@@ -488,9 +490,9 @@
           <declname>showShips</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Draws a large field using the grid and the indicated player&apos;s ships. </para>        </briefdescription>
         <detaileddescription>
-<para>Draws a large field using the grid and the indicated player&apos;s ships. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>grid</parametername>
 </parameternamelist>
@@ -539,9 +541,9 @@
           <declname>thePlayer</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Draws a small field, showing the attacks made and the locations of the player&apos;s ships </para>        </briefdescription>
         <detaileddescription>
-<para>Draws a small field, showing the attacks made and the locations of the player&apos;s ships </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>grid</parametername>
 </parameternamelist>
@@ -568,9 +570,9 @@
         <argsstring>()</argsstring>
         <name>DrawMessage</name>
         <briefdescription>
-        </briefdescription>
+<para>Draws the message to the screen </para>        </briefdescription>
         <detaileddescription>
-<para>Draws the message to the screen </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="235" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="235" bodyend="238"/>
@@ -585,9 +587,9 @@
         <argsstring>()</argsstring>
         <name>DrawBackground</name>
         <briefdescription>
-        </briefdescription>
+<para>Draws the background for the current state of the game </para>        </briefdescription>
         <detaileddescription>
-<para>Draws the background for the current state of the game </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="243" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="243" bodyend="278"/>
@@ -734,9 +736,9 @@
           <declname>cellGap</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Draws the player&apos;s grid and ships. </para>        </briefdescription>
         <detaileddescription>
-<para>Draws the player&apos;s grid and ships. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>grid</parametername>
 </parameternamelist>
@@ -868,9 +870,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>This includes a number of utility methods for drawing and interacting with the Mouse. </para>    </briefdescription>
     <detaileddescription>
-<para>This includes a number of utility methods for drawing and interacting with the Mouse. </para>    </detaileddescription>
+    </detaileddescription>
     <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="11" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="10" bodyend="341"/>
     <listofallmembers>
       <member refid="classbattleships_1_1_utility_functions_1a530e61a87b0b42166397b3ad911e81c9" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>_Animations</name></member>

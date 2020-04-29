@@ -55,9 +55,9 @@
         <argsstring></argsstring>
         <name>Width</name>
         <briefdescription>
-        </briefdescription>
+<para>Get the width of a tile </para>        </briefdescription>
         <detaileddescription>
-<para>Get the width of a tile </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGridAdapter.cs" line="65" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGridAdapter.cs" bodystart="66" bodyend="-1"/>
@@ -68,9 +68,9 @@
         <argsstring></argsstring>
         <name>Height</name>
         <briefdescription>
-        </briefdescription>
+<para>Get the height of the tile </para>        </briefdescription>
         <detaileddescription>
-<para>Get the height of the tile </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGridAdapter.cs" line="76" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGridAdapter.cs" bodystart="77" bodyend="-1"/>
@@ -83,9 +83,9 @@
         <argsstring></argsstring>
         <name>Changed</name>
         <briefdescription>
-        </briefdescription>
+<para>Indicates that the grid has been changed </para>        </briefdescription>
         <detaileddescription>
-<para>Indicates that the grid has been changed </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGridAdapter.cs" line="60" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/SeaGridAdapter.cs" bodystart="60" bodyend="-1"/>
@@ -103,9 +103,9 @@
           <declname>grid</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Create the <ref refid="classbattleships_1_1_sea_grid_adapter" kindref="compound">SeaGridAdapter</ref>, with the grid, and it will allow it to be changed </para>        </briefdescription>
         <detaileddescription>
-<para>Create the <ref refid="classbattleships_1_1_sea_grid_adapter" kindref="compound">SeaGridAdapter</ref>, with the grid, and it will allow it to be changed </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>grid</parametername>
 </parameternamelist>
@@ -135,9 +135,9 @@
           <declname>col</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>HitTile calls oppon _MyGrid to hit a tile at the row, col </para>        </briefdescription>
         <detaileddescription>
-<para>HitTile calls oppon _MyGrid to hit a tile at the row, col </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>row</parametername>
 </parameternamelist>
@@ -174,9 +174,9 @@
           <declname>e</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>MyGrid_Changed causes the grid to be redrawn by raising a changed event </para>        </briefdescription>
         <detaileddescription>
-<para>MyGrid_Changed causes the grid to be redrawn by raising a changed event </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>sender</parametername>
 </parameternamelist>
@@ -204,48 +204,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="132">
-        <label>ISeaGrid</label>
-        <link refid="interfacebattleships_1_1_i_sea_grid"/>
-      </node>
-      <node id="131">
-        <label>battleships.SeaGridAdapter</label>
-        <link refid="classbattleships_1_1_sea_grid_adapter"/>
-        <childnode refid="132" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="134">
         <label>ISeaGrid</label>
         <link refid="interfacebattleships_1_1_i_sea_grid"/>
-      </node>
-      <node id="136">
-        <label>battleships.Tile</label>
-        <link refid="classbattleships_1_1_tile"/>
-        <childnode refid="137" relation="usage">
-          <edgelabel>_Ship</edgelabel>
-        </childnode>
       </node>
       <node id="133">
         <label>battleships.SeaGridAdapter</label>
         <link refid="classbattleships_1_1_sea_grid_adapter"/>
         <childnode refid="134" relation="public-inheritance">
         </childnode>
-        <childnode refid="135" relation="usage">
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="136">
+        <label>ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+      <node id="138">
+        <label>battleships.Tile</label>
+        <link refid="classbattleships_1_1_tile"/>
+        <childnode refid="139" relation="usage">
+          <edgelabel>_Ship</edgelabel>
+        </childnode>
+      </node>
+      <node id="135">
+        <label>battleships.SeaGridAdapter</label>
+        <link refid="classbattleships_1_1_sea_grid_adapter"/>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+        <childnode refid="137" relation="usage">
           <edgelabel>_MyGrid</edgelabel>
         </childnode>
       </node>
-      <node id="137">
+      <node id="139">
         <label>battleships.Ship</label>
         <link refid="classbattleships_1_1_ship"/>
       </node>
-      <node id="135">
+      <node id="137">
         <label>battleships.SeaGrid</label>
         <link refid="classbattleships_1_1_sea_grid"/>
-        <childnode refid="134" relation="public-inheritance">
+        <childnode refid="136" relation="public-inheritance">
         </childnode>
-        <childnode refid="136" relation="usage">
+        <childnode refid="138" relation="usage">
           <edgelabel>_GameTiles</edgelabel>
         </childnode>
       </node>

@@ -111,9 +111,9 @@
         <argsstring></argsstring>
         <name>Name</name>
         <briefdescription>
-        </briefdescription>
+<para>The type of ship </para>        </briefdescription>
         <detaileddescription>
-<para>The type of ship </para><para>The type of ship</para><para><simplesect kind="return"><para>The type of ship</para></simplesect>
+<para>The type of ship</para><para><simplesect kind="return"><para>The type of ship</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -125,9 +125,9 @@
         <argsstring></argsstring>
         <name>Size</name>
         <briefdescription>
-        </briefdescription>
+<para>The number of cells that this ship occupies. </para>        </briefdescription>
         <detaileddescription>
-<para>The number of cells that this ship occupies. </para><para>The number of hits the ship can take</para><para><simplesect kind="return"><para>The number of hits the ship can take</para></simplesect>
+<para>The number of hits the ship can take</para><para><simplesect kind="return"><para>The number of hits the ship can take</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -140,9 +140,9 @@
         <argsstring></argsstring>
         <name>Hits</name>
         <briefdescription>
-        </briefdescription>
+<para>The number of hits that the ship has taken. </para>        </briefdescription>
         <detaileddescription>
-<para>The number of hits that the ship has taken. </para><para>The number of hits the ship has taken.</para><para><simplesect kind="return"><para>The number of hits the ship has taken</para></simplesect>
+<para>The number of hits the ship has taken.</para><para><simplesect kind="return"><para>The number of hits the ship has taken</para></simplesect>
 </para><para>When this equals Size the ship is sunk</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -154,9 +154,9 @@
         <argsstring></argsstring>
         <name>Row</name>
         <briefdescription>
-        </briefdescription>
+<para>The row location of the ship </para>        </briefdescription>
         <detaileddescription>
-<para>The row location of the ship </para><para>The topmost location of the ship</para><para><simplesect kind="return"><para>the row of the ship</para></simplesect>
+<para>The topmost location of the ship</para><para><simplesect kind="return"><para>the row of the ship</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -196,9 +196,9 @@
         <argsstring></argsstring>
         <name>IsDeployed</name>
         <briefdescription>
-        </briefdescription>
+<para>IsDeployed returns if the ships is deployed, if its deplyed it has more than 0 tiles </para>        </briefdescription>
         <detaileddescription>
-<para>IsDeployed returns if the ships is deployed, if its deplyed it has more than 0 tiles </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Ship.cs" line="134" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Ship.cs" bodystart="135" bodyend="-1"/>
@@ -250,9 +250,9 @@
           <declname>tile</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Add tile adds the ship tile </para>        </briefdescription>
         <detaileddescription>
-<para>Add tile adds the ship tile </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>tile</parametername>
 </parameternamelist>
@@ -271,9 +271,9 @@
         <argsstring>()</argsstring>
         <name>Remove</name>
         <briefdescription>
-        </briefdescription>
+<para>Remove clears the tile back to a sea tile </para>        </briefdescription>
         <detaileddescription>
-<para>Remove clears the tile back to a sea tile </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Ship.cs" line="118" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Ship.cs" bodystart="118" bodyend="123"/>
@@ -313,9 +313,9 @@
           <declname>col</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Record that the ship is now deployed. </para>        </briefdescription>
         <detaileddescription>
-<para>Record that the ship is now deployed. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>direction</parametername>
 </parameternamelist>

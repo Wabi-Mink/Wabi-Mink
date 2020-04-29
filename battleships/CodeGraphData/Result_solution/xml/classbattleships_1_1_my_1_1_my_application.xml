@@ -8,17 +8,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="97">
-        <label>Microsoft::VisualBasic::ApplicationServices::ConsoleApplicationBase</label>
-      </node>
-      <node id="96">
-        <label>battleships.My.MyApplication</label>
-        <link refid="classbattleships_1_1_my_1_1_my_application"/>
-        <childnode refid="97" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="99">
         <label>Microsoft::VisualBasic::ApplicationServices::ConsoleApplicationBase</label>
       </node>
@@ -26,6 +15,17 @@
         <label>battleships.My.MyApplication</label>
         <link refid="classbattleships_1_1_my_1_1_my_application"/>
         <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="101">
+        <label>Microsoft::VisualBasic::ApplicationServices::ConsoleApplicationBase</label>
+      </node>
+      <node id="100">
+        <label>battleships.My.MyApplication</label>
+        <link refid="classbattleships_1_1_my_1_1_my_application"/>
+        <childnode refid="101" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -42,7 +42,7 @@ namespace battleships
         /// </summary>
         public static void HandleEndOfGameInput()
         {
-            if (SwinGame.MouseClicked(MouseButton.LeftButton) || SwinGame.KeyTyped(KeyCode.vk_RETURN) || SwinGame.KeyTyped(KeyCode.vk_ESCAPE))
+            if (SwinGame.KeyTyped(KeyCode.vk_RETURN))
 
             {
                 HighScoreController.ReadHighScore(GameController.HumanPlayer.Score);

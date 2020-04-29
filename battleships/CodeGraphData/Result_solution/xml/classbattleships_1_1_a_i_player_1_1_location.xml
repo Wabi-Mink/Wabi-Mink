@@ -39,14 +39,14 @@
         <argsstring></argsstring>
         <name>Row</name>
         <briefdescription>
-        </briefdescription>
+<para>The row of the shot </para>        </briefdescription>
         <detaileddescription>
-<para>The row of the shot </para><para>The row of the shot</para><para><simplesect kind="return"><para>The row of the shot</para></simplesect>
+<para>The row of the shot</para><para><simplesect kind="return"><para>The row of the shot</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIPlayer.cs" line="26" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIPlayer.cs" bodystart="27" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a855ada8b410e912788bdffc608130ebc" compoundref="_a_i_hard_player_8cs" startline="342" endline="355">battleships.AIHardPlayer.ReOrderTargets</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a855ada8b410e912788bdffc608130ebc" compoundref="_a_i_hard_player_8cs" startline="341" endline="354">battleships.AIHardPlayer.ReOrderTargets</referencedby>
       </memberdef>
       <memberdef kind="property" id="classbattleships_1_1_a_i_player_1_1_location_1aa73854fbb0ba2908a1abffea41ed6a2a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>int</type>
@@ -54,14 +54,14 @@
         <argsstring></argsstring>
         <name>Column</name>
         <briefdescription>
-        </briefdescription>
+<para>The column of the shot </para>        </briefdescription>
         <detaileddescription>
-<para>The column of the shot </para><para>The column of the shot</para><para><simplesect kind="return"><para>The column of the shot</para></simplesect>
+<para>The column of the shot</para><para><simplesect kind="return"><para>The column of the shot</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIPlayer.cs" line="44" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIPlayer.cs" bodystart="45" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a855ada8b410e912788bdffc608130ebc" compoundref="_a_i_hard_player_8cs" startline="342" endline="355">battleships.AIHardPlayer.ReOrderTargets</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a855ada8b410e912788bdffc608130ebc" compoundref="_a_i_hard_player_8cs" startline="341" endline="354">battleships.AIHardPlayer.ReOrderTargets</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -79,9 +79,9 @@
           <declname>column</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Sets the last hit made to the local variables </para>        </briefdescription>
         <detaileddescription>
-<para>Sets the last hit made to the local variables </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>row</parametername>
 </parameternamelist>
@@ -119,9 +119,9 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Check if two locations are equal </para>        </briefdescription>
         <detaileddescription>
-<para>Check if two locations are equal </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>this</parametername>
 </parameternamelist>
@@ -156,9 +156,9 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Check if two locations are not equal </para>        </briefdescription>
         <detaileddescription>
-<para>Check if two locations are not equal </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>this</parametername>
 </parameternamelist>
@@ -181,9 +181,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para><ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref> can store the location of the last hit made by an AI <ref refid="classbattleships_1_1_player" kindref="compound">Player</ref>. The use of which determines the difficulty. </para>    </briefdescription>
     <detaileddescription>
-<para><ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref> can store the location of the last hit made by an AI <ref refid="classbattleships_1_1_player" kindref="compound">Player</ref>. The use of which determines the difficulty. </para>    </detaileddescription>
+    </detaileddescription>
     <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIPlayer.cs" line="17" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIPlayer.cs" bodystart="16" bodyend="89"/>
     <listofallmembers>
       <member refid="classbattleships_1_1_a_i_player_1_1_location_1a729bdf70ae2a3618805eb79aaea84216" prot="private" virt="non-virtual"><scope>battleships::AIPlayer::Location</scope><name>_Column</name></member>

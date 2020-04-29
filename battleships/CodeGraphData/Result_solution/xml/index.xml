@@ -118,6 +118,7 @@
     <member refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" kind="function"><name>CheckAttackResult</name></member>
     <member refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" kind="function"><name>StartGame</name></member>
     <member refid="classbattleships_1_1_game_controller_1ab23ef85fb0ef040e19e50bfd3bdb2705" kind="function"><name>EndDeployment</name></member>
+    <member refid="classbattleships_1_1_game_controller_1afe094c2d61cef3fc2fe3d5a5a9bcb369" kind="function"><name>HelloWorld</name></member>
     <member refid="classbattleships_1_1_game_controller_1afe6772f328fd1c6a2d504f03db534133" kind="function"><name>Attack</name></member>
     <member refid="classbattleships_1_1_game_controller_1a64335e0908b94cf40a66410d0e3763f8" kind="function"><name>HandleUserInput</name></member>
     <member refid="classbattleships_1_1_game_controller_1a898fb9ca29c884c004fe2281c9622ee1" kind="function"><name>DrawScreen</name></member>
@@ -164,6 +165,10 @@
     <member refid="classbattleships_1_1_game_resources_1a725b8a2b8dcf9a30daf896d295bf2bcd" kind="function"><name>GameMusic</name></member>
     <member refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" kind="function"><name>LoadResources</name></member>
     <member refid="classbattleships_1_1_game_resources_1a99e632b816cd08c5c5138766670ccaa6" kind="function"><name>FreeResources</name></member>
+  </compound>
+  <compound refid="classbattleships_unit_test_1_1_hello_world" kind="class"><name>battleshipsUnitTest::HelloWorld</name>
+    <member refid="classbattleships_unit_test_1_1_hello_world_1a64d9bd31bc12591cdae384809d4f4448" kind="variable"><name>Expected</name></member>
+    <member refid="classbattleships_unit_test_1_1_hello_world_1a1b0e13cfdbb2ee530749122250b31267" kind="function"><name>TestMethod1</name></member>
   </compound>
   <compound refid="classbattleships_1_1_high_score_controller" kind="class"><name>battleships::HighScoreController</name>
     <member refid="classbattleships_1_1_high_score_controller_1aa4dbfbd7878986f39efabd5169daaadb" kind="variable"><name>NAME_WIDTH</name></member>
@@ -454,6 +459,8 @@
   </compound>
   <compound refid="namespacebattleships_1_1_my" kind="namespace"><name>battleships::My</name>
   </compound>
+  <compound refid="namespacebattleships_unit_test" kind="namespace"><name>battleshipsUnitTest</name>
+  </compound>
   <compound refid="namespaceglobal_1_1_swin_game_s_d_k" kind="namespace"><name>global::SwinGameSDK</name>
   </compound>
   <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
@@ -466,6 +473,8 @@
   </compound>
   <compound refid="namespace_microsoft_1_1_visual_basic_1_1_compiler_services" kind="namespace"><name>Microsoft::VisualBasic::CompilerServices</name>
   </compound>
+  <compound refid="namespace_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing" kind="namespace"><name>Microsoft::VisualStudio::TestTools::UnitTesting</name>
+  </compound>
   <compound refid="namespace_system" kind="namespace"><name>System</name>
   </compound>
   <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
@@ -476,7 +485,15 @@
   </compound>
   <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
   </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
   <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
   </compound>
   <compound refid="namespace_system_1_1_xml_1_1_linq" kind="namespace"><name>System::Xml::Linq</name>
   </compound>
@@ -540,6 +557,10 @@
   </compound>
   <compound refid="_utility_functions_8cs" kind="file"><name>UtilityFunctions.cs</name>
   </compound>
+  <compound refid="_hello_world_01_8cs" kind="file"><name>HelloWorld .cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
   <compound refid="md__d_1__google__drive__accounts__monique_8n_8kuhn__drive__study__uni__work_2020__s1__s_w_e20001839b04715c12f94fe1305da6d94a0d48" kind="page"><name>md_D:_Google_Drive_Accounts_Monique.n.kuhn_Drive_Study_Uni_Work_2020_S1_SWE20001_SWE20001_Group_Project_Battleship_Project_battleship_battleships_README</name>
   <compound refid="dir_54d524641188b39666fee1474e9e9f33" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020</name>
   </compound>
@@ -548,6 +569,8 @@
   <compound refid="dir_ebca47cec4f994e4127eb547fb0204a5" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project</name>
   </compound>
   <compound refid="dir_22b4adcec241307f2a33d2b92da0027e" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships</name>
+  </compound>
+  <compound refid="dir_23a40046761b4aa2965e66fe66028ee4" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests</name>
   </compound>
   <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
   </compound>
@@ -558,6 +581,8 @@
   <compound refid="dir_799dfd8c13b4d8a20cbc142534ec8c73" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive</name>
   </compound>
   <compound refid="dir_5f49feb4f56ddd492b52c9d34844048d" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project</name>
+  </compound>
+  <compound refid="dir_64b2773aae79d051dd54828827a2f14e" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests/Properties</name>
   </compound>
   <compound refid="dir_b79c05f7ea1c3a72a4f0ca970f825b62" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1</name>
   </compound>

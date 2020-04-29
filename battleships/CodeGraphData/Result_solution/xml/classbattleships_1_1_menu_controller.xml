@@ -10,9 +10,9 @@
         <name>_menuStructure</name>
         <initializer>= new[] { new string[] { &quot;PLAY&quot;, &quot;SETUP&quot;, &quot;SCORES&quot;, &quot;QUIT&quot; }, new string[] { &quot;RETURN&quot;, &quot;SURRENDER&quot;, &quot;QUIT&quot; }, new string[] { &quot;EASY&quot;, &quot;MEDIUM&quot;, &quot;HARD&quot; } }</initializer>
         <briefdescription>
-        </briefdescription>
+<para>The menu structure for the game. </para>        </briefdescription>
         <detaileddescription>
-<para>The menu structure for the game. </para><para>These are the text captions for the menu items. </para>        </detaileddescription>
+<para>These are the text captions for the menu items. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" line="21" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" bodystart="21" bodyend="-1"/>
@@ -387,9 +387,9 @@
         <argsstring>()</argsstring>
         <name>HandleMainMenuInput</name>
         <briefdescription>
-        </briefdescription>
+<para>Handles the processing of user input when the main menu is showing </para>        </briefdescription>
         <detaileddescription>
-<para>Handles the processing of user input when the main menu is showing </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" line="51" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" bodystart="51" bodyend="54"/>
@@ -402,9 +402,9 @@
         <argsstring>()</argsstring>
         <name>HandleSetupMenuInput</name>
         <briefdescription>
-        </briefdescription>
+<para>Handles the processing of user input when the main menu is showing </para>        </briefdescription>
         <detaileddescription>
-<para>Handles the processing of user input when the main menu is showing </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" line="59" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" bodystart="59" bodyend="67"/>
@@ -418,9 +418,9 @@
         <argsstring>()</argsstring>
         <name>HandleGameMenuInput</name>
         <briefdescription>
-        </briefdescription>
+<para>Handle input in the game menu. </para>        </briefdescription>
         <detaileddescription>
-<para>Handle input in the game menu. </para><para><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref> can return to the game, surrender, or quit entirely </para>        </detaileddescription>
+<para><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref> can return to the game, surrender, or quit entirely </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" line="75" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" bodystart="75" bodyend="78"/>
@@ -433,9 +433,9 @@
         <argsstring>()</argsstring>
         <name>DrawMainMenu</name>
         <briefdescription>
-        </briefdescription>
+<para>Draws the main menu to the screen. </para>        </briefdescription>
         <detaileddescription>
-<para>Draws the main menu to the screen. </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" line="122" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" bodystart="122" bodyend="128"/>
@@ -448,9 +448,9 @@
         <argsstring>()</argsstring>
         <name>DrawGameMenu</name>
         <briefdescription>
-        </briefdescription>
+<para>Draws the Game menu to the screen </para>        </briefdescription>
         <detaileddescription>
-<para>Draws the Game menu to the screen </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" line="133" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" bodystart="133" bodyend="139"/>
@@ -463,9 +463,9 @@
         <argsstring>()</argsstring>
         <name>DrawSettings</name>
         <briefdescription>
-        </briefdescription>
+<para>Draws the settings menu to the screen. </para>        </briefdescription>
         <detaileddescription>
-<para>Draws the settings menu to the screen. </para><para>Also shows the main menu </para>        </detaileddescription>
+<para>Also shows the main menu </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" line="147" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" bodystart="147" bodyend="154"/>
@@ -493,9 +493,9 @@
           <declname>xOffset</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Handles input for the specified menu. </para>        </briefdescription>
         <detaileddescription>
-<para>Handles input for the specified menu. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>menu</parametername>
 </parameternamelist>
@@ -539,9 +539,9 @@
           <declname>menu</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Draw the buttons associated with a top level menu. </para>        </briefdescription>
         <detaileddescription>
-<para>Draw the buttons associated with a top level menu. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>menu</parametername>
 </parameternamelist>
@@ -575,9 +575,9 @@
           <declname>xOffset</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Draws the menu at the indicated level. </para>        </briefdescription>
         <detaileddescription>
-<para>Draws the menu at the indicated level. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>menu</parametername>
 </parameternamelist>
@@ -625,9 +625,9 @@
           <declname>button</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Determined if the mouse is over one of the button in the main menu. </para>        </briefdescription>
         <detaileddescription>
-<para>Determined if the mouse is over one of the button in the main menu. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>button</parametername>
 </parameternamelist>
@@ -660,9 +660,9 @@
           <declname>xOffset</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Checks if the mouse is over one of the buttons in a menu. </para>        </briefdescription>
         <detaileddescription>
-<para>Checks if the mouse is over one of the buttons in a menu. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>button</parametername>
 </parameternamelist>
@@ -713,9 +713,9 @@
           <declname>button</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>A button has been clicked, perform the associated action. </para>        </briefdescription>
         <detaileddescription>
-<para>A button has been clicked, perform the associated action. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>menu</parametername>
 </parameternamelist>
@@ -752,9 +752,9 @@
           <declname>button</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>The main menu was clicked, perform the button&apos;s action. </para>        </briefdescription>
         <detaileddescription>
-<para>The main menu was clicked, perform the button&apos;s action. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>button</parametername>
 </parameternamelist>
@@ -782,9 +782,9 @@
           <declname>button</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>The setup menu was clicked, perform the button&apos;s action. </para>        </briefdescription>
         <detaileddescription>
-<para>The setup menu was clicked, perform the button&apos;s action. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>button</parametername>
 </parameternamelist>
@@ -811,9 +811,9 @@
           <declname>button</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>The game menu was clicked, perform the button&apos;s action. </para>        </briefdescription>
         <detaileddescription>
-<para>The game menu was clicked, perform the button&apos;s action. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>button</parametername>
 </parameternamelist>
@@ -832,9 +832,9 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The menu controller handles the drawing and user interactions from the menus in the game. These include the main menu, game menu and the settings m,enu. </para>    </briefdescription>
     <detaileddescription>
-<para>The menu controller handles the drawing and user interactions from the menus in the game. These include the main menu, game menu and the settings m,enu. </para>    </detaileddescription>
+    </detaileddescription>
     <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" line="13" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/MenuController.cs" bodystart="12" bodyend="345"/>
     <listofallmembers>
       <member refid="classbattleships_1_1_menu_controller_1a6d5e58088ba74c0b74654546997348ab" prot="private" virt="non-virtual"><scope>battleships::MenuController</scope><name>_menuStructure</name></member>

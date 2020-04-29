@@ -21,9 +21,9 @@
           </detaileddescription>
         </enumvalue>
         <briefdescription>
-        </briefdescription>
+<para>Private enumarator for AI states. currently there are two states, the AI can be searching for a ship, or if it has found a ship it will target the same ship </para>        </briefdescription>
         <detaileddescription>
-<para>Private enumarator for AI states. currently there are two states, the AI can be searching for a ship, or if it has found a ship it will target the same ship </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="19" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="18" bodyend="22"/>
@@ -43,9 +43,9 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="24" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="24" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="70">battleships.AIMediumPlayer.GenerateCoords</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" compoundref="_a_i_medium_player_8cs" startline="106" endline="120">battleships.AIMediumPlayer.ProcessShot</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" compoundref="_a_i_medium_player_8cs" startline="78" endline="85">battleships.AIMediumPlayer.TargetCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" compoundref="_a_i_medium_player_8cs" startline="105" endline="119">battleships.AIMediumPlayer.ProcessShot</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" compoundref="_a_i_medium_player_8cs" startline="77" endline="84">battleships.AIMediumPlayer.TargetCoords</referencedby>
       </memberdef>
       <memberdef kind="variable" id="classbattleships_1_1_a_i_medium_player_1a6ff5f15f9e41187a1a7dd9422143a227" prot="private" static="no" mutable="no">
         <type>Stack&lt; <ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref> &gt;</type>
@@ -60,7 +60,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="25" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="25" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" compoundref="_a_i_medium_player_8cs" startline="78" endline="85">battleships.AIMediumPlayer.TargetCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" compoundref="_a_i_medium_player_8cs" startline="77" endline="84">battleships.AIMediumPlayer.TargetCoords</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -98,9 +98,9 @@
           <declname>column</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>GenerateCoordinates should generate random shooting coordinates only when it has not found a ship, or has destroyed a ship and needs new shooting coordinates </para>        </briefdescription>
         <detaileddescription>
-<para>GenerateCoordinates should generate random shooting coordinates only when it has not found a ship, or has destroyed a ship and needs new shooting coordinates </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>row</parametername>
 </parameternamelist>
@@ -118,12 +118,12 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="38" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="38" bodyend="70"/>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="38" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="38" bodyend="69"/>
         <references refid="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" compoundref="_a_i_medium_player_8cs" startline="24">battleships.AIMediumPlayer._CurrentState</references>
         <references refid="classbattleships_1_1_player_1afa4e3c2651f0100aff0f7802af8e94f1" compoundref="_player_8cs" startline="74">battleships.Player.EnemyGrid</references>
         <references refid="interfacebattleships_1_1_i_sea_grid_1a5ec9d3c93bf25602616426e4ff81a142" compoundref="_i_sea_grid_8cs" startline="12">battleships.ISeaGrid.Height</references>
-        <references refid="classbattleships_1_1_a_i_medium_player_1a66bb37af46616ab88ea350a05ba31821" compoundref="_a_i_medium_player_8cs" startline="92" endline="96">battleships.AIMediumPlayer.SearchCoords</references>
-        <references refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" compoundref="_a_i_medium_player_8cs" startline="78" endline="85">battleships.AIMediumPlayer.TargetCoords</references>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a66bb37af46616ab88ea350a05ba31821" compoundref="_a_i_medium_player_8cs" startline="91" endline="95">battleships.AIMediumPlayer.SearchCoords</references>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" compoundref="_a_i_medium_player_8cs" startline="77" endline="84">battleships.AIMediumPlayer.TargetCoords</references>
         <references refid="interfacebattleships_1_1_i_sea_grid_1ac6829a2f526e915b1fa33444d73286d8" compoundref="_i_sea_grid_8cs" startline="11">battleships.ISeaGrid.Width</references>
       </memberdef>
       <memberdef kind="function" id="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -145,9 +145,9 @@
           <declname>result</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>ProcessShot will be called uppon when a ship is found. It will create a stack with targets it will try to hit. These targets will be around the tile that has been hit. </para>        </briefdescription>
         <detaileddescription>
-<para>ProcessShot will be called uppon when a ship is found. It will create a stack with targets it will try to hit. These targets will be around the tile that has been hit. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>row</parametername>
 </parameternamelist>
@@ -166,15 +166,15 @@
 <parametername>result</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>the result og the last shot (should be hit)</para></parameterdescription>
+<para>the result of the last shot (should be hit)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="106" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="106" bodyend="120"/>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="105" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="105" bodyend="119"/>
         <references refid="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" compoundref="_a_i_medium_player_8cs" startline="24">battleships.AIMediumPlayer._CurrentState</references>
-        <references refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="127" endline="135">battleships.AIMediumPlayer.AddTarget</references>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="126" endline="132">battleships.AIMediumPlayer.AddTarget</references>
         <references refid="classbattleships_1_1_attack_result_1aaf59a980720cd5896f56b370ff6f4700" compoundref="_attack_result_8cs" startline="21">battleships.AttackResult.Value</references>
       </memberdef>
       </sectiondef>
@@ -193,9 +193,9 @@
           <declname>column</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>TargetCoords is used when a ship has been hit and it will try and destroy this ship </para>        </briefdescription>
         <detaileddescription>
-<para>TargetCoords is used when a ship has been hit and it will try and destroy this ship </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>row</parametername>
 </parameternamelist>
@@ -213,10 +213,10 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="78" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="78" bodyend="85"/>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="77" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="77" bodyend="84"/>
         <references refid="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" compoundref="_a_i_medium_player_8cs" startline="24">battleships.AIMediumPlayer._CurrentState</references>
         <references refid="classbattleships_1_1_a_i_medium_player_1a6ff5f15f9e41187a1a7dd9422143a227" compoundref="_a_i_medium_player_8cs" startline="25">battleships.AIMediumPlayer._Targets</references>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="70">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
       </memberdef>
       <memberdef kind="function" id="classbattleships_1_1_a_i_medium_player_1a66bb37af46616ab88ea350a05ba31821" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -232,9 +232,9 @@
           <declname>column</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>SearchCoords will randomly generate shots within the grid as long as its not hit that tile already </para>        </briefdescription>
         <detaileddescription>
-<para>SearchCoords will randomly generate shots within the grid as long as its not hit that tile already </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>row</parametername>
 </parameternamelist>
@@ -252,8 +252,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="92" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="92" bodyend="96"/>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="70">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="91" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="91" bodyend="95"/>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
       </memberdef>
       <memberdef kind="function" id="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -269,9 +269,9 @@
           <declname>column</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>AddTarget will add the targets it will shoot onto a stack </para>        </briefdescription>
         <detaileddescription>
-<para>AddTarget will add the targets it will shoot onto a stack </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>row</parametername>
 </parameternamelist>
@@ -289,11 +289,11 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="127" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="127" bodyend="135"/>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="126" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="126" bodyend="132"/>
         <references refid="classbattleships_1_1_player_1afa4e3c2651f0100aff0f7802af8e94f1" compoundref="_player_8cs" startline="74">battleships.Player.EnemyGrid</references>
         <references refid="interfacebattleships_1_1_i_sea_grid_1a5ec9d3c93bf25602616426e4ff81a142" compoundref="_i_sea_grid_8cs" startline="12">battleships.ISeaGrid.Height</references>
         <references refid="interfacebattleships_1_1_i_sea_grid_1ac6829a2f526e915b1fa33444d73286d8" compoundref="_i_sea_grid_8cs" startline="11">battleships.ISeaGrid.Width</references>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" compoundref="_a_i_medium_player_8cs" startline="106" endline="120">battleships.AIMediumPlayer.ProcessShot</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" compoundref="_a_i_medium_player_8cs" startline="105" endline="119">battleships.AIMediumPlayer.ProcessShot</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -405,7 +405,7 @@
         <link refid="interfacebattleships_1_1_i_sea_grid"/>
       </node>
     </collaborationgraph>
-    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="11" bodyend="136"/>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="11" bodyend="133"/>
     <listofallmembers>
       <member refid="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" prot="private" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>_CurrentState</name></member>
       <member refid="classbattleships_1_1_player_1aa5b7925b964a30672390c3279869aa82" prot="protected" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>_game</name></member>

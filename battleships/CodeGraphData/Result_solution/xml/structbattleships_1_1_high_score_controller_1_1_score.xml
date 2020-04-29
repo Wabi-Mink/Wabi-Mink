@@ -45,9 +45,9 @@
           <declname>obj</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Allows scores to be compared to facilitate sorting </para>        </briefdescription>
         <detaileddescription>
-<para>Allows scores to be compared to facilitate sorting </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>obj</parametername>
 </parameternamelist>
@@ -64,21 +64,10 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>The score structure is used to keep the name and score of the top players together. </para>    </briefdescription>
     <detaileddescription>
-<para>The score structure is used to keep the name and score of the top players together. </para>    </detaileddescription>
+    </detaileddescription>
     <inheritancegraph>
-      <node id="122">
-        <label>IComparable</label>
-      </node>
-      <node id="121">
-        <label>battleships.HighScoreController.Score</label>
-        <link refid="structbattleships_1_1_high_score_controller_1_1_score"/>
-        <childnode refid="122" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="124">
         <label>IComparable</label>
       </node>
@@ -86,6 +75,17 @@
         <label>battleships.HighScoreController.Score</label>
         <link refid="structbattleships_1_1_high_score_controller_1_1_score"/>
         <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="126">
+        <label>IComparable</label>
+      </node>
+      <node id="125">
+        <label>battleships.HighScoreController.Score</label>
+        <link refid="structbattleships_1_1_high_score_controller_1_1_score"/>
+        <childnode refid="126" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -17,11 +17,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" line="11" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" bodystart="11" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="127" endline="135">battleships.AIMediumPlayer.AddTarget</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" compoundref="_a_i_hard_player_8cs" startline="396" endline="404">battleships.AIHardPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="126" endline="132">battleships.AIMediumPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" compoundref="_a_i_hard_player_8cs" startline="395" endline="401">battleships.AIHardPlayer.AddTarget</referencedby>
         <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="70">battleships.AIMediumPlayer.GenerateCoords</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a5724c4cc269e73baa7f72003389a4d19" compoundref="_a_i_hard_player_8cs" startline="120" endline="155">battleships.AIHardPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a5724c4cc269e73baa7f72003389a4d19" compoundref="_a_i_hard_player_8cs" startline="120" endline="154">battleships.AIHardPlayer.GenerateCoords</referencedby>
       </memberdef>
       <memberdef kind="property" id="interfacebattleships_1_1_i_sea_grid_1a5ec9d3c93bf25602616426e4ff81a142" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
         <type>int</type>
@@ -35,11 +35,11 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" bodystart="12" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="127" endline="135">battleships.AIMediumPlayer.AddTarget</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" compoundref="_a_i_hard_player_8cs" startline="396" endline="404">battleships.AIHardPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="126" endline="132">battleships.AIMediumPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" compoundref="_a_i_hard_player_8cs" startline="395" endline="401">battleships.AIHardPlayer.AddTarget</referencedby>
         <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="70">battleships.AIMediumPlayer.GenerateCoords</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a5724c4cc269e73baa7f72003389a4d19" compoundref="_a_i_hard_player_8cs" startline="120" endline="155">battleships.AIHardPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a5724c4cc269e73baa7f72003389a4d19" compoundref="_a_i_hard_player_8cs" startline="120" endline="154">battleships.AIHardPlayer.GenerateCoords</referencedby>
       </memberdef>
       <memberdef kind="property" id="interfacebattleships_1_1_i_sea_grid_1ac735f266f126c5bc1768b5f6e9e05045" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
         <type><ref refid="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719f" kindref="member">TileView</ref></type>
@@ -132,19 +132,19 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="90">
+      <node id="92">
         <label>battleships.SeaGridAdapter</label>
         <link refid="classbattleships_1_1_sea_grid_adapter"/>
-        <childnode refid="88" relation="public-inheritance">
+        <childnode refid="90" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="89">
+      <node id="91">
         <label>battleships.SeaGrid</label>
         <link refid="classbattleships_1_1_sea_grid"/>
-        <childnode refid="88" relation="public-inheritance">
+        <childnode refid="90" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="88">
+      <node id="90">
         <label>battleships.ISeaGrid</label>
         <link refid="interfacebattleships_1_1_i_sea_grid"/>
       </node>

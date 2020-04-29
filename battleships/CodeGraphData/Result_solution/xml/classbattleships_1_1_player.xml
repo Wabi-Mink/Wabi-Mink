@@ -130,9 +130,9 @@
         <argsstring></argsstring>
         <name>Game</name>
         <briefdescription>
-        </briefdescription>
+<para>Returns the game that the player is part of. </para>        </briefdescription>
         <detaileddescription>
-<para>Returns the game that the player is part of. </para><para>The game</para><para><simplesect kind="return"><para>The game that the player is playing</para></simplesect>
+<para>The game</para><para><simplesect kind="return"><para>The game that the player is playing</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -144,9 +144,9 @@
         <argsstring></argsstring>
         <name>Enemy</name>
         <briefdescription>
-        </briefdescription>
+<para>Sets the grid of the enemy player </para>        </briefdescription>
         <detaileddescription>
-<para>Sets the grid of the enemy player </para><para>The enemy&apos;s sea grid</para>        </detaileddescription>
+<para>The enemy&apos;s sea grid</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" line="45" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" bodystart="46" bodyend="-1"/>
@@ -157,17 +157,17 @@
         <argsstring></argsstring>
         <name>EnemyGrid</name>
         <briefdescription>
-        </briefdescription>
+<para>The EnemyGrid is a <ref refid="interfacebattleships_1_1_i_sea_grid" kindref="compound">ISeaGrid</ref> because you shouldn&apos;t be allowed to see the enemies ships </para>        </briefdescription>
         <detaileddescription>
-<para>The EnemyGrid is a <ref refid="interfacebattleships_1_1_i_sea_grid" kindref="compound">ISeaGrid</ref> because you shouldn&apos;t be allowed to see the enemies ships </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" line="73" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" bodystart="74" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="127" endline="135">battleships.AIMediumPlayer.AddTarget</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" compoundref="_a_i_hard_player_8cs" startline="396" endline="404">battleships.AIHardPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="126" endline="132">battleships.AIMediumPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" compoundref="_a_i_hard_player_8cs" startline="395" endline="401">battleships.AIHardPlayer.AddTarget</referencedby>
         <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="70">battleships.AIMediumPlayer.GenerateCoords</referencedby>
-        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a5724c4cc269e73baa7f72003389a4d19" compoundref="_a_i_hard_player_8cs" startline="120" endline="155">battleships.AIHardPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a5724c4cc269e73baa7f72003389a4d19" compoundref="_a_i_hard_player_8cs" startline="120" endline="154">battleships.AIHardPlayer.GenerateCoords</referencedby>
       </memberdef>
       <memberdef kind="property" id="classbattleships_1_1_player_1a224a5ec515b83d78ff01658cfa9874db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
         <type><ref refid="classbattleships_1_1_sea_grid" kindref="compound">SeaGrid</ref></type>
@@ -175,9 +175,9 @@
         <argsstring></argsstring>
         <name>PlayerGrid</name>
         <briefdescription>
-        </briefdescription>
+<para>The PlayerGrid is just a normal <ref refid="classbattleships_1_1_sea_grid" kindref="compound">SeaGrid</ref> where the players ships can be deployed and seen </para>        </briefdescription>
         <detaileddescription>
-<para>The PlayerGrid is just a normal <ref refid="classbattleships_1_1_sea_grid" kindref="compound">SeaGrid</ref> where the players ships can be deployed and seen </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" line="89" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" bodystart="90" bodyend="-1"/>
@@ -189,9 +189,9 @@
         <argsstring></argsstring>
         <name>ReadyToDeploy</name>
         <briefdescription>
-        </briefdescription>
+<para>ReadyToDeploy returns true if all ships are deployed </para>        </briefdescription>
         <detaileddescription>
-<para>ReadyToDeploy returns true if all ships are deployed </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" line="100" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" bodystart="101" bodyend="-1"/>
@@ -210,7 +210,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" line="108" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" bodystart="109" bodyend="-1"/>
-        <referencedby refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="168" endline="231">battleships.GameController.AttackCompleted</referencedby>
+        <referencedby refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="169" endline="232">battleships.GameController.AttackCompleted</referencedby>
         <referencedby refid="classbattleships_1_1_ending_game_controller_1abe5a332e65ac372b395b88241647d07f" compoundref="_ending_game_controller_8cs" startline="17" endline="37">battleships.EndingGameController.DrawEndOfGame</referencedby>
       </memberdef>
       <memberdef kind="property" id="classbattleships_1_1_player_1a2c5cf0f98e96aeac6b2e6ccb4167e561" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
@@ -219,9 +219,9 @@
         <argsstring></argsstring>
         <name>Shots</name>
         <briefdescription>
-        </briefdescription>
+<para>The number of shots the player has made </para>        </briefdescription>
         <detaileddescription>
-<para>The number of shots the player has made </para><para>shots taken</para><para><simplesect kind="return"><para>teh number of shots taken</para></simplesect>
+<para>shots taken</para><para><simplesect kind="return"><para>teh number of shots taken</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -246,9 +246,9 @@
         <argsstring></argsstring>
         <name>Missed</name>
         <briefdescription>
-        </briefdescription>
+<para>Total number of shots that missed </para>        </briefdescription>
         <detaileddescription>
-<para>Total number of shots that missed </para><para>miss count</para><para><simplesect kind="return"><para>the number of shots that have missed ships</para></simplesect>
+<para>miss count</para><para><simplesect kind="return"><para>the number of shots that have missed ships</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -301,9 +301,9 @@
           <declname>name</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns the <ref refid="classbattleships_1_1_player" kindref="compound">Player</ref>&apos;s ship with the given name. </para>        </briefdescription>
         <detaileddescription>
-<para>Returns the <ref refid="classbattleships_1_1_player" kindref="compound">Player</ref>&apos;s ship with the given name. </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>name</parametername>
 </parameternamelist>
@@ -324,9 +324,9 @@
         <argsstring>()</argsstring>
         <name>GetShipEnumerator</name>
         <briefdescription>
-        </briefdescription>
+<para>Makes it possible to enumerate over the ships the player has. </para>        </briefdescription>
         <detaileddescription>
-<para>Makes it possible to enumerate over the ships the player has. </para><para><simplesect kind="return"><para>A <ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref> enumerator</para></simplesect>
+<para><simplesect kind="return"><para>A <ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref> enumerator</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -338,9 +338,9 @@
         <argsstring>()</argsstring>
         <name>GetEnumerator</name>
         <briefdescription>
-        </briefdescription>
+<para>Makes it possible to enumerate over the ships the player has. </para>        </briefdescription>
         <detaileddescription>
-<para>Makes it possible to enumerate over the ships the player has. </para><para><simplesect kind="return"><para>A <ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref> enumerator</para></simplesect>
+<para><simplesect kind="return"><para>A <ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref> enumerator</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -353,9 +353,9 @@
         <name>Attack</name>
         <reimplementedby refid="classbattleships_1_1_a_i_player_1addcfd08be0b45f04c405224e9628945a">Attack</reimplementedby>
         <briefdescription>
-        </briefdescription>
+<para>Vitual Attack allows the player to shoot </para>        </briefdescription>
         <detaileddescription>
-<para>Vitual Attack allows the player to shoot </para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" line="211" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/Player.cs" bodystart="211" bodyend="215"/>
@@ -390,9 +390,9 @@
           <declname>col</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Shoot at a given row/column </para>        </briefdescription>
         <detaileddescription>
-<para>Shoot at a given row/column </para><para><parameterlist kind="param"><parameteritem>
+<para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>row</parametername>
 </parameternamelist>
@@ -422,85 +422,85 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="110">
+      <node id="112">
         <label>battleships.AIPlayer</label>
         <link refid="classbattleships_1_1_a_i_player"/>
-        <childnode refid="108" relation="public-inheritance">
+        <childnode refid="110" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="112">
+      <node id="114">
         <label>battleships.AIMediumPlayer</label>
         <link refid="classbattleships_1_1_a_i_medium_player"/>
-        <childnode refid="110" relation="public-inheritance">
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>battleships.AIHardPlayer</label>
+        <link refid="classbattleships_1_1_a_i_hard_player"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>battleships.Player</label>
+        <link refid="classbattleships_1_1_player"/>
+        <childnode refid="111" relation="public-inheritance">
         </childnode>
       </node>
       <node id="111">
-        <label>battleships.AIHardPlayer</label>
-        <link refid="classbattleships_1_1_a_i_hard_player"/>
-        <childnode refid="110" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="108">
-        <label>battleships.Player</label>
-        <link refid="classbattleships_1_1_player"/>
-        <childnode refid="109" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="109">
         <label>IEnumerable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="118">
+      <node id="120">
         <label>ISeaGrid</label>
         <link refid="interfacebattleships_1_1_i_sea_grid"/>
       </node>
-      <node id="119">
+      <node id="121">
         <label>battleships.Tile</label>
         <link refid="classbattleships_1_1_tile"/>
-        <childnode refid="120" relation="usage">
+        <childnode refid="122" relation="usage">
           <edgelabel>_Ship</edgelabel>
         </childnode>
       </node>
-      <node id="115">
+      <node id="117">
         <label>battleships.BattleShipsGame</label>
         <link refid="classbattleships_1_1_battle_ships_game"/>
-        <childnode refid="113" relation="usage">
+        <childnode refid="115" relation="usage">
           <edgelabel>_players</edgelabel>
         </childnode>
       </node>
-      <node id="120">
+      <node id="122">
         <label>battleships.Ship</label>
         <link refid="classbattleships_1_1_ship"/>
       </node>
-      <node id="113">
+      <node id="115">
         <label>battleships.Player</label>
         <link refid="classbattleships_1_1_player"/>
-        <childnode refid="114" relation="public-inheritance">
-        </childnode>
-        <childnode refid="115" relation="usage">
-          <edgelabel>_game</edgelabel>
-        </childnode>
-        <childnode refid="116" relation="usage">
-          <edgelabel>_enemyGrid</edgelabel>
+        <childnode refid="116" relation="public-inheritance">
         </childnode>
         <childnode refid="117" relation="usage">
+          <edgelabel>_game</edgelabel>
+        </childnode>
+        <childnode refid="118" relation="usage">
+          <edgelabel>_enemyGrid</edgelabel>
+        </childnode>
+        <childnode refid="119" relation="usage">
           <edgelabel>_playerGrid</edgelabel>
         </childnode>
       </node>
-      <node id="114">
+      <node id="116">
         <label>IEnumerable</label>
       </node>
-      <node id="117">
+      <node id="119">
         <label>battleships.SeaGrid</label>
         <link refid="classbattleships_1_1_sea_grid"/>
-        <childnode refid="118" relation="public-inheritance">
+        <childnode refid="120" relation="public-inheritance">
         </childnode>
-        <childnode refid="119" relation="usage">
+        <childnode refid="121" relation="usage">
           <edgelabel>_GameTiles</edgelabel>
         </childnode>
       </node>
-      <node id="116">
+      <node id="118">
         <label>battleships.ISeaGrid</label>
         <link refid="interfacebattleships_1_1_i_sea_grid"/>
       </node>

@@ -29,58 +29,58 @@
         <enumvalue id="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a46266e6501ca34518c07be04e2c97f6c" prot="public">
           <name>ViewingMainMenu</name>
           <briefdescription>
-          </briefdescription>
+<para>The player is viewing the main menu. </para>          </briefdescription>
           <detaileddescription>
-<para>The player is viewing the main menu. </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a3db7206952db69bc4caba804b9edc201" prot="public">
           <name>ViewingGameMenu</name>
           <briefdescription>
-          </briefdescription>
+<para>The player is viewing the game menu </para>          </briefdescription>
           <detaileddescription>
-<para>The player is viewing the game menu </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09ac3600a4d7ad4b24bdf19eb7c6f71e0e7" prot="public">
           <name>ViewingHighScores</name>
           <briefdescription>
-          </briefdescription>
+<para>The player is looking at the high scores </para>          </briefdescription>
           <detaileddescription>
-<para>The player is looking at the high scores </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a31b3090b4930c7b2f6e7ee33a2551f00" prot="public">
           <name>AlteringSettings</name>
           <briefdescription>
-          </briefdescription>
+<para>The player is altering the game settings </para>          </briefdescription>
           <detaileddescription>
-<para>The player is altering the game settings </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a99da218397f313ea17892c90fa6ceefc" prot="public">
           <name>Deploying</name>
           <briefdescription>
-          </briefdescription>
+<para>Players are deploying their ships </para>          </briefdescription>
           <detaileddescription>
-<para>Players are deploying their ships </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a104176938510a45aa9db79fd79dadec3" prot="public">
           <name>Discovering</name>
           <briefdescription>
-          </briefdescription>
+<para>Players are attempting to locate each others ships </para>          </briefdescription>
           <detaileddescription>
-<para>Players are attempting to locate each others ships </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a412cf0f6410d5dfdece69231f318031a" prot="public">
           <name>EndingGame</name>
           <briefdescription>
-          </briefdescription>
+<para>One player has won, showing the victory screen </para>          </briefdescription>
           <detaileddescription>
-<para>One player has won, showing the victory screen </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a9ccfee4c47009600237ea2b0145db1ec" prot="public">
           <name>Quitting</name>
           <briefdescription>
-          </briefdescription>
+<para>The player has quit. Show ending credits and terminate the game </para>          </briefdescription>
           <detaileddescription>
-<para>The player has quit. Show ending credits and terminate the game </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
@@ -95,23 +95,23 @@
         <enumvalue id="namespacebattleships_1a0d4318a5997729df6a087d0abbaf8ddea7f943921724d63dc0ac9c6febf99fa88" prot="public">
           <name>Easy</name>
           <briefdescription>
-          </briefdescription>
+<para>Easy, total random shooting </para>          </briefdescription>
           <detaileddescription>
-<para>Easy, total random shooting </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1a0d4318a5997729df6a087d0abbaf8ddea87f8a6ab85c9ced3702b4ea641ad4bb5" prot="public">
           <name>Medium</name>
           <briefdescription>
-          </briefdescription>
+<para>Medium, marks squares around hits </para>          </briefdescription>
           <detaileddescription>
-<para>Medium, marks squares around hits </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1a0d4318a5997729df6a087d0abbaf8ddea3656183169810334a96b91129dc9d881" prot="public">
           <name>Hard</name>
           <briefdescription>
-          </briefdescription>
+<para>As medium, but removes shots once it misses </para>          </briefdescription>
           <detaileddescription>
-<para>As medium, but removes shots once it misses </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
@@ -126,16 +126,16 @@
         <enumvalue id="namespacebattleships_1a31579d4016b629dcd72a504f2ce1bbf5a955322c98b1fc571e8b6b688ae7d9ee4" prot="public">
           <name>LeftRight</name>
           <briefdescription>
-          </briefdescription>
+<para>The ship is oriented left/right </para>          </briefdescription>
           <detaileddescription>
-<para>The ship is oriented left/right </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1a31579d4016b629dcd72a504f2ce1bbf5a8833f67c0f8e2339c154ffc91e15eb8c" prot="public">
           <name>UpDown</name>
           <briefdescription>
-          </briefdescription>
+<para>The ship is oriented up/down </para>          </briefdescription>
           <detaileddescription>
-<para>The ship is oriented up/down </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
@@ -150,37 +150,37 @@
         <enumvalue id="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716aebfe5e1791db03c4cd6ab95801e0977d" prot="public">
           <name>Hit</name>
           <briefdescription>
-          </briefdescription>
+<para>The player hit something </para>          </briefdescription>
           <detaileddescription>
-<para>The player hit something </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716ae7ddb7cd777b59610b220bcfa80bd95f" prot="public">
           <name>Miss</name>
           <briefdescription>
-          </briefdescription>
+<para>The player missed </para>          </briefdescription>
           <detaileddescription>
-<para>The player missed </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716aaefbd0597f1bc2493bbc18898243513b" prot="public">
           <name>Destroyed</name>
           <briefdescription>
-          </briefdescription>
+<para>The player destroyed a ship </para>          </briefdescription>
           <detaileddescription>
-<para>The player destroyed a ship </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716a53e4733d09f4b5d3cd3e296353803326" prot="public">
           <name>ShotAlready</name>
           <briefdescription>
-          </briefdescription>
+<para>That location was already shot. </para>          </briefdescription>
           <detaileddescription>
-<para>That location was already shot. </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716a8f347bc7cebca9fa6d97e70c6bc29eb3" prot="public">
           <name>GameOver</name>
           <briefdescription>
-          </briefdescription>
+<para>The player killed all of the opponents ships </para>          </briefdescription>
           <detaileddescription>
-<para>The player killed all of the opponents ships </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
@@ -253,30 +253,30 @@
         <enumvalue id="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719fad2379e01a93b56ed8fdc81907f7bf8c0" prot="public">
           <name>Sea</name>
           <briefdescription>
-          </briefdescription>
+<para>The viewer can see sea </para>          </briefdescription>
           <detaileddescription>
-<para>The viewer can see sea </para><para>May be masking a ship if viewed via a sea adapter </para>          </detaileddescription>
+<para>May be masking a ship if viewed via a sea adapter </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719fae7ddb7cd777b59610b220bcfa80bd95f" prot="public">
           <name>Miss</name>
           <briefdescription>
-          </briefdescription>
+<para>The viewer knows that site was attacked but nothing was hit </para>          </briefdescription>
           <detaileddescription>
-<para>The viewer knows that site was attacked but nothing was hit </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719fa0387832795db3eb2e05f4365fba5ddac" prot="public">
           <name>Ship</name>
           <briefdescription>
-          </briefdescription>
+<para>The viewer can see a ship at this site </para>          </briefdescription>
           <detaileddescription>
-<para>The viewer can see a ship at this site </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719faebfe5e1791db03c4cd6ab95801e0977d" prot="public">
           <name>Hit</name>
           <briefdescription>
-          </briefdescription>
+<para>The viewer knows that the site was attacked and something was hit </para>          </briefdescription>
           <detaileddescription>
-<para>The viewer knows that the site was attacked and something was hit </para>          </detaileddescription>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>

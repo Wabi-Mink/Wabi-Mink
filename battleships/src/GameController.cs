@@ -49,7 +49,7 @@ namespace battleships
         /// Returns the computer player.
         /// </summary>
         /// <value>the computer player</value>
-        /// <returns>the conputer player</returns>
+        /// <returns>the computer player</returns>
         public static Player ComputerPlayer
         {
             get
