@@ -7,3 +7,12 @@ D:\Google Drive Accounts\Monique.n.kuhn Drive\Study\Uni Work\2020\S1\SWE20001\SW
 D:\Google Drive Accounts\Monique.n.kuhn Drive\Study\Uni Work\2020\S1\SWE20001\SWE20001 Group Project\Battleship_Project\battleship\battleships\bin\Debug\ConsoleApplication.pdb
 D:\Google Drive Accounts\Monique.n.kuhn Drive\Study\Uni Work\2020\S1\SWE20001\SWE20001 Group Project\Battleship_Project\battleship\battleships\bin\Debug\SwinGame.dll
 D:\Google Drive Accounts\Monique.n.kuhn Drive\Study\Uni Work\2020\S1\SWE20001\SWE20001 Group Project\Battleship_Project\battleship\battleships\obj\x86\Debug\battleships.csproj.CopyComplete
+C:\Users\Zane Ross\Desktop\Battleship SWE\battleship\battleships\bin\Debug\lib\SwinGame.dll.mdb
+C:\Users\Zane Ross\Desktop\Battleship SWE\battleship\battleships\bin\Debug\ConsoleApplication.exe
+C:\Users\Zane Ross\Desktop\Battleship SWE\battleship\battleships\bin\Debug\ConsoleApplication.pdb
+C:\Users\Zane Ross\Desktop\Battleship SWE\battleship\battleships\bin\Debug\SwinGame.dll
+C:\Users\Zane Ross\Desktop\Battleship SWE\battleship\battleships\obj\x86\Debug\battleships.csprojAssemblyReference.cache
+C:\Users\Zane Ross\Desktop\Battleship SWE\battleship\battleships\obj\x86\Debug\battleships.csproj.CoreCompileInputs.cache
+C:\Users\Zane Ross\Desktop\Battleship SWE\battleship\battleships\obj\x86\Debug\battleships.csproj.CopyComplete
+C:\Users\Zane Ross\Desktop\Battleship SWE\battleship\battleships\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Zane Ross\Desktop\Battleship SWE\battleship\battleships\obj\x86\Debug\ConsoleApplication.pdb
