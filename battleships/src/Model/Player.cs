@@ -12,8 +12,8 @@ namespace battleships
     //public class Player : IEnumerable<Ship>
     {
         protected static Random _Random = new Random();
-        private Dictionary<ShipName, Ship> _Ships = new Dictionary<ShipName, Ship>();
-        private SeaGrid _playerGrid; //= new SeaGrid(_Ships);
+        public Dictionary<ShipName, Ship> _Ships = new Dictionary<ShipName, Ship>();
+        public SeaGrid _playerGrid; //= new SeaGrid(_Ships);
         private ISeaGrid _enemyGrid;
         protected BattleShipsGame _game;
         private int _shots;

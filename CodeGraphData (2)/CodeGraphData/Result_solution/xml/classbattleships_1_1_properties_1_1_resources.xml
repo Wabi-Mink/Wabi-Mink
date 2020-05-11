@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>battleships::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_properties_1_1_resources_1a21237f6b974093c5979aab6e1a196d34" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager battleships.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" line="27" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_properties_1_1_resources_1a32571132056137e242e0777da88caaf8" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo battleships.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" line="29" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_properties_1_1_resources_1ae355db3b48145fef25ed0c402f94da89" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager battleships.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>Returns the cached ResourceManager instance used by this class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" line="39" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_properties_1_1_resources_1aa4418929c77026905cae21e8b887e5ca" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo battleships.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>Overrides the current thread&apos;s CurrentUICulture property for all resource lookups using this strongly typed resource class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" line="54" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classbattleships_1_1_properties_1_1_resources_1aba8da84acc9b68897f293e2def868586" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" line="32" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A strongly-typed resource class, for looking up localized strings, etc. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="124">
+        <label>battleships.Properties.Resources</label>
+        <link refid="classbattleships_1_1_properties_1_1_resources"/>
+        <childnode refid="124" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" line="25" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties/Resources.Designer.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_properties_1_1_resources_1aa4418929c77026905cae21e8b887e5ca" prot="package" virt="non-virtual"><scope>battleships::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="classbattleships_1_1_properties_1_1_resources_1a32571132056137e242e0777da88caaf8" prot="private" virt="non-virtual"><scope>battleships::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="classbattleships_1_1_properties_1_1_resources_1a21237f6b974093c5979aab6e1a196d34" prot="private" virt="non-virtual"><scope>battleships::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="classbattleships_1_1_properties_1_1_resources_1ae355db3b48145fef25ed0c402f94da89" prot="package" virt="non-virtual"><scope>battleships::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="classbattleships_1_1_properties_1_1_resources_1aba8da84acc9b68897f293e2def868586" prot="package" virt="non-virtual"><scope>battleships::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -16,8 +16,8 @@ namespace battleships
         private int _sizeOfShip;
         private int _hitsTaken = 0;
         private List<Tile> _tiles;
-        private int _row;
-        private int _col;
+        public int _row;
+        public int _col;
         private Direction _direction;
 
         /// <summary>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_unit_test_1_1_hello_world" kind="class" prot="public">
+    <compoundname>battleshipsUnitTest::HelloWorld</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_unit_test_1_1_hello_world_1a64d9bd31bc12591cdae384809d4f4448" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string battleshipsUnitTest.HelloWorld.Expected</definition>
+        <argsstring></argsstring>
+        <name>Expected</name>
+        <initializer>= &quot;Hello World!&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests/HelloWorld .cs" line="10" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests/HelloWorld .cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classbattleships_unit_test_1_1_hello_world_1a1b0e13cfdbb2ee530749122250b31267" compoundref="_hello_world_01_8cs" startline="13" endline="17">battleshipsUnitTest.HelloWorld.TestMethod1</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbattleships_unit_test_1_1_hello_world_1a1b0e13cfdbb2ee530749122250b31267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleshipsUnitTest.HelloWorld.TestMethod1</definition>
+        <argsstring>()</argsstring>
+        <name>TestMethod1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests/HelloWorld .cs" line="13" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests/HelloWorld .cs" bodystart="13" bodyend="17"/>
+        <references refid="classbattleships_unit_test_1_1_hello_world_1a64d9bd31bc12591cdae384809d4f4448" compoundref="_hello_world_01_8cs" startline="10">battleshipsUnitTest.HelloWorld.Expected</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests/HelloWorld .cs" line="9" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests/HelloWorld .cs" bodystart="8" bodyend="18"/>
+    <listofallmembers>
+      <member refid="classbattleships_unit_test_1_1_hello_world_1a64d9bd31bc12591cdae384809d4f4448" prot="private" virt="non-virtual"><scope>battleshipsUnitTest::HelloWorld</scope><name>Expected</name></member>
+      <member refid="classbattleships_unit_test_1_1_hello_world_1a1b0e13cfdbb2ee530749122250b31267" prot="public" virt="non-virtual"><scope>battleshipsUnitTest::HelloWorld</scope><name>TestMethod1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

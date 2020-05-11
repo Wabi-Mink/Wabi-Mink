@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_my_1_1_my_computer" kind="class" prot="package">
+    <compoundname>battleships::My::MyComputer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Computer</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbattleships_1_1_my_1_1_my_computer_1ad8e20f3136303ef9cfd63103e12daa83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.My.MyComputer.MyComputer</definition>
+        <argsstring>()</argsstring>
+        <name>MyComputer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="36" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="36" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="102">
+        <label>battleships.My.MyComputer</label>
+        <link refid="classbattleships_1_1_my_1_1_my_computer"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>Microsoft::VisualBasic::Devices::Computer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="104">
+        <label>battleships.My.MyComputer</label>
+        <link refid="classbattleships_1_1_my_1_1_my_computer"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>Microsoft::VisualBasic::Devices::Computer</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" line="32" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project/MyNamespace.Static.1.Designer.cs" bodystart="31" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_my_1_1_my_computer_1ad8e20f3136303ef9cfd63103e12daa83" prot="public" virt="non-virtual"><scope>battleships::My::MyComputer</scope><name>MyComputer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

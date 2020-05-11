@@ -1,0 +1,918 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_utility_functions" kind="class" prot="public">
+    <compoundname>battleships::UtilityFunctions</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1ac41a65c0495c3246d6535a78351a1121" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.FIELD_TOP</definition>
+        <argsstring></argsstring>
+        <name>FIELD_TOP</name>
+        <initializer>= 122</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" compoundref="_utility_functions_8cs" startline="292" endline="305">battleships.UtilityFunctions.AddAnimation</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1abf5b945acd3d2fccb5fe17a96fec96ea" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.FIELD_LEFT</definition>
+        <argsstring></argsstring>
+        <name>FIELD_LEFT</name>
+        <initializer>= 349</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="13" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" compoundref="_utility_functions_8cs" startline="292" endline="305">battleships.UtilityFunctions.AddAnimation</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
+        <referencedby refid="classbattleships_1_1_utility_functions_1af9ef22e954251e08a365e927562eabd3" compoundref="_utility_functions_8cs" startline="235" endline="238">battleships.UtilityFunctions.DrawMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a6c6b4de0dbfd32ee70749c1aac538b3e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.FIELD_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>FIELD_WIDTH</name>
+        <initializer>= 418</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="14" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1acc036a8b7638e8915d59a78c190e945e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.FIELD_HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>FIELD_HEIGHT</name>
+        <initializer>= 418</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="15" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a9427b86bba54e3820d30376f8b653826" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.MESSAGE_TOP</definition>
+        <argsstring></argsstring>
+        <name>MESSAGE_TOP</name>
+        <initializer>= 548</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="16" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1af9ef22e954251e08a365e927562eabd3" compoundref="_utility_functions_8cs" startline="235" endline="238">battleships.UtilityFunctions.DrawMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a2b78d55087a034dc21c8ee50a9094a00" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.CELL_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>CELL_WIDTH</name>
+        <initializer>= 40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="17" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" compoundref="_utility_functions_8cs" startline="292" endline="305">battleships.UtilityFunctions.AddAnimation</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a41deedaf7288c05b307ae9f3d78d2753" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.CELL_HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>CELL_HEIGHT</name>
+        <initializer>= 40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="18" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" compoundref="_utility_functions_8cs" startline="292" endline="305">battleships.UtilityFunctions.AddAnimation</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1adf5c8b6bad4a36757a747bb7011d3e20" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.CELL_GAP</definition>
+        <argsstring></argsstring>
+        <name>CELL_GAP</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="19" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" compoundref="_utility_functions_8cs" startline="292" endline="305">battleships.UtilityFunctions.AddAnimation</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1aba6ed7c66b602cfa1fbbeec2ba1d0f0c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.SHIP_GAP</definition>
+        <argsstring></argsstring>
+        <name>SHIP_GAP</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="20" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1aa4573ffe7d6d5864802e6977538891ca" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.ANIMATION_CELLS</definition>
+        <argsstring></argsstring>
+        <name>ANIMATION_CELLS</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="33" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ae80d9a17d338585bb88670fd9657f4ce" compoundref="_utility_functions_8cs" startline="332" endline="340">battleships.UtilityFunctions.DrawAnimationSequence</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a17011c9f2505b9eaf61ee3066092f729" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.UtilityFunctions.FRAMES_PER_CELL</definition>
+        <argsstring></argsstring>
+        <name>FRAMES_PER_CELL</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="34" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ae80d9a17d338585bb88670fd9657f4ce" compoundref="_utility_functions_8cs" startline="332" endline="340">battleships.UtilityFunctions.DrawAnimationSequence</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a9fb6f0400c74522a30a20db18d1aabd8" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.SMALL_SEA</definition>
+        <argsstring></argsstring>
+        <name>SMALL_SEA</name>
+        <initializer>= SwinGame.RGBAColor(6, 60, 94, 255)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="21" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a6091b67d0f929854e90f9efb9587c64b" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.SMALL_SHIP</definition>
+        <argsstring></argsstring>
+        <name>SMALL_SHIP</name>
+        <initializer>= Color.Gray</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="22" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a24f8bd28f2020718634d75927e3c4ec8" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.SMALL_MISS</definition>
+        <argsstring></argsstring>
+        <name>SMALL_MISS</name>
+        <initializer>= SwinGame.RGBAColor(1, 147, 220, 255)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="23" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a9f7f20aa95372fe5f476ca8d37d255f7" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.SMALL_HIT</definition>
+        <argsstring></argsstring>
+        <name>SMALL_HIT</name>
+        <initializer>= SwinGame.RGBAColor(169, 24, 37, 255)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="24" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1abbe20273e16a7919c4765c56bc6dbaf8" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.LARGE_SEA</definition>
+        <argsstring></argsstring>
+        <name>LARGE_SEA</name>
+        <initializer>= SwinGame.RGBAColor(6, 60, 94, 255)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="25" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a5d9d17a5b56206d13f3bdf0ba74b57e7" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.LARGE_SHIP</definition>
+        <argsstring></argsstring>
+        <name>LARGE_SHIP</name>
+        <initializer>= Color.Gray</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="26" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a6cc866548707bbeab023459bc1d662c2" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.LARGE_MISS</definition>
+        <argsstring></argsstring>
+        <name>LARGE_MISS</name>
+        <initializer>= SwinGame.RGBAColor(1, 147, 220, 255)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="27" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a17e4160c660140cbbfa55621790b6372" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.LARGE_HIT</definition>
+        <argsstring></argsstring>
+        <name>LARGE_HIT</name>
+        <initializer>= SwinGame.RGBAColor(252, 2, 3, 255)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="28" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a3829661bca6117717dc4b0ba8fc7bd78" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.OUTLINE_COLOR</definition>
+        <argsstring></argsstring>
+        <name>OUTLINE_COLOR</name>
+        <initializer>= SwinGame.RGBAColor(5, 55, 88, 255)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="29" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1af809ee9545357bc0c0310069d871969d" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.SHIP_FILL_COLOR</definition>
+        <argsstring></argsstring>
+        <name>SHIP_FILL_COLOR</name>
+        <initializer>= Color.Gray</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="30" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1af21819c8b3fe089ca0901390c77d1d7d" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.SHIP_OUTLINE_COLOR</definition>
+        <argsstring></argsstring>
+        <name>SHIP_OUTLINE_COLOR</name>
+        <initializer>= Color.White</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="31" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a3306f3ae0ae26c35b6bf13f6f5a2a2d4" prot="private" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color battleships.UtilityFunctions.MESSAGE_COLOR</definition>
+        <argsstring></argsstring>
+        <name>MESSAGE_COLOR</name>
+        <initializer>= SwinGame.RGBAColor(2, 167, 252, 255)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="32" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1af9ef22e954251e08a365e927562eabd3" compoundref="_utility_functions_8cs" startline="235" endline="238">battleships.UtilityFunctions.DrawMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1adecbea0832da4ff20595850c386cb602" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string battleships.UtilityFunctions._message</definition>
+        <argsstring></argsstring>
+        <name>_message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="212" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_utility_functions_1a530e61a87b0b42166397b3ad911e81c9" prot="private" static="yes" mutable="no">
+        <type>List&lt; Sprite &gt;</type>
+        <definition>List&lt;Sprite&gt; battleships.UtilityFunctions._Animations</definition>
+        <argsstring></argsstring>
+        <name>_Animations</name>
+        <initializer>= new List&lt;Sprite&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="290" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="290" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a738c557d52b91ccbb70c6cf303a0a22b" compoundref="_utility_functions_8cs" startline="326" endline="330">battleships.UtilityFunctions.DrawAnimations</referencedby>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a83349689bbc2bc48b46de9e0b292c09d" compoundref="_utility_functions_8cs" startline="307" endline="324">battleships.UtilityFunctions.UpdateAnimations</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_utility_functions_1abf2614a89546a16bf27f29dcd7973be1" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string battleships.UtilityFunctions.Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <briefdescription>
+<para>The message to display </para>        </briefdescription>
+        <detaileddescription>
+<para>The message to display</para><para><simplesect kind="return"><para>The message to display</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="219" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="220" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_utility_functions_1af9ef22e954251e08a365e927562eabd3" compoundref="_utility_functions_8cs" startline="235" endline="238">battleships.UtilityFunctions.DrawMessage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1ad69f7f2f2fb92331e1e52ac3761bc6a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool battleships.UtilityFunctions.IsMouseInRectangle</definition>
+        <argsstring>(int x, int y, int w, int h)</argsstring>
+        <name>IsMouseInRectangle</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>Determines if the mouse is in a given rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the x location to check</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the y location to check</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the width to check</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the height to check</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the mouse is in the area checked</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="44" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="44" bodyend="61"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a0cbb24951931b879eb28ad4768b5a5ba" compoundref="_deployment_controller_8cs" startline="186" endline="199">battleships.DeploymentController.GetShipMouseIsOver</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.DrawField</definition>
+        <argsstring>(ISeaGrid grid, Player thePlayer, bool showShips)</argsstring>
+        <name>DrawField</name>
+        <param>
+          <type><ref refid="interfacebattleships_1_1_i_sea_grid" kindref="compound">ISeaGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref></type>
+          <declname>thePlayer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showShips</declname>
+        </param>
+        <briefdescription>
+<para>Draws a large field using the grid and the indicated player&apos;s ships. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>grid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the grid to draw</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thePlayer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the players ships to show</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>showShips</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indicates if the ships should be shown</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="69" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="69" bodyend="72"/>
+        <references refid="classbattleships_1_1_utility_functions_1adf5c8b6bad4a36757a747bb7011d3e20" compoundref="_utility_functions_8cs" startline="19">battleships.UtilityFunctions.CELL_GAP</references>
+        <references refid="classbattleships_1_1_utility_functions_1a41deedaf7288c05b307ae9f3d78d2753" compoundref="_utility_functions_8cs" startline="18">battleships.UtilityFunctions.CELL_HEIGHT</references>
+        <references refid="classbattleships_1_1_utility_functions_1a2b78d55087a034dc21c8ee50a9094a00" compoundref="_utility_functions_8cs" startline="17">battleships.UtilityFunctions.CELL_WIDTH</references>
+        <references refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</references>
+        <references refid="classbattleships_1_1_utility_functions_1acc036a8b7638e8915d59a78c190e945e" compoundref="_utility_functions_8cs" startline="15">battleships.UtilityFunctions.FIELD_HEIGHT</references>
+        <references refid="classbattleships_1_1_utility_functions_1abf5b945acd3d2fccb5fe17a96fec96ea" compoundref="_utility_functions_8cs" startline="13">battleships.UtilityFunctions.FIELD_LEFT</references>
+        <references refid="classbattleships_1_1_utility_functions_1ac41a65c0495c3246d6535a78351a1121" compoundref="_utility_functions_8cs" startline="12">battleships.UtilityFunctions.FIELD_TOP</references>
+        <references refid="classbattleships_1_1_utility_functions_1a6c6b4de0dbfd32ee70749c1aac538b3e" compoundref="_utility_functions_8cs" startline="14">battleships.UtilityFunctions.FIELD_WIDTH</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1a3d346b399761905629f73c3131bd3225" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.DrawSmallField</definition>
+        <argsstring>(ISeaGrid grid, Player thePlayer)</argsstring>
+        <name>DrawSmallField</name>
+        <param>
+          <type><ref refid="interfacebattleships_1_1_i_sea_grid" kindref="compound">ISeaGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref></type>
+          <declname>thePlayer</declname>
+        </param>
+        <briefdescription>
+<para>Draws a small field, showing the attacks made and the locations of the player&apos;s ships </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>grid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the grid to show</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thePlayer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the player to show the ships of</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="79" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="79" bodyend="89"/>
+        <references refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" compoundref="_utility_functions_8cs" startline="105" endline="210">battleships.UtilityFunctions.DrawCustomField</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1af9ef22e954251e08a365e927562eabd3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.DrawMessage</definition>
+        <argsstring>()</argsstring>
+        <name>DrawMessage</name>
+        <briefdescription>
+<para>Draws the message to the screen </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="235" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="235" bodyend="238"/>
+        <references refid="classbattleships_1_1_utility_functions_1abf5b945acd3d2fccb5fe17a96fec96ea" compoundref="_utility_functions_8cs" startline="13">battleships.UtilityFunctions.FIELD_LEFT</references>
+        <references refid="classbattleships_1_1_utility_functions_1abf2614a89546a16bf27f29dcd7973be1" compoundref="_utility_functions_8cs" startline="220">battleships.UtilityFunctions.Message</references>
+        <references refid="classbattleships_1_1_utility_functions_1a3306f3ae0ae26c35b6bf13f6f5a2a2d4" compoundref="_utility_functions_8cs" startline="32">battleships.UtilityFunctions.MESSAGE_COLOR</references>
+        <references refid="classbattleships_1_1_utility_functions_1a9427b86bba54e3820d30376f8b653826" compoundref="_utility_functions_8cs" startline="16">battleships.UtilityFunctions.MESSAGE_TOP</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1a0c34c7f2326c060f9f80eefca1a29173" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.DrawBackground</definition>
+        <argsstring>()</argsstring>
+        <name>DrawBackground</name>
+        <briefdescription>
+<para>Draws the background for the current state of the game </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="243" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="243" bodyend="278"/>
+        <references refid="classbattleships_1_1_game_controller_1afd98da917d4ade22cf7302ff6e61aa3e" compoundref="_game_controller_8cs" startline="28">battleships.GameController.CurrentState</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1a4ac04bf154052c0bfc250b6bb833cae7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.AddExplosion</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>AddExplosion</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="280" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="280" bodyend="283"/>
+        <references refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" compoundref="_utility_functions_8cs" startline="292" endline="305">battleships.UtilityFunctions.AddAnimation</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1af79931fc9455d8927780197f9798abf4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.AddSplash</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>AddSplash</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="285" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="285" bodyend="288"/>
+        <references refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" compoundref="_utility_functions_8cs" startline="292" endline="305">battleships.UtilityFunctions.AddAnimation</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1a83349689bbc2bc48b46de9e0b292c09d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.UpdateAnimations</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateAnimations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="307" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="307" bodyend="324"/>
+        <references refid="classbattleships_1_1_utility_functions_1a530e61a87b0b42166397b3ad911e81c9" compoundref="_utility_functions_8cs" startline="290">battleships.UtilityFunctions._Animations</references>
+        <referencedby refid="classbattleships_1_1_utility_functions_1ae80d9a17d338585bb88670fd9657f4ce" compoundref="_utility_functions_8cs" startline="332" endline="340">battleships.UtilityFunctions.DrawAnimationSequence</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1a738c557d52b91ccbb70c6cf303a0a22b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.DrawAnimations</definition>
+        <argsstring>()</argsstring>
+        <name>DrawAnimations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="326" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="326" bodyend="330"/>
+        <references refid="classbattleships_1_1_utility_functions_1a530e61a87b0b42166397b3ad911e81c9" compoundref="_utility_functions_8cs" startline="290">battleships.UtilityFunctions._Animations</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1ae80d9a17d338585bb88670fd9657f4ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.DrawAnimationSequence</definition>
+        <argsstring>()</argsstring>
+        <name>DrawAnimationSequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="332" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="332" bodyend="340"/>
+        <references refid="classbattleships_1_1_utility_functions_1aa4573ffe7d6d5864802e6977538891ca" compoundref="_utility_functions_8cs" startline="33">battleships.UtilityFunctions.ANIMATION_CELLS</references>
+        <references refid="classbattleships_1_1_utility_functions_1a17011c9f2505b9eaf61ee3066092f729" compoundref="_utility_functions_8cs" startline="34">battleships.UtilityFunctions.FRAMES_PER_CELL</references>
+        <references refid="classbattleships_1_1_utility_functions_1a83349689bbc2bc48b46de9e0b292c09d" compoundref="_utility_functions_8cs" startline="307" endline="324">battleships.UtilityFunctions.UpdateAnimations</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.DrawCustomField</definition>
+        <argsstring>(ISeaGrid grid, Player thePlayer, bool small, bool showShips, int left, int top, int width, int height, int cellWidth, int cellHeight, int cellGap)</argsstring>
+        <name>DrawCustomField</name>
+        <param>
+          <type><ref refid="interfacebattleships_1_1_i_sea_grid" kindref="compound">ISeaGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_player" kindref="compound">Player</ref></type>
+          <declname>thePlayer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>small</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showShips</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cellWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cellHeight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cellGap</declname>
+        </param>
+        <briefdescription>
+<para>Draws the player&apos;s grid and ships. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>grid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the grid to show</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thePlayer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the player to show the ships of</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>small</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the small grid is shown</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>showShips</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if ships are to be shown</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>left</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the left side of the grid</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the top of the grid</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the width of the grid</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the height of the grid</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cellWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the width of each cell</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cellHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the height of each cell</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cellGap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the gap between the cells</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="105" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="105" bodyend="210"/>
+        <references refid="classbattleships_1_1_ship_1a1815c8e47a27f7d86b5bae89488db03b" compoundref="_ship_8cs" startline="90">battleships.Ship.Direction</references>
+        <references refid="classbattleships_1_1_ship_1aec362a8b89d1551c17d1b9e59290cb5d" compoundref="_ship_8cs" startline="135">battleships.Ship.IsDeployed</references>
+        <references refid="classbattleships_1_1_utility_functions_1a17e4160c660140cbbfa55621790b6372" compoundref="_utility_functions_8cs" startline="28">battleships.UtilityFunctions.LARGE_HIT</references>
+        <references refid="classbattleships_1_1_utility_functions_1a6cc866548707bbeab023459bc1d662c2" compoundref="_utility_functions_8cs" startline="27">battleships.UtilityFunctions.LARGE_MISS</references>
+        <references refid="classbattleships_1_1_utility_functions_1a3829661bca6117717dc4b0ba8fc7bd78" compoundref="_utility_functions_8cs" startline="29">battleships.UtilityFunctions.OUTLINE_COLOR</references>
+        <references refid="classbattleships_1_1_ship_1ae2901c60904f590c500bc347382288f5" compoundref="_ship_8cs" startline="74">battleships.Ship.Row</references>
+        <references refid="classbattleships_1_1_utility_functions_1af809ee9545357bc0c0310069d871969d" compoundref="_utility_functions_8cs" startline="30">battleships.UtilityFunctions.SHIP_FILL_COLOR</references>
+        <references refid="classbattleships_1_1_utility_functions_1aba6ed7c66b602cfa1fbbeec2ba1d0f0c" compoundref="_utility_functions_8cs" startline="20">battleships.UtilityFunctions.SHIP_GAP</references>
+        <references refid="classbattleships_1_1_utility_functions_1af21819c8b3fe089ca0901390c77d1d7d" compoundref="_utility_functions_8cs" startline="31">battleships.UtilityFunctions.SHIP_OUTLINE_COLOR</references>
+        <references refid="classbattleships_1_1_ship_1aa8f9a5daaa8a38f8d0b7f5a062a129a5" compoundref="_ship_8cs" startline="47">battleships.Ship.Size</references>
+        <references refid="classbattleships_1_1_utility_functions_1a9f7f20aa95372fe5f476ca8d37d255f7" compoundref="_utility_functions_8cs" startline="24">battleships.UtilityFunctions.SMALL_HIT</references>
+        <references refid="classbattleships_1_1_utility_functions_1a24f8bd28f2020718634d75927e3c4ec8" compoundref="_utility_functions_8cs" startline="23">battleships.UtilityFunctions.SMALL_MISS</references>
+        <references refid="classbattleships_1_1_utility_functions_1a9fb6f0400c74522a30a20db18d1aabd8" compoundref="_utility_functions_8cs" startline="21">battleships.UtilityFunctions.SMALL_SEA</references>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" compoundref="_utility_functions_8cs" startline="69" endline="72">battleships.UtilityFunctions.DrawField</referencedby>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a3d346b399761905629f73c3131bd3225" compoundref="_utility_functions_8cs" startline="79" endline="89">battleships.UtilityFunctions.DrawSmallField</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.UtilityFunctions.AddAnimation</definition>
+        <argsstring>(int row, int col, string image)</argsstring>
+        <name>AddAnimation</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="292" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="292" bodyend="305"/>
+        <references refid="classbattleships_1_1_utility_functions_1adf5c8b6bad4a36757a747bb7011d3e20" compoundref="_utility_functions_8cs" startline="19">battleships.UtilityFunctions.CELL_GAP</references>
+        <references refid="classbattleships_1_1_utility_functions_1a41deedaf7288c05b307ae9f3d78d2753" compoundref="_utility_functions_8cs" startline="18">battleships.UtilityFunctions.CELL_HEIGHT</references>
+        <references refid="classbattleships_1_1_utility_functions_1a2b78d55087a034dc21c8ee50a9094a00" compoundref="_utility_functions_8cs" startline="17">battleships.UtilityFunctions.CELL_WIDTH</references>
+        <references refid="classbattleships_1_1_utility_functions_1abf5b945acd3d2fccb5fe17a96fec96ea" compoundref="_utility_functions_8cs" startline="13">battleships.UtilityFunctions.FIELD_LEFT</references>
+        <references refid="classbattleships_1_1_utility_functions_1ac41a65c0495c3246d6535a78351a1121" compoundref="_utility_functions_8cs" startline="12">battleships.UtilityFunctions.FIELD_TOP</references>
+        <referencedby refid="classbattleships_1_1_utility_functions_1a4ac04bf154052c0bfc250b6bb833cae7" compoundref="_utility_functions_8cs" startline="280" endline="283">battleships.UtilityFunctions.AddExplosion</referencedby>
+        <referencedby refid="classbattleships_1_1_utility_functions_1af79931fc9455d8927780197f9798abf4" compoundref="_utility_functions_8cs" startline="285" endline="288">battleships.UtilityFunctions.AddSplash</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This includes a number of utility methods for drawing and interacting with the Mouse. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" line="11" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/UtilityFunctions.cs" bodystart="10" bodyend="341"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_utility_functions_1a530e61a87b0b42166397b3ad911e81c9" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>_Animations</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1adecbea0832da4ff20595850c386cb602" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>_message</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>AddAnimation</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a4ac04bf154052c0bfc250b6bb833cae7" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>AddExplosion</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1af79931fc9455d8927780197f9798abf4" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>AddSplash</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1aa4573ffe7d6d5864802e6977538891ca" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>ANIMATION_CELLS</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1adf5c8b6bad4a36757a747bb7011d3e20" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>CELL_GAP</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a41deedaf7288c05b307ae9f3d78d2753" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>CELL_HEIGHT</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a2b78d55087a034dc21c8ee50a9094a00" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>CELL_WIDTH</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a738c557d52b91ccbb70c6cf303a0a22b" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>DrawAnimations</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1ae80d9a17d338585bb88670fd9657f4ce" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>DrawAnimationSequence</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a0c34c7f2326c060f9f80eefca1a29173" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>DrawBackground</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>DrawCustomField</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>DrawField</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1af9ef22e954251e08a365e927562eabd3" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>DrawMessage</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a3d346b399761905629f73c3131bd3225" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>DrawSmallField</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1acc036a8b7638e8915d59a78c190e945e" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>FIELD_HEIGHT</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1abf5b945acd3d2fccb5fe17a96fec96ea" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>FIELD_LEFT</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1ac41a65c0495c3246d6535a78351a1121" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>FIELD_TOP</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a6c6b4de0dbfd32ee70749c1aac538b3e" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>FIELD_WIDTH</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a17011c9f2505b9eaf61ee3066092f729" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>FRAMES_PER_CELL</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1ad69f7f2f2fb92331e1e52ac3761bc6a0" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>IsMouseInRectangle</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a17e4160c660140cbbfa55621790b6372" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>LARGE_HIT</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a6cc866548707bbeab023459bc1d662c2" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>LARGE_MISS</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1abbe20273e16a7919c4765c56bc6dbaf8" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>LARGE_SEA</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a5d9d17a5b56206d13f3bdf0ba74b57e7" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>LARGE_SHIP</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1abf2614a89546a16bf27f29dcd7973be1" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>Message</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a3306f3ae0ae26c35b6bf13f6f5a2a2d4" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>MESSAGE_COLOR</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a9427b86bba54e3820d30376f8b653826" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>MESSAGE_TOP</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a3829661bca6117717dc4b0ba8fc7bd78" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>OUTLINE_COLOR</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1af809ee9545357bc0c0310069d871969d" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>SHIP_FILL_COLOR</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1aba6ed7c66b602cfa1fbbeec2ba1d0f0c" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>SHIP_GAP</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1af21819c8b3fe089ca0901390c77d1d7d" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>SHIP_OUTLINE_COLOR</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a9f7f20aa95372fe5f476ca8d37d255f7" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>SMALL_HIT</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a24f8bd28f2020718634d75927e3c4ec8" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>SMALL_MISS</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a9fb6f0400c74522a30a20db18d1aabd8" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>SMALL_SEA</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a6091b67d0f929854e90f9efb9587c64b" prot="private" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>SMALL_SHIP</name></member>
+      <member refid="classbattleships_1_1_utility_functions_1a83349689bbc2bc48b46de9e0b292c09d" prot="public" virt="non-virtual"><scope>battleships::UtilityFunctions</scope><name>UpdateAnimations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

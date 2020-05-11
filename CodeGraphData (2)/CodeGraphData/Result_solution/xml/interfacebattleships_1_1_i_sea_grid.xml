@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interfacebattleships_1_1_i_sea_grid" kind="interface" prot="public">
+    <compoundname>battleships::ISeaGrid</compoundname>
+    <derivedcompoundref refid="classbattleships_1_1_sea_grid" prot="public" virt="non-virtual">battleships.SeaGrid</derivedcompoundref>
+    <derivedcompoundref refid="classbattleships_1_1_sea_grid_adapter" prot="public" virt="non-virtual">battleships.SeaGridAdapter</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interfacebattleships_1_1_i_sea_grid_1ac6829a2f526e915b1fa33444d73286d8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int battleships.ISeaGrid.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" line="11" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="126" endline="132">battleships.AIMediumPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" compoundref="_a_i_hard_player_8cs" startline="395" endline="401">battleships.AIHardPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a5724c4cc269e73baa7f72003389a4d19" compoundref="_a_i_hard_player_8cs" startline="120" endline="154">battleships.AIHardPlayer.GenerateCoords</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="interfacebattleships_1_1_i_sea_grid_1a5ec9d3c93bf25602616426e4ff81a142" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int battleships.ISeaGrid.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="126" endline="132">battleships.AIMediumPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" compoundref="_a_i_hard_player_8cs" startline="395" endline="401">battleships.AIHardPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" compoundref="_discovery_controller_8cs" startline="36" endline="52">battleships.DiscoveryController.DoAttack</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a5724c4cc269e73baa7f72003389a4d19" compoundref="_a_i_hard_player_8cs" startline="120" endline="154">battleships.AIHardPlayer.GenerateCoords</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="interfacebattleships_1_1_i_sea_grid_1ac735f266f126c5bc1768b5f6e9e05045" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719f" kindref="member">TileView</ref></type>
+        <definition>TileView battleships.ISeaGrid.this[int row, int column]</definition>
+        <argsstring></argsstring>
+        <name>this[int row, int column]</name>
+        <briefdescription>
+<para>Provides access to the given row/column </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row to access</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the column to access</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>what the player can see at that location</para><para><simplesect kind="return"><para>what the player can see at that location</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" line="26" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="interfacebattleships_1_1_i_sea_grid_1a9a514b1ff36839b5a0566690075f7ccd" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler battleships.ISeaGrid.Changed</definition>
+        <argsstring></argsstring>
+        <name>Changed</name>
+        <briefdescription>
+<para>Indicates that the grid has changed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" line="17" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacebattleships_1_1_i_sea_grid_1a428fa6fa9e969f6a2d23e3d28fcdf4b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classbattleships_1_1_attack_result" kindref="compound">AttackResult</ref></type>
+        <definition>AttackResult battleships.ISeaGrid.HitTile</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>HitTile</name>
+        <reimplementedby refid="classbattleships_1_1_sea_grid_adapter_1a797da3168753095cd4542fff526954be">HitTile</reimplementedby>
+        <reimplementedby refid="classbattleships_1_1_sea_grid_1a1971f89446a830b49c8d84292aea50f9">HitTile</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>Mark the indicated tile as shot. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row of the tile</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the column of the tile</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the result of the attack</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="92">
+        <label>battleships.SeaGridAdapter</label>
+        <link refid="classbattleships_1_1_sea_grid_adapter"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>battleships.SeaGrid</label>
+        <link refid="classbattleships_1_1_sea_grid"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>battleships.ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" line="10" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/ISeaGrid.cs" bodystart="9" bodyend="36"/>
+    <listofallmembers>
+      <member refid="interfacebattleships_1_1_i_sea_grid_1a9a514b1ff36839b5a0566690075f7ccd" prot="public" virt="non-virtual"><scope>battleships::ISeaGrid</scope><name>Changed</name></member>
+      <member refid="interfacebattleships_1_1_i_sea_grid_1a5ec9d3c93bf25602616426e4ff81a142" prot="public" virt="non-virtual"><scope>battleships::ISeaGrid</scope><name>Height</name></member>
+      <member refid="interfacebattleships_1_1_i_sea_grid_1a428fa6fa9e969f6a2d23e3d28fcdf4b7" prot="public" virt="non-virtual"><scope>battleships::ISeaGrid</scope><name>HitTile</name></member>
+      <member refid="interfacebattleships_1_1_i_sea_grid_1ac735f266f126c5bc1768b5f6e9e05045" prot="public" virt="non-virtual"><scope>battleships::ISeaGrid</scope><name>this[int row, int column]</name></member>
+      <member refid="interfacebattleships_1_1_i_sea_grid_1ac6829a2f526e915b1fa33444d73286d8" prot="public" virt="non-virtual"><scope>battleships::ISeaGrid</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

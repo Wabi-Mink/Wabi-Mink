@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_attack_result" kind="class" prot="public">
+    <compoundname>battleships::AttackResult</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_attack_result_1ac9a0918a2a0583b9d7eff230465e34b4" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716" kindref="member">ResultOfAttack</ref></type>
+        <definition>ResultOfAttack battleships.AttackResult._Value</definition>
+        <argsstring></argsstring>
+        <name>_Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="9" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_attack_result_1a402023fb1085d7263575e8dbc6c9ff84" compoundref="_attack_result_8cs" startline="81" endline="88">battleships.AttackResult.AttackResult</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_attack_result_1ae6b9f7aeed1b07b5d7ce4b89ef82eb5f" prot="private" static="no" mutable="no">
+        <type><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref></type>
+        <definition>Ship battleships.AttackResult._Ship</definition>
+        <argsstring></argsstring>
+        <name>_Ship</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="10" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_attack_result_1a402023fb1085d7263575e8dbc6c9ff84" compoundref="_attack_result_8cs" startline="81" endline="88">battleships.AttackResult.AttackResult</referencedby>
+        <referencedby refid="classbattleships_1_1_attack_result_1aa8df6e9c816d92e980c60fdb5efa8fc7" compoundref="_attack_result_8cs" startline="104" endline="112">battleships.AttackResult.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_attack_result_1a8d349a7e594d37ae6ea5582ffe6e8378" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string battleships.AttackResult._Text</definition>
+        <argsstring></argsstring>
+        <name>_Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="11" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_attack_result_1a402023fb1085d7263575e8dbc6c9ff84" compoundref="_attack_result_8cs" startline="81" endline="88">battleships.AttackResult.AttackResult</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_attack_result_1ab7bcc92b40cbd67cf14b45239e944796" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int battleships.AttackResult._Row</definition>
+        <argsstring></argsstring>
+        <name>_Row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_attack_result_1a402023fb1085d7263575e8dbc6c9ff84" compoundref="_attack_result_8cs" startline="81" endline="88">battleships.AttackResult.AttackResult</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_attack_result_1aa5210c23638a63569daf50117ea41be7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int battleships.AttackResult._Column</definition>
+        <argsstring></argsstring>
+        <name>_Column</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="13" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_attack_result_1a402023fb1085d7263575e8dbc6c9ff84" compoundref="_attack_result_8cs" startline="81" endline="88">battleships.AttackResult.AttackResult</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_attack_result_1aaf59a980720cd5896f56b370ff6f4700" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716" kindref="member">ResultOfAttack</ref></type>
+        <definition>ResultOfAttack battleships.AttackResult.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+<para>The result of the attack </para>        </briefdescription>
+        <detaileddescription>
+<para>The result of the attack</para><para><simplesect kind="return"><para>The result of the attack</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="20" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_player_1addcfd08be0b45f04c405224e9628945a" compoundref="_a_i_player_8cs" startline="115" endline="129">battleships.AIPlayer.Attack</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" compoundref="_a_i_medium_player_8cs" startline="105" endline="119">battleships.AIMediumPlayer.ProcessShot</referencedby>
+        <referencedby refid="classbattleships_1_1_battle_ships_game_1a058986527b62dda1d12d5fa93390ce2e" compoundref="_battle_ships_game_8cs" startline="86" endline="107">battleships.BattleShipsGame.Shoot</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_attack_result_1a285f922e10db965479f5bc7ff3b74b30" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref></type>
+        <definition>Ship battleships.AttackResult.Ship</definition>
+        <argsstring></argsstring>
+        <name>Ship</name>
+        <briefdescription>
+<para>The ship, if any, involved in this result </para>        </briefdescription>
+        <detaileddescription>
+<para>The ship, if any, involved in this result</para><para><simplesect kind="return"><para>The ship, if any, involved in this result</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="33" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a20762362e1076d1cba5f2ac7eb7a823e" compoundref="_a_i_hard_player_8cs" startline="190" endline="222">battleships.AIHardPlayer.ProcessShot</referencedby>
+        <referencedby refid="classbattleships_1_1_battle_ships_game_1a058986527b62dda1d12d5fa93390ce2e" compoundref="_battle_ships_game_8cs" startline="86" endline="107">battleships.BattleShipsGame.Shoot</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_attack_result_1abbdf7dafbc0d2f7c929742df9e2e167d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string battleships.AttackResult.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+<para>A textual description of the result. </para>        </briefdescription>
+        <detaileddescription>
+<para>A textual description of the result.</para><para><simplesect kind="return"><para>A textual description of the result.</para></simplesect>
+</para><para>A textual description of the result.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="47" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_battle_ships_game_1a058986527b62dda1d12d5fa93390ce2e" compoundref="_battle_ships_game_8cs" startline="86" endline="107">battleships.BattleShipsGame.Shoot</referencedby>
+        <referencedby refid="classbattleships_1_1_attack_result_1aa8df6e9c816d92e980c60fdb5efa8fc7" compoundref="_attack_result_8cs" startline="104" endline="112">battleships.AttackResult.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_attack_result_1a5e8e8e49d1cfccb3a284933f9b5dc632" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int battleships.AttackResult.Row</definition>
+        <argsstring></argsstring>
+        <name>Row</name>
+        <briefdescription>
+<para>The row where the attack occurred </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="58" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="169" endline="232">battleships.GameController.AttackCompleted</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_attack_result_1a1618c4397a41613f7e932857aa1a1534" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int battleships.AttackResult.Column</definition>
+        <argsstring></argsstring>
+        <name>Column</name>
+        <briefdescription>
+<para>The column where the attack occurred </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="69" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="169" endline="232">battleships.GameController.AttackCompleted</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbattleships_1_1_attack_result_1a402023fb1085d7263575e8dbc6c9ff84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.AttackResult.AttackResult</definition>
+        <argsstring>(ResultOfAttack value, string text, int row, int column)</argsstring>
+        <name>AttackResult</name>
+        <param>
+          <type><ref refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716" kindref="member">ResultOfAttack</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+<para>Set the _Value to the PossibleAttack value </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>either hit, miss, destroyed, shotalready</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="81" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="81" bodyend="88"/>
+        <references refid="classbattleships_1_1_attack_result_1aa5210c23638a63569daf50117ea41be7" compoundref="_attack_result_8cs" startline="13">battleships.AttackResult._Column</references>
+        <references refid="classbattleships_1_1_attack_result_1ab7bcc92b40cbd67cf14b45239e944796" compoundref="_attack_result_8cs" startline="12">battleships.AttackResult._Row</references>
+        <references refid="classbattleships_1_1_attack_result_1ae6b9f7aeed1b07b5d7ce4b89ef82eb5f" compoundref="_attack_result_8cs" startline="10">battleships.AttackResult._Ship</references>
+        <references refid="classbattleships_1_1_attack_result_1a8d349a7e594d37ae6ea5582ffe6e8378" compoundref="_attack_result_8cs" startline="11">battleships.AttackResult._Text</references>
+        <references refid="classbattleships_1_1_attack_result_1ac9a0918a2a0583b9d7eff230465e34b4" compoundref="_attack_result_8cs" startline="9">battleships.AttackResult._Value</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_attack_result_1a91c8796313fa9b11e3acd5f8d4e67648" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.AttackResult.AttackResult</definition>
+        <argsstring>(ResultOfAttack value, Ship ship, string text, int row, int column)</argsstring>
+        <name>AttackResult</name>
+        <param>
+          <type><ref refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716" kindref="member">ResultOfAttack</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_ship" kindref="compound">Ship</ref></type>
+          <declname>ship</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+<para>Set the _Value to the PossibleAttack value, and the _Ship to the ship </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>either hit, miss, destroyed, shotalready</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ship</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the ship information</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="95" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="95" bodyend="98"/>
+        <references refid="classbattleships_1_1_attack_result_1ae6b9f7aeed1b07b5d7ce4b89ef82eb5f" compoundref="_attack_result_8cs" startline="10">battleships.AttackResult._Ship</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_attack_result_1aa8df6e9c816d92e980c60fdb5efa8fc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string battleships.AttackResult.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Displays the textual information about the attack </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The textual information about the attack</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="104" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="104" bodyend="112"/>
+        <references refid="classbattleships_1_1_attack_result_1ae6b9f7aeed1b07b5d7ce4b89ef82eb5f" compoundref="_attack_result_8cs" startline="10">battleships.AttackResult._Ship</references>
+        <references refid="classbattleships_1_1_attack_result_1abbdf7dafbc0d2f7c929742df9e2e167d" compoundref="_attack_result_8cs" startline="48">battleships.AttackResult.Text</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="48">
+        <label>battleships.Ship</label>
+        <link refid="classbattleships_1_1_ship"/>
+      </node>
+      <node id="47">
+        <label>battleships.AttackResult</label>
+        <link refid="classbattleships_1_1_attack_result"/>
+        <childnode refid="48" relation="usage">
+          <edgelabel>_Ship</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" line="8" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AttackResult.cs" bodystart="7" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_attack_result_1aa5210c23638a63569daf50117ea41be7" prot="private" virt="non-virtual"><scope>battleships::AttackResult</scope><name>_Column</name></member>
+      <member refid="classbattleships_1_1_attack_result_1ab7bcc92b40cbd67cf14b45239e944796" prot="private" virt="non-virtual"><scope>battleships::AttackResult</scope><name>_Row</name></member>
+      <member refid="classbattleships_1_1_attack_result_1ae6b9f7aeed1b07b5d7ce4b89ef82eb5f" prot="private" virt="non-virtual"><scope>battleships::AttackResult</scope><name>_Ship</name></member>
+      <member refid="classbattleships_1_1_attack_result_1a8d349a7e594d37ae6ea5582ffe6e8378" prot="private" virt="non-virtual"><scope>battleships::AttackResult</scope><name>_Text</name></member>
+      <member refid="classbattleships_1_1_attack_result_1ac9a0918a2a0583b9d7eff230465e34b4" prot="private" virt="non-virtual"><scope>battleships::AttackResult</scope><name>_Value</name></member>
+      <member refid="classbattleships_1_1_attack_result_1a402023fb1085d7263575e8dbc6c9ff84" prot="public" virt="non-virtual"><scope>battleships::AttackResult</scope><name>AttackResult</name></member>
+      <member refid="classbattleships_1_1_attack_result_1a91c8796313fa9b11e3acd5f8d4e67648" prot="public" virt="non-virtual"><scope>battleships::AttackResult</scope><name>AttackResult</name></member>
+      <member refid="classbattleships_1_1_attack_result_1a1618c4397a41613f7e932857aa1a1534" prot="public" virt="non-virtual"><scope>battleships::AttackResult</scope><name>Column</name></member>
+      <member refid="classbattleships_1_1_attack_result_1a5e8e8e49d1cfccb3a284933f9b5dc632" prot="public" virt="non-virtual"><scope>battleships::AttackResult</scope><name>Row</name></member>
+      <member refid="classbattleships_1_1_attack_result_1a285f922e10db965479f5bc7ff3b74b30" prot="public" virt="non-virtual"><scope>battleships::AttackResult</scope><name>Ship</name></member>
+      <member refid="classbattleships_1_1_attack_result_1abbdf7dafbc0d2f7c929742df9e2e167d" prot="public" virt="non-virtual"><scope>battleships::AttackResult</scope><name>Text</name></member>
+      <member refid="classbattleships_1_1_attack_result_1aa8df6e9c816d92e980c60fdb5efa8fc7" prot="public" virt="non-virtual"><scope>battleships::AttackResult</scope><name>ToString</name></member>
+      <member refid="classbattleships_1_1_attack_result_1aaf59a980720cd5896f56b370ff6f4700" prot="public" virt="non-virtual"><scope>battleships::AttackResult</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_deployment_controller" kind="class" prot="public">
+    <compoundname>battleships::DeploymentController</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1ae79560abf90b40bfcc8adec29c9b21b9" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.SHIPS_TOP</definition>
+        <argsstring></argsstring>
+        <name>SHIPS_TOP</name>
+        <initializer>= 98</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="14" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a0cbb24951931b879eb28ad4768b5a5ba" compoundref="_deployment_controller_8cs" startline="186" endline="199">battleships.DeploymentController.GetShipMouseIsOver</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a61558a33ac43042a74940537cd2282bc" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.SHIPS_LEFT</definition>
+        <argsstring></argsstring>
+        <name>SHIPS_LEFT</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="15" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a0cbb24951931b879eb28ad4768b5a5ba" compoundref="_deployment_controller_8cs" startline="186" endline="199">battleships.DeploymentController.GetShipMouseIsOver</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1ac7c173f712fa3c3712ddef9ec4664979" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.SHIPS_HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>SHIPS_HEIGHT</name>
+        <initializer>= 90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="16" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a0cbb24951931b879eb28ad4768b5a5ba" compoundref="_deployment_controller_8cs" startline="186" endline="199">battleships.DeploymentController.GetShipMouseIsOver</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a8401abba42309a56d21126b967e95646" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.SHIPS_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>SHIPS_WIDTH</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="17" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a0cbb24951931b879eb28ad4768b5a5ba" compoundref="_deployment_controller_8cs" startline="186" endline="199">battleships.DeploymentController.GetShipMouseIsOver</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1aea9a5504708d56bc39d0d3fec1e4bd39" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.TOP_BUTTONS_TOP</definition>
+        <argsstring></argsstring>
+        <name>TOP_BUTTONS_TOP</name>
+        <initializer>= 72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="18" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a02cb5c89835582d77578cce043a6ad00" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.TOP_BUTTONS_HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>TOP_BUTTONS_HEIGHT</name>
+        <initializer>= 46</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="19" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1ab03ee4bbd7c2b9c6b831f8e0718e5c6c" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.PLAY_BUTTON_LEFT</definition>
+        <argsstring></argsstring>
+        <name>PLAY_BUTTON_LEFT</name>
+        <initializer>= 693</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="20" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a7065e03e0660a6596ae8bf2d4d59e540" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.PLAY_BUTTON_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>PLAY_BUTTON_WIDTH</name>
+        <initializer>= 80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="21" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a09e7ace892470dfa56118b8582c15148" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.UP_DOWN_BUTTON_LEFT</definition>
+        <argsstring></argsstring>
+        <name>UP_DOWN_BUTTON_LEFT</name>
+        <initializer>= 410</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="22" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a44ebf4599470fa0ad38d25fa768f3d94" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.LEFT_RIGHT_BUTTON_LEFT</definition>
+        <argsstring></argsstring>
+        <name>LEFT_RIGHT_BUTTON_LEFT</name>
+        <initializer>= 350</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="23" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a7236024ff5953ad0aee649b78feb4554" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.RANDOM_BUTTON_LEFT</definition>
+        <argsstring></argsstring>
+        <name>RANDOM_BUTTON_LEFT</name>
+        <initializer>= 547</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="24" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1aa88b5e094a826b13bdc7824f7baf9dba" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.RANDOM_BUTTON_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>RANDOM_BUTTON_WIDTH</name>
+        <initializer>= 51</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="25" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a99b0ea1edca97f8e1f2cd2c6b22ab397" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.DIR_BUTTONS_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>DIR_BUTTONS_WIDTH</name>
+        <initializer>= 47</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="26" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1afa1d7d53f62baf9b5fee54575a1a4ccc" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.DeploymentController.TEXT_OFFSET</definition>
+        <argsstring></argsstring>
+        <name>TEXT_OFFSET</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="27" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a3c6aaa317c3290de701b2399f5ff518e" prot="private" static="yes" mutable="no">
+        <type><ref refid="namespacebattleships_1a31579d4016b629dcd72a504f2ce1bbf5" kindref="member">Direction</ref></type>
+        <definition>Direction battleships.DeploymentController._currentDirection</definition>
+        <argsstring></argsstring>
+        <name>_currentDirection</name>
+        <initializer>= Direction.UpDown</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="28" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_deployment_controller_1a861bf706fff9f9668e74bbd616a97da0" prot="private" static="yes" mutable="no">
+        <type><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0" kindref="member">ShipName</ref></type>
+        <definition>ShipName battleships.DeploymentController._selectedShip</definition>
+        <argsstring></argsstring>
+        <name>_selectedShip</name>
+        <initializer>= ShipName.Tug</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="29" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" compoundref="_deployment_controller_8cs" startline="132" endline="180">battleships.DeploymentController.DrawDeployment</referencedby>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.DeploymentController.HandleDeploymentInput</definition>
+        <argsstring>()</argsstring>
+        <name>HandleDeploymentInput</name>
+        <briefdescription>
+<para>Handles user input for the Deployment phase of the game. </para>        </briefdescription>
+        <detaileddescription>
+<para>Involves selecting the ships, deloying ships, changing the direction of the ships to add, randomising deployment, end then ending deployment </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="39" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="39" bodyend="91"/>
+        <references refid="classbattleships_1_1_deployment_controller_1a3c6aaa317c3290de701b2399f5ff518e" compoundref="_deployment_controller_8cs" startline="28">battleships.DeploymentController._currentDirection</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a861bf706fff9f9668e74bbd616a97da0" compoundref="_deployment_controller_8cs" startline="29">battleships.DeploymentController._selectedShip</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a99b0ea1edca97f8e1f2cd2c6b22ab397" compoundref="_deployment_controller_8cs" startline="26">battleships.DeploymentController.DIR_BUTTONS_WIDTH</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" compoundref="_deployment_controller_8cs" startline="101" endline="126">battleships.DeploymentController.DoDeployClick</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a0cbb24951931b879eb28ad4768b5a5ba" compoundref="_deployment_controller_8cs" startline="186" endline="199">battleships.DeploymentController.GetShipMouseIsOver</references>
+        <references refid="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" compoundref="_game_controller_8cs" startline="41">battleships.GameController.HumanPlayer</references>
+        <references refid="classbattleships_1_1_utility_functions_1ad69f7f2f2fb92331e1e52ac3761bc6a0" compoundref="_utility_functions_8cs" startline="44" endline="61">battleships.UtilityFunctions.IsMouseInRectangle</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a44ebf4599470fa0ad38d25fa768f3d94" compoundref="_deployment_controller_8cs" startline="23">battleships.DeploymentController.LEFT_RIGHT_BUTTON_LEFT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1ab03ee4bbd7c2b9c6b831f8e0718e5c6c" compoundref="_deployment_controller_8cs" startline="20">battleships.DeploymentController.PLAY_BUTTON_LEFT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a7065e03e0660a6596ae8bf2d4d59e540" compoundref="_deployment_controller_8cs" startline="21">battleships.DeploymentController.PLAY_BUTTON_WIDTH</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a7236024ff5953ad0aee649b78feb4554" compoundref="_deployment_controller_8cs" startline="24">battleships.DeploymentController.RANDOM_BUTTON_LEFT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1aa88b5e094a826b13bdc7824f7baf9dba" compoundref="_deployment_controller_8cs" startline="25">battleships.DeploymentController.RANDOM_BUTTON_WIDTH</references>
+        <references refid="classbattleships_1_1_player_1ac15a1f4ee3de910ea859e834ca3a7547" compoundref="_player_8cs" startline="101">battleships.Player.ReadyToDeploy</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a02cb5c89835582d77578cce043a6ad00" compoundref="_deployment_controller_8cs" startline="19">battleships.DeploymentController.TOP_BUTTONS_HEIGHT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1aea9a5504708d56bc39d0d3fec1e4bd39" compoundref="_deployment_controller_8cs" startline="18">battleships.DeploymentController.TOP_BUTTONS_TOP</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a09e7ace892470dfa56118b8582c15148" compoundref="_deployment_controller_8cs" startline="22">battleships.DeploymentController.UP_DOWN_BUTTON_LEFT</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.DeploymentController.DrawDeployment</definition>
+        <argsstring>()</argsstring>
+        <name>DrawDeployment</name>
+        <briefdescription>
+<para>Draws the deployment screen showing the field and the ships that the player can deploy. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="132" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="132" bodyend="180"/>
+        <references refid="classbattleships_1_1_deployment_controller_1a3c6aaa317c3290de701b2399f5ff518e" compoundref="_deployment_controller_8cs" startline="28">battleships.DeploymentController._currentDirection</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a861bf706fff9f9668e74bbd616a97da0" compoundref="_deployment_controller_8cs" startline="29">battleships.DeploymentController._selectedShip</references>
+        <references refid="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" compoundref="_game_controller_8cs" startline="41">battleships.GameController.HumanPlayer</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a44ebf4599470fa0ad38d25fa768f3d94" compoundref="_deployment_controller_8cs" startline="23">battleships.DeploymentController.LEFT_RIGHT_BUTTON_LEFT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1ab03ee4bbd7c2b9c6b831f8e0718e5c6c" compoundref="_deployment_controller_8cs" startline="20">battleships.DeploymentController.PLAY_BUTTON_LEFT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a7236024ff5953ad0aee649b78feb4554" compoundref="_deployment_controller_8cs" startline="24">battleships.DeploymentController.RANDOM_BUTTON_LEFT</references>
+        <references refid="classbattleships_1_1_player_1ac15a1f4ee3de910ea859e834ca3a7547" compoundref="_player_8cs" startline="101">battleships.Player.ReadyToDeploy</references>
+        <references refid="classbattleships_1_1_deployment_controller_1ac7c173f712fa3c3712ddef9ec4664979" compoundref="_deployment_controller_8cs" startline="16">battleships.DeploymentController.SHIPS_HEIGHT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a61558a33ac43042a74940537cd2282bc" compoundref="_deployment_controller_8cs" startline="15">battleships.DeploymentController.SHIPS_LEFT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1ae79560abf90b40bfcc8adec29c9b21b9" compoundref="_deployment_controller_8cs" startline="14">battleships.DeploymentController.SHIPS_TOP</references>
+        <references refid="classbattleships_1_1_deployment_controller_1aea9a5504708d56bc39d0d3fec1e4bd39" compoundref="_deployment_controller_8cs" startline="18">battleships.DeploymentController.TOP_BUTTONS_TOP</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.DeploymentController.DoDeployClick</definition>
+        <argsstring>()</argsstring>
+        <name>DoDeployClick</name>
+        <briefdescription>
+<para>The user has clicked somewhere on the screen, check if its is a deployment and deploy the current ship if that is the case. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the click is in the grid it deploys to the selected location with the indicated direction </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="101" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="101" bodyend="126"/>
+        <references refid="classbattleships_1_1_deployment_controller_1a3c6aaa317c3290de701b2399f5ff518e" compoundref="_deployment_controller_8cs" startline="28">battleships.DeploymentController._currentDirection</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a861bf706fff9f9668e74bbd616a97da0" compoundref="_deployment_controller_8cs" startline="29">battleships.DeploymentController._selectedShip</references>
+        <references refid="classbattleships_1_1_utility_functions_1adf5c8b6bad4a36757a747bb7011d3e20" compoundref="_utility_functions_8cs" startline="19">battleships.UtilityFunctions.CELL_GAP</references>
+        <references refid="classbattleships_1_1_utility_functions_1a41deedaf7288c05b307ae9f3d78d2753" compoundref="_utility_functions_8cs" startline="18">battleships.UtilityFunctions.CELL_HEIGHT</references>
+        <references refid="classbattleships_1_1_utility_functions_1a2b78d55087a034dc21c8ee50a9094a00" compoundref="_utility_functions_8cs" startline="17">battleships.UtilityFunctions.CELL_WIDTH</references>
+        <references refid="classbattleships_1_1_utility_functions_1abf5b945acd3d2fccb5fe17a96fec96ea" compoundref="_utility_functions_8cs" startline="13">battleships.UtilityFunctions.FIELD_LEFT</references>
+        <references refid="classbattleships_1_1_utility_functions_1ac41a65c0495c3246d6535a78351a1121" compoundref="_utility_functions_8cs" startline="12">battleships.UtilityFunctions.FIELD_TOP</references>
+        <references refid="classbattleships_1_1_sea_grid_1a31a72501f7cb5eb71de7f3e6b899770b" compoundref="_sea_grid_8cs" startline="47">battleships.SeaGrid.Height</references>
+        <references refid="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" compoundref="_game_controller_8cs" startline="41">battleships.GameController.HumanPlayer</references>
+        <references refid="classbattleships_1_1_player_1a224a5ec515b83d78ff01658cfa9874db" compoundref="_player_8cs" startline="90">battleships.Player.PlayerGrid</references>
+        <references refid="classbattleships_1_1_sea_grid_1a117214af565be9d29ef1b613f0193fd9" compoundref="_sea_grid_8cs" startline="34">battleships.SeaGrid.Width</references>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_deployment_controller_1a0cbb24951931b879eb28ad4768b5a5ba" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0" kindref="member">ShipName</ref></type>
+        <definition>static ShipName battleships.DeploymentController.GetShipMouseIsOver</definition>
+        <argsstring>()</argsstring>
+        <name>GetShipMouseIsOver</name>
+        <briefdescription>
+<para>Gets the ship that the mouse is currently over in the selection panel. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The ship selected or none</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="186" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="186" bodyend="199"/>
+        <references refid="classbattleships_1_1_utility_functions_1ad69f7f2f2fb92331e1e52ac3761bc6a0" compoundref="_utility_functions_8cs" startline="44" endline="61">battleships.UtilityFunctions.IsMouseInRectangle</references>
+        <references refid="classbattleships_1_1_deployment_controller_1ac7c173f712fa3c3712ddef9ec4664979" compoundref="_deployment_controller_8cs" startline="16">battleships.DeploymentController.SHIPS_HEIGHT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a61558a33ac43042a74940537cd2282bc" compoundref="_deployment_controller_8cs" startline="15">battleships.DeploymentController.SHIPS_LEFT</references>
+        <references refid="classbattleships_1_1_deployment_controller_1ae79560abf90b40bfcc8adec29c9b21b9" compoundref="_deployment_controller_8cs" startline="14">battleships.DeploymentController.SHIPS_TOP</references>
+        <references refid="classbattleships_1_1_deployment_controller_1a8401abba42309a56d21126b967e95646" compoundref="_deployment_controller_8cs" startline="17">battleships.DeploymentController.SHIPS_WIDTH</references>
+        <referencedby refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" compoundref="_deployment_controller_8cs" startline="39" endline="91">battleships.DeploymentController.HandleDeploymentInput</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classbattleships_1_1_deployment_controller" kindref="compound">DeploymentController</ref> controls the players actions during the deployment phase. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" line="13" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/DeploymentController.cs" bodystart="12" bodyend="200"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_deployment_controller_1a3c6aaa317c3290de701b2399f5ff518e" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>_currentDirection</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a861bf706fff9f9668e74bbd616a97da0" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>_selectedShip</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a99b0ea1edca97f8e1f2cd2c6b22ab397" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>DIR_BUTTONS_WIDTH</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>DoDeployClick</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" prot="public" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>DrawDeployment</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a0cbb24951931b879eb28ad4768b5a5ba" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>GetShipMouseIsOver</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" prot="public" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>HandleDeploymentInput</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a44ebf4599470fa0ad38d25fa768f3d94" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>LEFT_RIGHT_BUTTON_LEFT</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1ab03ee4bbd7c2b9c6b831f8e0718e5c6c" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>PLAY_BUTTON_LEFT</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a7065e03e0660a6596ae8bf2d4d59e540" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>PLAY_BUTTON_WIDTH</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a7236024ff5953ad0aee649b78feb4554" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>RANDOM_BUTTON_LEFT</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1aa88b5e094a826b13bdc7824f7baf9dba" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>RANDOM_BUTTON_WIDTH</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1ac7c173f712fa3c3712ddef9ec4664979" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>SHIPS_HEIGHT</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a61558a33ac43042a74940537cd2282bc" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>SHIPS_LEFT</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1ae79560abf90b40bfcc8adec29c9b21b9" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>SHIPS_TOP</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a8401abba42309a56d21126b967e95646" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>SHIPS_WIDTH</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1afa1d7d53f62baf9b5fee54575a1a4ccc" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>TEXT_OFFSET</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a02cb5c89835582d77578cce043a6ad00" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>TOP_BUTTONS_HEIGHT</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1aea9a5504708d56bc39d0d3fec1e4bd39" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>TOP_BUTTONS_TOP</name></member>
+      <member refid="classbattleships_1_1_deployment_controller_1a09e7ace892470dfa56118b8582c15148" prot="private" virt="non-virtual"><scope>battleships::DeploymentController</scope><name>UP_DOWN_BUTTON_LEFT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

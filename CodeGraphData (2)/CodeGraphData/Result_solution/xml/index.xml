@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classbattleships_1_1_a_i_hard_player" kind="class"><name>battleships::AIHardPlayer</name>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a476fbea1f7fd42f485d33865356ab84a" kind="enum"><name>AIStates</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a476fbea1f7fd42f485d33865356ab84aa843627586c62e389041a4d8800143974" kind="enumvalue"><name>Searching</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a476fbea1f7fd42f485d33865356ab84aa8a9ba88adca0a31e32fa4b9d46b18446" kind="enumvalue"><name>TargetingShip</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a476fbea1f7fd42f485d33865356ab84aa6af8639f2c3867f81352e85ec39a946a" kind="enumvalue"><name>HittingShip</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1aa34bb8a528b9604b5c3fe11142b2fcc8" kind="variable"><name>_CurrentState</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1adabb18749575b2824664f0314125e688" kind="variable"><name>_Targets</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a2972b89861ee0234a0daba2841ed3dbf" kind="variable"><name>_LastHit</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a5b0b97491aea3fc07f4ea41f74136f42" kind="variable"><name>_CurrentTarget</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a875b420a95de314a6b03e1b7d2731be5" kind="function"><name>AIHardPlayer</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a5724c4cc269e73baa7f72003389a4d19" kind="function"><name>GenerateCoords</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a20762362e1076d1cba5f2ac7eb7a823e" kind="function"><name>ProcessShot</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a0304db0ede47fa0d87031f866b003ebf" kind="function"><name>TargetCoords</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a8a3439ae108e05a3e40304fcc89d9c0d" kind="function"><name>SearchCoords</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a264d7b0aac5cea43406664e5f882f787" kind="function"><name>ProcessDestroy</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a664511d5aae262e57d48d8a715e5e1ad" kind="function"><name>RemoveShotsAround</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a391248427a5131121f937c5dca0f1df9" kind="function"><name>ProcessHit</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a855ada8b410e912788bdffc608130ebc" kind="function"><name>ReOrderTargets</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a164883cd12fce787d3db7c6d5d4ea9f0" kind="function"><name>MoveToTopOfStack</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" kind="function"><name>AddTarget</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_a_i_medium_player" kind="class"><name>battleships::AIMediumPlayer</name>
+    <member refid="classbattleships_1_1_a_i_medium_player_1a095de0cb9c7a36f1206827d6a0cb6397" kind="enum"><name>AIStates</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1a095de0cb9c7a36f1206827d6a0cb6397a843627586c62e389041a4d8800143974" kind="enumvalue"><name>Searching</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1a095de0cb9c7a36f1206827d6a0cb6397a8a9ba88adca0a31e32fa4b9d46b18446" kind="enumvalue"><name>TargetingShip</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" kind="variable"><name>_CurrentState</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1a6ff5f15f9e41187a1a7dd9422143a227" kind="variable"><name>_Targets</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1a0ff3c4b576ca6c981f9bd8d42c441dcf" kind="function"><name>AIMediumPlayer</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" kind="function"><name>GenerateCoords</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" kind="function"><name>ProcessShot</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" kind="function"><name>TargetCoords</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1a66bb37af46616ab88ea350a05ba31821" kind="function"><name>SearchCoords</name></member>
+    <member refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" kind="function"><name>AddTarget</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_a_i_player" kind="class"><name>battleships::AIPlayer</name>
+    <member refid="classbattleships_1_1_a_i_player_1afdd296a36224d74c83275ec94a0ae029" kind="function"><name>AIPlayer</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1addcfd08be0b45f04c405224e9628945a" kind="function"><name>Attack</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1a054a0e09c3d990487a2c22c559e0a645" kind="function"><name>GenerateCoords</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1a3807d853955843d466059491358face4" kind="function"><name>ProcessShot</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1a21bab94e6b433b8d666aaead164cff00" kind="function"><name>Delay</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_attack_result" kind="class"><name>battleships::AttackResult</name>
+    <member refid="classbattleships_1_1_attack_result_1ac9a0918a2a0583b9d7eff230465e34b4" kind="variable"><name>_Value</name></member>
+    <member refid="classbattleships_1_1_attack_result_1ae6b9f7aeed1b07b5d7ce4b89ef82eb5f" kind="variable"><name>_Ship</name></member>
+    <member refid="classbattleships_1_1_attack_result_1a8d349a7e594d37ae6ea5582ffe6e8378" kind="variable"><name>_Text</name></member>
+    <member refid="classbattleships_1_1_attack_result_1ab7bcc92b40cbd67cf14b45239e944796" kind="variable"><name>_Row</name></member>
+    <member refid="classbattleships_1_1_attack_result_1aa5210c23638a63569daf50117ea41be7" kind="variable"><name>_Column</name></member>
+    <member refid="classbattleships_1_1_attack_result_1aaf59a980720cd5896f56b370ff6f4700" kind="property"><name>Value</name></member>
+    <member refid="classbattleships_1_1_attack_result_1a285f922e10db965479f5bc7ff3b74b30" kind="property"><name>Ship</name></member>
+    <member refid="classbattleships_1_1_attack_result_1abbdf7dafbc0d2f7c929742df9e2e167d" kind="property"><name>Text</name></member>
+    <member refid="classbattleships_1_1_attack_result_1a5e8e8e49d1cfccb3a284933f9b5dc632" kind="property"><name>Row</name></member>
+    <member refid="classbattleships_1_1_attack_result_1a1618c4397a41613f7e932857aa1a1534" kind="property"><name>Column</name></member>
+    <member refid="classbattleships_1_1_attack_result_1a402023fb1085d7263575e8dbc6c9ff84" kind="function"><name>AttackResult</name></member>
+    <member refid="classbattleships_1_1_attack_result_1a91c8796313fa9b11e3acd5f8d4e67648" kind="function"><name>AttackResult</name></member>
+    <member refid="classbattleships_1_1_attack_result_1aa8df6e9c816d92e980c60fdb5efa8fc7" kind="function"><name>ToString</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_battle_ships_game" kind="class"><name>battleships::BattleShipsGame</name>
+    <member refid="classbattleships_1_1_battle_ships_game_1a56339a02bc60ed82f4205849c4ac2da8" kind="event"><name>AttackCompleted</name></member>
+    <member refid="classbattleships_1_1_battle_ships_game_1a9ca80add15442a88838119986ac687d6" kind="variable"><name>_players</name></member>
+    <member refid="classbattleships_1_1_battle_ships_game_1ab27750f99f78191657b485960e40f3fa" kind="variable"><name>_playerIndex</name></member>
+    <member refid="classbattleships_1_1_battle_ships_game_1a71bc711f050339a4fb1372e62d2de395" kind="property"><name>Player</name></member>
+    <member refid="classbattleships_1_1_battle_ships_game_1ac59c4cafe565c61ed92b1598e362bbbc" kind="function"><name>AttackCompletedHandler</name></member>
+    <member refid="classbattleships_1_1_battle_ships_game_1a78960cfb26dc05315697946fc3e3d39a" kind="function"><name>AddDeployedPlayer</name></member>
+    <member refid="classbattleships_1_1_battle_ships_game_1a058986527b62dda1d12d5fa93390ce2e" kind="function"><name>Shoot</name></member>
+    <member refid="classbattleships_1_1_battle_ships_game_1a905dfd334ae24585438aebc879f6da91" kind="function"><name>CompleteDeployment</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_deployment_controller" kind="class"><name>battleships::DeploymentController</name>
+    <member refid="classbattleships_1_1_deployment_controller_1ae79560abf90b40bfcc8adec29c9b21b9" kind="variable"><name>SHIPS_TOP</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a61558a33ac43042a74940537cd2282bc" kind="variable"><name>SHIPS_LEFT</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1ac7c173f712fa3c3712ddef9ec4664979" kind="variable"><name>SHIPS_HEIGHT</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a8401abba42309a56d21126b967e95646" kind="variable"><name>SHIPS_WIDTH</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1aea9a5504708d56bc39d0d3fec1e4bd39" kind="variable"><name>TOP_BUTTONS_TOP</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a02cb5c89835582d77578cce043a6ad00" kind="variable"><name>TOP_BUTTONS_HEIGHT</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1ab03ee4bbd7c2b9c6b831f8e0718e5c6c" kind="variable"><name>PLAY_BUTTON_LEFT</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a7065e03e0660a6596ae8bf2d4d59e540" kind="variable"><name>PLAY_BUTTON_WIDTH</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a09e7ace892470dfa56118b8582c15148" kind="variable"><name>UP_DOWN_BUTTON_LEFT</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a44ebf4599470fa0ad38d25fa768f3d94" kind="variable"><name>LEFT_RIGHT_BUTTON_LEFT</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a7236024ff5953ad0aee649b78feb4554" kind="variable"><name>RANDOM_BUTTON_LEFT</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1aa88b5e094a826b13bdc7824f7baf9dba" kind="variable"><name>RANDOM_BUTTON_WIDTH</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a99b0ea1edca97f8e1f2cd2c6b22ab397" kind="variable"><name>DIR_BUTTONS_WIDTH</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1afa1d7d53f62baf9b5fee54575a1a4ccc" kind="variable"><name>TEXT_OFFSET</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a3c6aaa317c3290de701b2399f5ff518e" kind="variable"><name>_currentDirection</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a861bf706fff9f9668e74bbd616a97da0" kind="variable"><name>_selectedShip</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a4313cad9a2b323a32e0ba5627aef652e" kind="function"><name>HandleDeploymentInput</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1ad47b109a4bbbf1932b2a12d05eff60d0" kind="function"><name>DrawDeployment</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a37db79a24c459afef209209f3198097c" kind="function"><name>DoDeployClick</name></member>
+    <member refid="classbattleships_1_1_deployment_controller_1a0cbb24951931b879eb28ad4768b5a5ba" kind="function"><name>GetShipMouseIsOver</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_discovery_controller" kind="class"><name>battleships::DiscoveryController</name>
+    <member refid="classbattleships_1_1_discovery_controller_1a3383850b9bbf3f1e479d9c1b924abb86" kind="function"><name>HandleDiscoveryInput</name></member>
+    <member refid="classbattleships_1_1_discovery_controller_1a642809d8631bc2887fe80628e1581f7b" kind="function"><name>DrawDiscovery</name></member>
+    <member refid="classbattleships_1_1_discovery_controller_1aa8f08ff27cd15313a25ab22bc32e2015" kind="function"><name>DoAttack</name></member>
+  </compound>
+  <compound refid="class_microsoft_1_1_visual_basic_1_1_embedded" kind="class"><name>Microsoft::VisualBasic::Embedded</name>
+  </compound>
+  <compound refid="classbattleships_1_1_ending_game_controller" kind="class"><name>battleships::EndingGameController</name>
+    <member refid="classbattleships_1_1_ending_game_controller_1abe5a332e65ac372b395b88241647d07f" kind="function"><name>DrawEndOfGame</name></member>
+    <member refid="classbattleships_1_1_ending_game_controller_1a8af0629e3a9a912a04ce2c2658c17f64" kind="function"><name>HandleEndOfGameInput</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_game_controller" kind="class"><name>battleships::GameController</name>
+    <member refid="classbattleships_1_1_game_controller_1a4fcf77c43f35a387d35c323fc0b78001" kind="variable"><name>_theGame</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a27532bfae20a0f09b65dfb5846c8f562" kind="variable"><name>_human</name></member>
+    <member refid="classbattleships_1_1_game_controller_1ac9d97850f99aa380185174d4ffcbe2d9" kind="variable"><name>_ai</name></member>
+    <member refid="classbattleships_1_1_game_controller_1af2a5e952b4a57e1f55a703ac82de3165" kind="variable"><name>_state</name></member>
+    <member refid="classbattleships_1_1_game_controller_1ad99ac2988a8d8ce219a37a6bcc393ab3" kind="variable"><name>_aiSetting</name></member>
+    <member refid="classbattleships_1_1_game_controller_1afd98da917d4ade22cf7302ff6e61aa3e" kind="property"><name>CurrentState</name></member>
+    <member refid="classbattleships_1_1_game_controller_1afcd318ed5c459f38b2345dfc5e91264d" kind="property"><name>HumanPlayer</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a679058c3607982aac28fb19c3a42ce01" kind="property"><name>ComputerPlayer</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a20aeec682e39d4c74312c36dcf0bf7ee" kind="function"><name>GameController</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a4b12792b9c01c60426734e31a5bd7efa" kind="function"><name>EndGame</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a4a8ef26503693a7c320bdf798dd935fb" kind="function"><name>GridChanged</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a8d9c0143adf23bc837300e51b2c06d85" kind="function"><name>PlayHitSequence</name></member>
+    <member refid="classbattleships_1_1_game_controller_1ad7597d6b14312ceb1a314b27716bac7b" kind="function"><name>PlayMissSequence</name></member>
+    <member refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" kind="function"><name>AttackCompleted</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a7a92f18217c2bdeb0b674dd0e844a486" kind="function"><name>AIAttack</name></member>
+    <member refid="classbattleships_1_1_game_controller_1aa452a391d47eec00226b160b339ee69b" kind="function"><name>CheckAttackResult</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a0e30407d641b3ea63748f135cf3a146f" kind="function"><name>StartGame</name></member>
+    <member refid="classbattleships_1_1_game_controller_1ab23ef85fb0ef040e19e50bfd3bdb2705" kind="function"><name>EndDeployment</name></member>
+    <member refid="classbattleships_1_1_game_controller_1afe094c2d61cef3fc2fe3d5a5a9bcb369" kind="function"><name>HelloWorld</name></member>
+    <member refid="classbattleships_1_1_game_controller_1afe6772f328fd1c6a2d504f03db534133" kind="function"><name>Attack</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a64335e0908b94cf40a66410d0e3763f8" kind="function"><name>HandleUserInput</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a898fb9ca29c884c004fe2281c9622ee1" kind="function"><name>DrawScreen</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a09e2710f42a0b2cba0b59ce4f6b53a62" kind="function"><name>AddNewState</name></member>
+    <member refid="classbattleships_1_1_game_controller_1a4a911383a668cc03472e27b23b5cbc91" kind="function"><name>SwitchState</name></member>
+    <member refid="classbattleships_1_1_game_controller_1abdb6d700d59d414180802cfbb6181b27" kind="function"><name>EndCurrentState</name></member>
+    <member refid="classbattleships_1_1_game_controller_1ad69569c07ceb078efb606d06735b7b0d" kind="function"><name>SetDifficulty</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_game_logic" kind="class"><name>battleships::GameLogic</name>
+    <member refid="classbattleships_1_1_game_logic_1a46dd1ebcd17a40b28658289d0a707c6a" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_game_resources" kind="class"><name>battleships::GameResources</name>
+    <member refid="classbattleships_1_1_game_resources_1ab7166838f357ab86315043b79ecf9dd5" kind="variable"><name>_Images</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a55135dd17dcbc148cf8989d6a18ef85d" kind="variable"><name>_Fonts</name></member>
+    <member refid="classbattleships_1_1_game_resources_1aee7d442b3cd287842b15b065b4855fcf" kind="variable"><name>_Sounds</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a112d5f7d86a813625f48da077aab5c51" kind="variable"><name>_Music</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a928d855774cc86e31ce4e434818b2d17" kind="variable"><name>_Background</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a6a454e9e26217f188d9513d1bfd2ef4f" kind="variable"><name>_Animation</name></member>
+    <member refid="classbattleships_1_1_game_resources_1aca282a2c017655db930bb320a7004dff" kind="variable"><name>_LoaderFull</name></member>
+    <member refid="classbattleships_1_1_game_resources_1af9541ac78f3dcf9b8aa850aeb426c355" kind="variable"><name>_LoaderEmpty</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a5385c871d31768838c9e96fb7c7d4c3c" kind="variable"><name>_LoadingFont</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a3487affb314d0f7ee0dba43f34ee366e" kind="variable"><name>_StartSound</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a4a4451cd2d5a4af297e535da4a95d077" kind="function"><name>LoadFonts</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a2cd452f1d2b324e613aaa21bb4132320" kind="function"><name>LoadImages</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a70eb2989242df38a8e86b608b6a1bef2" kind="function"><name>LoadSounds</name></member>
+    <member refid="classbattleships_1_1_game_resources_1ab651091e7793fc594a3afd2aeee0d214" kind="function"><name>LoadMusic</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" kind="function"><name>ShowLoadingScreen</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a7dabe4a4ed815329436a8796c405c7a1" kind="function"><name>PlaySwinGameIntro</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a8cf61afd0d3b8aecf358bccc836b50c6" kind="function"><name>ShowMessage</name></member>
+    <member refid="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" kind="function"><name>EndLoadingScreen</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a8264606d18b23ecd5a100b16f9acb92b" kind="function"><name>NewFont</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a3e357095ee39dcc61e66f430ae30d004" kind="function"><name>NewImage</name></member>
+    <member refid="classbattleships_1_1_game_resources_1af4612f466d43d69fc449a83b851496a3" kind="function"><name>NewTransparentColorImage</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a7fbf72a77ff5efedd51e0fb834ed9200" kind="function"><name>NewTransparentColourImage</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a496cd60a619a1132100cd3244b73c3b0" kind="function"><name>NewSound</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a6f579634dd3214acc2db7e55c9d8d0bc" kind="function"><name>NewMusic</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a63d53259902cbaa31b7c0bfeaac4e827" kind="function"><name>FreeFonts</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a3cf8a3e065a62129226e55a03df01f7f" kind="function"><name>FreeImages</name></member>
+    <member refid="classbattleships_1_1_game_resources_1acee6614db1a3a2bd4eebc6bf9c96f9a1" kind="function"><name>FreeSounds</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a770b1623f99df69d65c4f4cecd712e15" kind="function"><name>FreeMusic</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a3cc1471d94c19c40a9ed66b635a67a7a" kind="function"><name>GameFont</name></member>
+    <member refid="classbattleships_1_1_game_resources_1afdcb12d14c0beeb7b20d3c8b100b492b" kind="function"><name>GameImage</name></member>
+    <member refid="classbattleships_1_1_game_resources_1af980623df0dca10c249a8d906e952ea7" kind="function"><name>GameSound</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a725b8a2b8dcf9a30daf896d295bf2bcd" kind="function"><name>GameMusic</name></member>
+    <member refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" kind="function"><name>LoadResources</name></member>
+    <member refid="classbattleships_1_1_game_resources_1a99e632b816cd08c5c5138766670ccaa6" kind="function"><name>FreeResources</name></member>
+  </compound>
+  <compound refid="classbattleships_unit_test_1_1_hello_world" kind="class"><name>battleshipsUnitTest::HelloWorld</name>
+    <member refid="classbattleships_unit_test_1_1_hello_world_1a64d9bd31bc12591cdae384809d4f4448" kind="variable"><name>Expected</name></member>
+    <member refid="classbattleships_unit_test_1_1_hello_world_1a1b0e13cfdbb2ee530749122250b31267" kind="function"><name>TestMethod1</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_high_score_controller" kind="class"><name>battleships::HighScoreController</name>
+    <member refid="classbattleships_1_1_high_score_controller_1aa4dbfbd7878986f39efabd5169daaadb" kind="variable"><name>NAME_WIDTH</name></member>
+    <member refid="classbattleships_1_1_high_score_controller_1ae19a27d7a71ec1fd3ed29a4151b1705b" kind="variable"><name>SCORES_LEFT</name></member>
+    <member refid="classbattleships_1_1_high_score_controller_1a44b0e29af51577906dacf1f6fd29000a" kind="variable"><name>_Scores</name></member>
+    <member refid="classbattleships_1_1_high_score_controller_1aa41d878b3d2096f9700fe8a5ea4acab4" kind="function"><name>LoadScores</name></member>
+    <member refid="classbattleships_1_1_high_score_controller_1aee937bcf7427069d65cea67533f99bbd" kind="function"><name>SaveScores</name></member>
+    <member refid="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" kind="function"><name>DrawHighScores</name></member>
+    <member refid="classbattleships_1_1_high_score_controller_1a4322d3f66d0d024f8da70fc9eec6190e" kind="function"><name>HandleHighScoreInput</name></member>
+    <member refid="classbattleships_1_1_high_score_controller_1a6c130d0d1d197805a5c50f31cd228813" kind="function"><name>ReadHighScore</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_my_1_1_internal_xml_helper" kind="class"><name>battleships::My::InternalXmlHelper</name>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1af6820fd4efc43a5388248decbc5f92fc" kind="function"><name>InternalXmlHelper</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a38dcc2a190d9f66d4a9bf9b524359f82" kind="function"><name>get_Value</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a23c65a9be0c621448cf1ff3f5f622b0a" kind="function"><name>set_Value</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a0ef4ff382ef4d1383f2dd55a4ca18762" kind="function"><name>get_AttributeValue</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1af0b63b64134913e55400bde57025b47e" kind="function"><name>set_AttributeValue</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1ac295a1c28eb3d2d340159233490d01e2" kind="function"><name>get_AttributeValue</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a6fb388e7f94c24d717a466bef943be88" kind="function"><name>set_AttributeValue</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a2823b94920982bc15910881cfa43f421" kind="function"><name>CreateAttribute</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1aa641efa6e912c8392ddf1d740499b65f" kind="function"><name>CreateNamespaceAttribute</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1abce25694b160f393d03ee88b82e667ed" kind="function"><name>RemoveNamespaceAttributes</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1a360292c3388019c446b22d867390588e" kind="function"><name>RemoveNamespaceAttributes</name></member>
+    <member refid="classbattleships_1_1_my_1_1_internal_xml_helper_1acf651eb2de595bc3011a916b75063459" kind="function"><name>RemoveNamespaceAttributes</name></member>
+  </compound>
+  <compound refid="interfacebattleships_1_1_i_sea_grid" kind="interface"><name>battleships::ISeaGrid</name>
+    <member refid="interfacebattleships_1_1_i_sea_grid_1ac6829a2f526e915b1fa33444d73286d8" kind="property"><name>Width</name></member>
+    <member refid="interfacebattleships_1_1_i_sea_grid_1a5ec9d3c93bf25602616426e4ff81a142" kind="property"><name>Height</name></member>
+    <member refid="interfacebattleships_1_1_i_sea_grid_1ac735f266f126c5bc1768b5f6e9e05045" kind="property"><name>this[int row, int column]</name></member>
+    <member refid="interfacebattleships_1_1_i_sea_grid_1a9a514b1ff36839b5a0566690075f7ccd" kind="event"><name>Changed</name></member>
+    <member refid="interfacebattleships_1_1_i_sea_grid_1a428fa6fa9e969f6a2d23e3d28fcdf4b7" kind="function"><name>HitTile</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_a_i_player_1_1_location" kind="class"><name>battleships::AIPlayer::Location</name>
+    <member refid="classbattleships_1_1_a_i_player_1_1_location_1a0b289062386d1c1eb0a2a780cf665d11" kind="variable"><name>_Row</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1_1_location_1a729bdf70ae2a3618805eb79aaea84216" kind="variable"><name>_Column</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1_1_location_1a07e342bed0958d292ad4803664970a46" kind="property"><name>Row</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1_1_location_1aa73854fbb0ba2908a1abffea41ed6a2a" kind="property"><name>Column</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1_1_location_1a89bb6109a7d9e98dabed8542c03729cd" kind="function"><name>Location</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1_1_location_1ab4fd0810935a205a1b53cc0378f13e83" kind="function"><name>operator==</name></member>
+    <member refid="classbattleships_1_1_a_i_player_1_1_location_1aaae5259d5212be11bd5d04c8217a4cbc" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_menu_controller" kind="class"><name>battleships::MenuController</name>
+    <member refid="classbattleships_1_1_menu_controller_1a6d5e58088ba74c0b74654546997348ab" kind="variable"><name>_menuStructure</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a9dff279537e9bbd4fd13c2214131f6fa" kind="variable"><name>MENU_COLOR</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1ab9d5bcca5900e4159c42c010fd3c59fe" kind="variable"><name>HIGHLIGHT_COLOR</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a2366fd9dff42961ca7a2cad4d2db9747" kind="variable"><name>MENU_TOP</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1afb95801e61040bfa0335827221288208" kind="variable"><name>MENU_LEFT</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a42e26efa30929ae2216e2daa920e98fb" kind="variable"><name>MENU_GAP</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1ad5edbbae0c7bc65c16e5c4219cd151cc" kind="variable"><name>BUTTON_WIDTH</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1afff14c3916637646233130e285069704" kind="variable"><name>BUTTON_HEIGHT</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a561a7a961efec86f9a6ca7499d8fe266" kind="variable"><name>BUTTON_SEP</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a2857e5a11ce413d3d1d376df98073cfa" kind="variable"><name>TEXT_OFFSET</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a7acfad96b02ebc6bbdd59870dc84f249" kind="variable"><name>MAIN_MENU</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a7190259724dd7773e6c29fd4f7077899" kind="variable"><name>GAME_MENU</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a6f52e886f8970768468895bed61c9e4b" kind="variable"><name>SETUP_MENU</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a76087f755435613f63dc149b7ee6c579" kind="variable"><name>MAIN_MENU_PLAY_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a55f0fc51c2a7965562800d304e66bf63" kind="variable"><name>MAIN_MENU_SETUP_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1ac0101f8fa852270e982f4f0f4512b009" kind="variable"><name>MAIN_MENU_TOP_SCORES_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1ad997dc87fffe0d0cffa889f03de9158d" kind="variable"><name>MAIN_MENU_QUIT_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1afe90690cae764cd37ac301d47a56168b" kind="variable"><name>SETUP_MENU_EASY_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1aab96008e90d7464bbd6236e54e6e4c94" kind="variable"><name>SETUP_MENU_MEDIUM_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a92ea210e5f92fdaa41cc232aea4656cd" kind="variable"><name>SETUP_MENU_HARD_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1abb35cc9af3bbf99b6b9e9f478d4f677e" kind="variable"><name>SETUP_MENU_EXIT_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a8e1c35c725790e62439aeeaa07e468fe" kind="variable"><name>GAME_MENU_RETURN_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1ae12bb2b3091da6e90e65c4d1a0f33d4b" kind="variable"><name>GAME_MENU_SURRENDER_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a466028fd57125f92099e593631765ac4" kind="variable"><name>GAME_MENU_QUIT_BUTTON</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a6e521d75362c9dabd0754d9e5e18670c" kind="function"><name>HandleMainMenuInput</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1acb3f614d2f4bd02b8de164a5ad9010d0" kind="function"><name>HandleSetupMenuInput</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a48c69652329c14289292a713b347dbed" kind="function"><name>HandleGameMenuInput</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a0eb16665a7f78ee4746806281b65f6c1" kind="function"><name>DrawMainMenu</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a1f520ceef37bdbf291d6a0b9131c922f" kind="function"><name>DrawGameMenu</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a9af9aed62506475312bc035549e7623e" kind="function"><name>DrawSettings</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a1d842ac21377459053d6b3bd75418bf3" kind="function"><name>HandleMenuInput</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a6d38f03f46f2fb2ca9058205afd1f901" kind="function"><name>DrawButtons</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1afea6fc71a7f610d09901fa15a15fe92b" kind="function"><name>DrawButtons</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1ac92766ab912e89e94ac2d77f5f245d08" kind="function"><name>IsMouseOverButton</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1ab477b8f269a0af98fc7c861d4b66ce77" kind="function"><name>IsMouseOverMenu</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1ac021109766012487929611d986d882c8" kind="function"><name>PerformMenuAction</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a9aea7787a69b658a43f4e4030b3dbdc5" kind="function"><name>PerformMainMenuAction</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1a5b7b5908ea1cf77175b4f186416aaa4b" kind="function"><name>PerformSetupMenuAction</name></member>
+    <member refid="classbattleships_1_1_menu_controller_1addb027ca4db8619c0854ad400d128274" kind="function"><name>PerformGameMenuAction</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_my_1_1_my_application" kind="class"><name>battleships::My::MyApplication</name>
+  </compound>
+  <compound refid="classbattleships_1_1_my_1_1_my_computer" kind="class"><name>battleships::My::MyComputer</name>
+    <member refid="classbattleships_1_1_my_1_1_my_computer_1ad8e20f3136303ef9cfd63103e12daa83" kind="function"><name>MyComputer</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_my_1_1_my_project" kind="class"><name>battleships::My::MyProject</name>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1a86e832bb1447cbbbcd909eeedc600fe0" kind="property"><name>Computer</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1a76996ccc3862108ca9feb6fc792e3275" kind="property"><name>Application</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1ac33ce863da40c17294d65785edb252e8" kind="property"><name>User</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1a0b3aa02d1d21ff23489924f90367a7cd" kind="property"><name>WebServices</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1a161869743fca9c4cfde99117eefb28f8" kind="variable"><name>m_ComputerObjectProvider</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1a53634a24f347812185836704b6d08aa3" kind="variable"><name>m_AppObjectProvider</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1a24ff3347912d581db9d568259b662fff" kind="variable"><name>m_UserObjectProvider</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1a2c8ca211aa2124730eb5eeef262dbfa7" kind="variable"><name>m_MyWebServicesObjectProvider</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services" kind="class"><name>battleships::My::MyProject::MyWebServices</name>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a52e8bde65c65903cdbc2113cff0e571e" kind="function"><name>Equals</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a0c8adaa5b6dcc8955840920475c58772" kind="function"><name>GetHashCode</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1aa7dbb42e17615db80a1918a38641df97" kind="function"><name>ToString</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a0c10e0ecdf8b36d14319ff7d57e98399" kind="function"><name>MyWebServices</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a996dae3550cfec97a69e7fbc1a60c2da" kind="function"><name>GetType</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a375a1eb6f5de9a9312421cca8af549e3" kind="function"><name>Create__Instance__&lt; T &gt;</name></member>
+    <member refid="classbattleships_1_1_my_1_1_my_project_1_1_my_web_services_1a4b8b3d2031eafbf3e576b2763efac4a9" kind="function"><name>Dispose__Instance__&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_player" kind="class"><name>battleships::Player</name>
+    <member refid="classbattleships_1_1_player_1a549221d3e7c53232283a31fa562d883b" kind="variable"><name>_Random</name></member>
+    <member refid="classbattleships_1_1_player_1a4fb80e8a00d0417c5f9a6980f22c019b" kind="variable"><name>_Ships</name></member>
+    <member refid="classbattleships_1_1_player_1a00e8aacf9e3a43c0fb1c25dd760a64b5" kind="variable"><name>_playerGrid</name></member>
+    <member refid="classbattleships_1_1_player_1a21daf54804dfba0a0e446c1178cb7f52" kind="variable"><name>_enemyGrid</name></member>
+    <member refid="classbattleships_1_1_player_1a63aa61489dcf12321636a5cfc6048c82" kind="variable"><name>_shots</name></member>
+    <member refid="classbattleships_1_1_player_1a9b811247e8cdca1ca0c6edb6081890ba" kind="variable"><name>_hits</name></member>
+    <member refid="classbattleships_1_1_player_1a8e2856701f1a765aaacbf8c310a07cc3" kind="variable"><name>_misses</name></member>
+    <member refid="classbattleships_1_1_player_1aa5b7925b964a30672390c3279869aa82" kind="variable"><name>_game</name></member>
+    <member refid="classbattleships_1_1_player_1a0d364b1c253c4ffa83c12c8a52091b09" kind="property"><name>Game</name></member>
+    <member refid="classbattleships_1_1_player_1a20b58b6ef17aedb3681453e9274bff8c" kind="property"><name>Enemy</name></member>
+    <member refid="classbattleships_1_1_player_1afa4e3c2651f0100aff0f7802af8e94f1" kind="property"><name>EnemyGrid</name></member>
+    <member refid="classbattleships_1_1_player_1a224a5ec515b83d78ff01658cfa9874db" kind="property"><name>PlayerGrid</name></member>
+    <member refid="classbattleships_1_1_player_1ac15a1f4ee3de910ea859e834ca3a7547" kind="property"><name>ReadyToDeploy</name></member>
+    <member refid="classbattleships_1_1_player_1adebb7ac02d1131965556b5b59455f37e" kind="property"><name>IsDestroyed</name></member>
+    <member refid="classbattleships_1_1_player_1a2c5cf0f98e96aeac6b2e6ccb4167e561" kind="property"><name>Shots</name></member>
+    <member refid="classbattleships_1_1_player_1a1899c8d59f73b68f2068d0ec818b8b58" kind="property"><name>Hits</name></member>
+    <member refid="classbattleships_1_1_player_1a324262991267be9bd03089c05def45ac" kind="property"><name>Missed</name></member>
+    <member refid="classbattleships_1_1_player_1a253395c2c80ef1df53d0b55e0cfc3282" kind="property"><name>Score</name></member>
+    <member refid="classbattleships_1_1_player_1a218e305df4ffb97f002c585964df0e94" kind="function"><name>Player</name></member>
+    <member refid="classbattleships_1_1_player_1a15698d4caf8e6ffc282319351441c90c" kind="function"><name>get_Ship</name></member>
+    <member refid="classbattleships_1_1_player_1a79f783d11b08bb60985d45f42fad5483" kind="function"><name>GetShipEnumerator</name></member>
+    <member refid="classbattleships_1_1_player_1ae6d890ffce0e26115ba241334d1bb9f1" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classbattleships_1_1_player_1a48d7d819028ab93fe086f0bacd25793f" kind="function"><name>Attack</name></member>
+    <member refid="classbattleships_1_1_player_1a24ead603cef9055f2da6bfa07d68de1c" kind="function"><name>RandomizeDeployment</name></member>
+    <member refid="classbattleships_1_1_player_1a20609c2cf492f41ee37f1307ae7a808e" kind="function"><name>Shoot</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_my_1_1_internal_xml_helper_1_1_remove_namespace_attributes_closure" kind="class"><name>battleships::My::InternalXmlHelper::RemoveNamespaceAttributesClosure</name>
+  <compound refid="classbattleships_1_1_properties_1_1_resources" kind="class"><name>battleships::Properties::Resources</name>
+    <member refid="classbattleships_1_1_properties_1_1_resources_1a21237f6b974093c5979aab6e1a196d34" kind="variable"><name>resourceMan</name></member>
+    <member refid="classbattleships_1_1_properties_1_1_resources_1a32571132056137e242e0777da88caaf8" kind="variable"><name>resourceCulture</name></member>
+    <member refid="classbattleships_1_1_properties_1_1_resources_1ae355db3b48145fef25ed0c402f94da89" kind="property"><name>ResourceManager</name></member>
+    <member refid="classbattleships_1_1_properties_1_1_resources_1aa4418929c77026905cae21e8b887e5ca" kind="property"><name>Culture</name></member>
+    <member refid="classbattleships_1_1_properties_1_1_resources_1aba8da84acc9b68897f293e2def868586" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="structbattleships_1_1_high_score_controller_1_1_score" kind="struct"><name>battleships::HighScoreController::Score</name>
+    <member refid="structbattleships_1_1_high_score_controller_1_1_score_1ab6178e5dde538b1f2044f596df4b6a85" kind="variable"><name>Name</name></member>
+    <member refid="structbattleships_1_1_high_score_controller_1_1_score_1adfa426d065892f29e4a9bda0b9eec336" kind="variable"><name>Value</name></member>
+    <member refid="structbattleships_1_1_high_score_controller_1_1_score_1aaec14ab9d2b45c51fd5498f2be89750b" kind="function"><name>CompareTo</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_sea_grid" kind="class"><name>battleships::SeaGrid</name>
+    <member refid="classbattleships_1_1_sea_grid_1a39293dfd1cb9687948c7d45c3fef0fcf" kind="variable"><name>_WIDTH</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1ab04f3e312ee10bffd1a76be258d8c994" kind="variable"><name>_HEIGHT</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1a94ee761c59595d142b1424538797d0b0" kind="variable"><name>_GameTiles</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1ad0d22e8e181f4c415a42bdabe10f77fe" kind="variable"><name>_Ships</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1a8433a0a591df2fc4a4a5bd13eec49199" kind="variable"><name>_ShipsKilled</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1afd3ecaa435b47d37898bd685f21ce5d6" kind="event"><name>Changed</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1a117214af565be9d29ef1b613f0193fd9" kind="property"><name>Width</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1a31a72501f7cb5eb71de7f3e6b899770b" kind="property"><name>Height</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1af2c7a0477f53ab421823aff57e9c6631" kind="property"><name>ShipsKilled</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1a0243387a384c6549530108f3ef07b7cb" kind="property"><name>this[int x, int y]</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1ac1c21d8ef66e4532713711cd2189b13f" kind="property"><name>AllDeployed</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1a715606f70653af42fd8c586980131458" kind="function"><name>SeaGrid</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1a63a95115237c66bdc6c055d3fbf6b2fb" kind="function"><name>MoveShip</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1a1971f89446a830b49c8d84292aea50f9" kind="function"><name>HitTile</name></member>
+    <member refid="classbattleships_1_1_sea_grid_1ae9e1e8b71118f1b0f66cad1bb8221822" kind="function"><name>AddShip</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_sea_grid_adapter" kind="class"><name>battleships::SeaGridAdapter</name>
+    <member refid="classbattleships_1_1_sea_grid_adapter_1a269c64f566731178abb63236206317a7" kind="variable"><name>_MyGrid</name></member>
+    <member refid="classbattleships_1_1_sea_grid_adapter_1a1700fcce17e48d7f2de131c067201038" kind="property"><name>this[int x, int y]</name></member>
+    <member refid="classbattleships_1_1_sea_grid_adapter_1a46ebf4ee78381355cdf1e006e48e899c" kind="property"><name>Width</name></member>
+    <member refid="classbattleships_1_1_sea_grid_adapter_1ad9c33303d280987b79536501d0ca58ea" kind="property"><name>Height</name></member>
+    <member refid="classbattleships_1_1_sea_grid_adapter_1a950fbdd35999d30c9164a71db09cc3da" kind="event"><name>Changed</name></member>
+    <member refid="classbattleships_1_1_sea_grid_adapter_1a9f814f2a4085655a5adcce202e5e67e0" kind="function"><name>SeaGridAdapter</name></member>
+    <member refid="classbattleships_1_1_sea_grid_adapter_1a797da3168753095cd4542fff526954be" kind="function"><name>HitTile</name></member>
+    <member refid="classbattleships_1_1_sea_grid_adapter_1a59b064289886daf3db7b0e49f49f6466" kind="function"><name>MyGrid_Changed</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_ship" kind="class"><name>battleships::Ship</name>
+    <member refid="classbattleships_1_1_ship_1a686ac17936e42d523daab23760c3a7f1" kind="variable"><name>_shipName</name></member>
+    <member refid="classbattleships_1_1_ship_1ab09f7aabdaf79cb5d9db8a1ccb4cf255" kind="variable"><name>_sizeOfShip</name></member>
+    <member refid="classbattleships_1_1_ship_1a08577c8f44b4c2346513af48eff5d98b" kind="variable"><name>_hitsTaken</name></member>
+    <member refid="classbattleships_1_1_ship_1a892814862fc1304c39b6b46186a703a1" kind="variable"><name>_tiles</name></member>
+    <member refid="classbattleships_1_1_ship_1a6eacdf96b0a1e836248e2d2e942f6933" kind="variable"><name>_row</name></member>
+    <member refid="classbattleships_1_1_ship_1a8e4bf2d0521b6b10c07f4ef3e5acdcae" kind="variable"><name>_col</name></member>
+    <member refid="classbattleships_1_1_ship_1adf0f0d93afb29e02b71e8a0f94f0925b" kind="variable"><name>_direction</name></member>
+    <member refid="classbattleships_1_1_ship_1a78eece69e4cd55ab1aecafa41361e128" kind="property"><name>Name</name></member>
+    <member refid="classbattleships_1_1_ship_1aa8f9a5daaa8a38f8d0b7f5a062a129a5" kind="property"><name>Size</name></member>
+    <member refid="classbattleships_1_1_ship_1aaa73c5904555bf41496d4e7b42308118" kind="property"><name>Hits</name></member>
+    <member refid="classbattleships_1_1_ship_1ae2901c60904f590c500bc347382288f5" kind="property"><name>Row</name></member>
+    <member refid="classbattleships_1_1_ship_1a6ee4f2256685e5776b56cbd27ac9deeb" kind="property"><name>Column</name></member>
+    <member refid="classbattleships_1_1_ship_1a1815c8e47a27f7d86b5bae89488db03b" kind="property"><name>Direction</name></member>
+    <member refid="classbattleships_1_1_ship_1aec362a8b89d1551c17d1b9e59290cb5d" kind="property"><name>IsDeployed</name></member>
+    <member refid="classbattleships_1_1_ship_1a994d78ba5a4dba6d79dbc81c803c8a2b" kind="property"><name>IsDestroyed</name></member>
+    <member refid="classbattleships_1_1_ship_1abb38b5d053dad6838d02c343e4036aca" kind="function"><name>Ship</name></member>
+    <member refid="classbattleships_1_1_ship_1ab56833853243309518bb07ede08ae2b5" kind="function"><name>AddTile</name></member>
+    <member refid="classbattleships_1_1_ship_1a5f5de0f510b1fc8b0e28bbb4eeb2a39b" kind="function"><name>Remove</name></member>
+    <member refid="classbattleships_1_1_ship_1ab0623a136af53aecf6b53cd7a6435eef" kind="function"><name>Hit</name></member>
+    <member refid="classbattleships_1_1_ship_1a5c685b504f3e01c2393b4fd95c123200" kind="function"><name>Deployed</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_a_i_hard_player_1_1_target" kind="class"><name>battleships::AIHardPlayer::Target</name>
+    <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a4e25310b42438add40a1e37e279704f3" kind="variable"><name>_ShotAt</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a33342e55bc23cfdc6e1cdd94a43247b8" kind="variable"><name>_Source</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a485b24dc5468cb4f45e36c9424202caa" kind="property"><name>ShotAt</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1ad44ab7bf06c40df920e3381378dcc1cd" kind="property"><name>Source</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a3ab7e58eba1d8afb7f035a05bda46c24" kind="property"><name>SameRow</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a72615ecb34f91e5f1a23a45783b2e8ba" kind="property"><name>SameColumn</name></member>
+    <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a70ca7e385a626d771ac6db3b957d8a60" kind="function"><name>Target</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_my_1_1_my_project_1_1_thread_safe_object_provider_3_01_t_01_4" kind="class"><name>battleships::My::MyProject::ThreadSafeObjectProvider&lt; T &gt;</name>
+  <compound refid="classbattleships_1_1_tile" kind="class"><name>battleships::Tile</name>
+    <member refid="classbattleships_1_1_tile_1a3d708b4f9903d0f78122b9cd548bc2fb" kind="variable"><name>_RowValue</name></member>
+    <member refid="classbattleships_1_1_tile_1a1665e2054c3ad5f5f0ce9c28fac6cb43" kind="variable"><name>_ColumnValue</name></member>
+    <member refid="classbattleships_1_1_tile_1a7aad5de09deceaf2c62088ef02b2be7e" kind="variable"><name>_Ship</name></member>
+    <member refid="classbattleships_1_1_tile_1a23c8e479a492c147a4a62b8d6001d151" kind="variable"><name>_Shot</name></member>
+    <member refid="classbattleships_1_1_tile_1a2b28b52e7082b6a91f64f5be2f22ab60" kind="property"><name>Shot</name></member>
+    <member refid="classbattleships_1_1_tile_1aaf399d74565746e4f5a17d1ba45650a6" kind="property"><name>Row</name></member>
+    <member refid="classbattleships_1_1_tile_1a9cdd6a13155241522733f0174b39c19b" kind="property"><name>Column</name></member>
+    <member refid="classbattleships_1_1_tile_1a21b3d1b2fb78e54b5bcef9cad7793da5" kind="property"><name>Ship</name></member>
+    <member refid="classbattleships_1_1_tile_1ab38b212a1d40033da697d5926829a7d5" kind="property"><name>View</name></member>
+    <member refid="classbattleships_1_1_tile_1ad2b877ada8fa40f151ac5c92a8d51b32" kind="function"><name>Tile</name></member>
+    <member refid="classbattleships_1_1_tile_1ae7ae35a2045db5f5757461c1ae49235e" kind="function"><name>ClearShip</name></member>
+    <member refid="classbattleships_1_1_tile_1a58fe254854b558ab338423d3b94281a7" kind="function"><name>Shoot</name></member>
+  </compound>
+  <compound refid="classbattleships_1_1_utility_functions" kind="class"><name>battleships::UtilityFunctions</name>
+    <member refid="classbattleships_1_1_utility_functions_1ac41a65c0495c3246d6535a78351a1121" kind="variable"><name>FIELD_TOP</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1abf5b945acd3d2fccb5fe17a96fec96ea" kind="variable"><name>FIELD_LEFT</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a6c6b4de0dbfd32ee70749c1aac538b3e" kind="variable"><name>FIELD_WIDTH</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1acc036a8b7638e8915d59a78c190e945e" kind="variable"><name>FIELD_HEIGHT</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a9427b86bba54e3820d30376f8b653826" kind="variable"><name>MESSAGE_TOP</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a2b78d55087a034dc21c8ee50a9094a00" kind="variable"><name>CELL_WIDTH</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a41deedaf7288c05b307ae9f3d78d2753" kind="variable"><name>CELL_HEIGHT</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1adf5c8b6bad4a36757a747bb7011d3e20" kind="variable"><name>CELL_GAP</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1aba6ed7c66b602cfa1fbbeec2ba1d0f0c" kind="variable"><name>SHIP_GAP</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1aa4573ffe7d6d5864802e6977538891ca" kind="variable"><name>ANIMATION_CELLS</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a17011c9f2505b9eaf61ee3066092f729" kind="variable"><name>FRAMES_PER_CELL</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a9fb6f0400c74522a30a20db18d1aabd8" kind="variable"><name>SMALL_SEA</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a6091b67d0f929854e90f9efb9587c64b" kind="variable"><name>SMALL_SHIP</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a24f8bd28f2020718634d75927e3c4ec8" kind="variable"><name>SMALL_MISS</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a9f7f20aa95372fe5f476ca8d37d255f7" kind="variable"><name>SMALL_HIT</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1abbe20273e16a7919c4765c56bc6dbaf8" kind="variable"><name>LARGE_SEA</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a5d9d17a5b56206d13f3bdf0ba74b57e7" kind="variable"><name>LARGE_SHIP</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a6cc866548707bbeab023459bc1d662c2" kind="variable"><name>LARGE_MISS</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a17e4160c660140cbbfa55621790b6372" kind="variable"><name>LARGE_HIT</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a3829661bca6117717dc4b0ba8fc7bd78" kind="variable"><name>OUTLINE_COLOR</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1af809ee9545357bc0c0310069d871969d" kind="variable"><name>SHIP_FILL_COLOR</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1af21819c8b3fe089ca0901390c77d1d7d" kind="variable"><name>SHIP_OUTLINE_COLOR</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a3306f3ae0ae26c35b6bf13f6f5a2a2d4" kind="variable"><name>MESSAGE_COLOR</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1adecbea0832da4ff20595850c386cb602" kind="variable"><name>_message</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a530e61a87b0b42166397b3ad911e81c9" kind="variable"><name>_Animations</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1abf2614a89546a16bf27f29dcd7973be1" kind="property"><name>Message</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1ad69f7f2f2fb92331e1e52ac3761bc6a0" kind="function"><name>IsMouseInRectangle</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a16fa62feba238fcee8a13351c888e4f6" kind="function"><name>DrawField</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a3d346b399761905629f73c3131bd3225" kind="function"><name>DrawSmallField</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1af9ef22e954251e08a365e927562eabd3" kind="function"><name>DrawMessage</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a0c34c7f2326c060f9f80eefca1a29173" kind="function"><name>DrawBackground</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a4ac04bf154052c0bfc250b6bb833cae7" kind="function"><name>AddExplosion</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1af79931fc9455d8927780197f9798abf4" kind="function"><name>AddSplash</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a83349689bbc2bc48b46de9e0b292c09d" kind="function"><name>UpdateAnimations</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a738c557d52b91ccbb70c6cf303a0a22b" kind="function"><name>DrawAnimations</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1ae80d9a17d338585bb88670fd9657f4ce" kind="function"><name>DrawAnimationSequence</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1ab9ae2650cb8ab1911ed1d66331cff3b1" kind="function"><name>DrawCustomField</name></member>
+    <member refid="classbattleships_1_1_utility_functions_1a09e61184bae4d0850a034362db8f1b46" kind="function"><name>AddAnimation</name></member>
+  </compound>
+  <compound refid="namespacebattleships" kind="namespace"><name>battleships</name>
+    <member refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09" kind="enum"><name>GameState</name></member>
+    <member refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a46266e6501ca34518c07be04e2c97f6c" kind="enumvalue"><name>ViewingMainMenu</name></member>
+    <member refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a3db7206952db69bc4caba804b9edc201" kind="enumvalue"><name>ViewingGameMenu</name></member>
+    <member refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09ac3600a4d7ad4b24bdf19eb7c6f71e0e7" kind="enumvalue"><name>ViewingHighScores</name></member>
+    <member refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a31b3090b4930c7b2f6e7ee33a2551f00" kind="enumvalue"><name>AlteringSettings</name></member>
+    <member refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a99da218397f313ea17892c90fa6ceefc" kind="enumvalue"><name>Deploying</name></member>
+    <member refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a104176938510a45aa9db79fd79dadec3" kind="enumvalue"><name>Discovering</name></member>
+    <member refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a412cf0f6410d5dfdece69231f318031a" kind="enumvalue"><name>EndingGame</name></member>
+    <member refid="namespacebattleships_1aefcbf81581284aaf80d9f3350ba59e09a9ccfee4c47009600237ea2b0145db1ec" kind="enumvalue"><name>Quitting</name></member>
+    <member refid="namespacebattleships_1a0d4318a5997729df6a087d0abbaf8dde" kind="enum"><name>AIOption</name></member>
+    <member refid="namespacebattleships_1a0d4318a5997729df6a087d0abbaf8ddea7f943921724d63dc0ac9c6febf99fa88" kind="enumvalue"><name>Easy</name></member>
+    <member refid="namespacebattleships_1a0d4318a5997729df6a087d0abbaf8ddea87f8a6ab85c9ced3702b4ea641ad4bb5" kind="enumvalue"><name>Medium</name></member>
+    <member refid="namespacebattleships_1a0d4318a5997729df6a087d0abbaf8ddea3656183169810334a96b91129dc9d881" kind="enumvalue"><name>Hard</name></member>
+    <member refid="namespacebattleships_1a31579d4016b629dcd72a504f2ce1bbf5" kind="enum"><name>Direction</name></member>
+    <member refid="namespacebattleships_1a31579d4016b629dcd72a504f2ce1bbf5a955322c98b1fc571e8b6b688ae7d9ee4" kind="enumvalue"><name>LeftRight</name></member>
+    <member refid="namespacebattleships_1a31579d4016b629dcd72a504f2ce1bbf5a8833f67c0f8e2339c154ffc91e15eb8c" kind="enumvalue"><name>UpDown</name></member>
+    <member refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716" kind="enum"><name>ResultOfAttack</name></member>
+    <member refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716aebfe5e1791db03c4cd6ab95801e0977d" kind="enumvalue"><name>Hit</name></member>
+    <member refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716ae7ddb7cd777b59610b220bcfa80bd95f" kind="enumvalue"><name>Miss</name></member>
+    <member refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716aaefbd0597f1bc2493bbc18898243513b" kind="enumvalue"><name>Destroyed</name></member>
+    <member refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716a53e4733d09f4b5d3cd3e296353803326" kind="enumvalue"><name>ShotAlready</name></member>
+    <member refid="namespacebattleships_1aacc2e348f8fe0bc7d2a143e6400eb716a8f347bc7cebca9fa6d97e70c6bc29eb3" kind="enumvalue"><name>GameOver</name></member>
+    <member refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0" kind="enum"><name>ShipName</name></member>
+    <member refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0a6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
+    <member refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0a3be2b32bd65baca61933645168bdbb6a" kind="enumvalue"><name>Tug</name></member>
+    <member refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0a0d234e5bcf75c768eb0db6bf96e3c22d" kind="enumvalue"><name>Submarine</name></member>
+    <member refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0af90034e6810bf57cdb3d99a298221fc9" kind="enumvalue"><name>Destroyer</name></member>
+    <member refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0ab846373e48cf002363110ff72973f24b" kind="enumvalue"><name>Battleship</name></member>
+    <member refid="namespacebattleships_1aafe16f9dd188615c83805e8f0f6d44b0acb5d70c01adb9f48ed13aa2273eef339" kind="enumvalue"><name>AircraftCarrier</name></member>
+    <member refid="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719f" kind="enum"><name>TileView</name></member>
+    <member refid="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719fad2379e01a93b56ed8fdc81907f7bf8c0" kind="enumvalue"><name>Sea</name></member>
+    <member refid="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719fae7ddb7cd777b59610b220bcfa80bd95f" kind="enumvalue"><name>Miss</name></member>
+    <member refid="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719fa0387832795db3eb2e05f4365fba5ddac" kind="enumvalue"><name>Ship</name></member>
+    <member refid="namespacebattleships_1abc715d3cc787c651b3e4e59fe387719faebfe5e1791db03c4cd6ab95801e0977d" kind="enumvalue"><name>Hit</name></member>
+  </compound>
+  <compound refid="namespacebattleships_1_1_my" kind="namespace"><name>battleships::My</name>
+  </compound>
+  <compound refid="namespacebattleships_1_1_properties" kind="namespace"><name>battleships::Properties</name>
+  </compound>
+  <compound refid="namespacebattleships_unit_test" kind="namespace"><name>battleshipsUnitTest</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_swin_game_s_d_k" kind="namespace"><name>global::SwinGameSDK</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespace_microsoft" kind="namespace"><name>Microsoft</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_basic" kind="namespace"><name>Microsoft::VisualBasic</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_basic_1_1_compiler_services" kind="namespace"><name>Microsoft::VisualBasic::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_studio_1_1_test_tools_1_1_unit_testing" kind="namespace"><name>Microsoft::VisualStudio::TestTools::UnitTesting</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_xml_1_1_linq" kind="namespace"><name>System::Xml::Linq</name>
+  </compound>
+  <compound refid="_my_namespace_8_static_81_8_designer_8cs" kind="file"><name>MyNamespace.Static.1.Designer.cs</name>
+  </compound>
+  <compound refid="_my_namespace_8_static_82_8_designer_8cs" kind="file"><name>MyNamespace.Static.2.Designer.cs</name>
+  </compound>
+  <compound refid="_my_namespace_8_static_83_8_designer_8cs" kind="file"><name>MyNamespace.Static.3.Designer.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_deployment_controller_8cs" kind="file"><name>DeploymentController.cs</name>
+  </compound>
+  <compound refid="_discovery_controller_8cs" kind="file"><name>DiscoveryController.cs</name>
+  </compound>
+  <compound refid="_ending_game_controller_8cs" kind="file"><name>EndingGameController.cs</name>
+  </compound>
+  <compound refid="_game_controller_8cs" kind="file"><name>GameController.cs</name>
+  </compound>
+  <compound refid="_game_logic_8cs" kind="file"><name>GameLogic.cs</name>
+  </compound>
+  <compound refid="_game_resources_8cs" kind="file"><name>GameResources.cs</name>
+  </compound>
+  <compound refid="_game_state_8cs" kind="file"><name>GameState.cs</name>
+  </compound>
+  <compound refid="_high_score_controller_8cs" kind="file"><name>HighScoreController.cs</name>
+  </compound>
+  <compound refid="_menu_controller_8cs" kind="file"><name>MenuController.cs</name>
+  </compound>
+  <compound refid="_a_i_hard_player_8cs" kind="file"><name>AIHardPlayer.cs</name>
+  </compound>
+  <compound refid="_a_i_medium_player_8cs" kind="file"><name>AIMediumPlayer.cs</name>
+  </compound>
+  <compound refid="_a_i_option_8cs" kind="file"><name>AIOption.cs</name>
+  </compound>
+  <compound refid="_a_i_player_8cs" kind="file"><name>AIPlayer.cs</name>
+  </compound>
+  <compound refid="_attack_result_8cs" kind="file"><name>AttackResult.cs</name>
+  </compound>
+  <compound refid="_battle_ships_game_8cs" kind="file"><name>BattleShipsGame.cs</name>
+  </compound>
+  <compound refid="_direction_8cs" kind="file"><name>Direction.cs</name>
+  </compound>
+  <compound refid="_i_sea_grid_8cs" kind="file"><name>ISeaGrid.cs</name>
+  </compound>
+  <compound refid="_player_8cs" kind="file"><name>Player.cs</name>
+  </compound>
+  <compound refid="_result_of_attack_8cs" kind="file"><name>ResultOfAttack.cs</name>
+  </compound>
+  <compound refid="_sea_grid_8cs" kind="file"><name>SeaGrid.cs</name>
+  </compound>
+  <compound refid="_sea_grid_adapter_8cs" kind="file"><name>SeaGridAdapter.cs</name>
+  </compound>
+  <compound refid="_ship_8cs" kind="file"><name>Ship.cs</name>
+  </compound>
+  <compound refid="_ship_name_8cs" kind="file"><name>ShipName.cs</name>
+  </compound>
+  <compound refid="_tile_8cs" kind="file"><name>Tile.cs</name>
+  </compound>
+  <compound refid="_tile_view_8cs" kind="file"><name>TileView.cs</name>
+  </compound>
+  <compound refid="_utility_functions_8cs" kind="file"><name>UtilityFunctions.cs</name>
+  </compound>
+  <compound refid="_hello_world_01_8cs" kind="file"><name>HelloWorld .cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="md__d_1__google__drive__accounts__monique_8n_8kuhn__drive__study__uni__work_2020__s1__s_w_e20001839b04715c12f94fe1305da6d94a0d48" kind="page"><name>md_D:_Google_Drive_Accounts_Monique.n.kuhn_Drive_Study_Uni_Work_2020_S1_SWE20001_SWE20001_Group_Project_Battleship_Project_battleship_battleships_README</name>
+  <compound refid="dir_54d524641188b39666fee1474e9e9f33" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020</name>
+  </compound>
+  <compound refid="dir_61abf09ee1d9b7c930c06deee70242c2" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship</name>
+  </compound>
+  <compound refid="dir_ebca47cec4f994e4127eb547fb0204a5" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project</name>
+  </compound>
+  <compound refid="dir_22b4adcec241307f2a33d2b92da0027e" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships</name>
+  </compound>
+  <compound refid="dir_23a40046761b4aa2965e66fe66028ee4" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests</name>
+  </compound>
+  <compound refid="dir_275089585c7fc1b5fd5d7d42c69cb1da" kind="dir"><name>D:</name>
+  </compound>
+  <compound refid="dir_558406780b57829a4916b12fa8309836" kind="dir"><name>D:/Google Drive Accounts</name>
+  </compound>
+  <compound refid="dir_8831eab6d755b27760fcb839193e1e2b" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model</name>
+  </compound>
+  <compound refid="dir_799dfd8c13b4d8a20cbc142534ec8c73" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive</name>
+  </compound>
+  <compound refid="dir_5f49feb4f56ddd492b52c9d34844048d" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/My Project</name>
+  </compound>
+  <compound refid="dir_64b2773aae79d051dd54828827a2f14e" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleshipsTests/Properties</name>
+  </compound>
+  <compound refid="dir_ddbd81a00d9c354a3b37aca68d54a615" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/Properties</name>
+  </compound>
+  <compound refid="dir_b79c05f7ea1c3a72a4f0ca970f825b62" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1</name>
+  </compound>
+  <compound refid="dir_67f6edc04764f9aad99d464d56a0518d" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src</name>
+  </compound>
+  <compound refid="dir_e6b1af7ffd6477db9f4be02dbcb136ad" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study</name>
+  </compound>
+  <compound refid="dir_e4525d2ba1120e31ce1e96a3f4941e98" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001</name>
+  </compound>
+  <compound refid="dir_32a394199d59eeba998bb886d24b210b" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project</name>
+  </compound>
+  <compound refid="dir_3aa66149e8c12749ec957e87eae64885" kind="dir"><name>D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work</name>
+  </compound>
+</doxygenindex>

@@ -58,6 +58,93 @@ namespace battleships
                 GameController.HumanPlayer.RandomizeDeployment();
             }
 
+            if (SwinGame.KeyTyped(KeyCode.vk_a)) {
+                int col, row;
+                Ship the_ship;
+                GameController.HumanPlayer._Ships.TryGetValue(_selectedShip, out the_ship);
+                row = the_ship._row;
+                col = the_ship._col - 1;
+                    if (col >= 0 & col < GameController.HumanPlayer.PlayerGrid.Width)
+                    {
+                        // if in the area try to deploy
+                        try
+                        {
+                            GameController.HumanPlayer.PlayerGrid.MoveShip(row, col, _selectedShip, _currentDirection);
+                        }
+                        catch (Exception ex)
+                        {
+                            Audio.PlaySoundEffect(GameResources.GameSound("Error"));
+                            UtilityFunctions.Message = ex.Message;
+                        }
+                    }
+                }
+
+            if (SwinGame.KeyTyped(KeyCode.vk_w))
+            {
+                int col, row;
+                Ship the_ship;
+                GameController.HumanPlayer._Ships.TryGetValue(_selectedShip, out the_ship);
+                row = the_ship._row - 1;
+                col = the_ship._col;
+                if (col >= 0 & col < GameController.HumanPlayer.PlayerGrid.Width)
+                {
+                    // if in the area try to deploy
+                    try
+                    {
+                        GameController.HumanPlayer.PlayerGrid.MoveShip(row, col, _selectedShip, _currentDirection);
+                    }
+                    catch (Exception ex)
+                    {
+                        Audio.PlaySoundEffect(GameResources.GameSound("Error"));
+                        UtilityFunctions.Message = ex.Message;
+                    }
+                }
+            }
+
+            if (SwinGame.KeyTyped(KeyCode.vk_d))
+            {
+                int col, row;
+                Ship the_ship;
+                GameController.HumanPlayer._Ships.TryGetValue(_selectedShip, out the_ship);
+                row = the_ship._row;
+                col = the_ship._col + 1;
+                if (col >= 0 & col < GameController.HumanPlayer.PlayerGrid.Width)
+                {
+                    // if in the area try to deploy
+                    try
+                    {
+                        GameController.HumanPlayer.PlayerGrid.MoveShip(row, col, _selectedShip, _currentDirection);
+                    }
+                    catch (Exception ex)
+                    {
+                        Audio.PlaySoundEffect(GameResources.GameSound("Error"));
+                        UtilityFunctions.Message = ex.Message;
+                    }
+                }
+            }
+
+            if (SwinGame.KeyTyped(KeyCode.vk_s))
+            {
+                int col, row;
+                Ship the_ship;
+                GameController.HumanPlayer._Ships.TryGetValue(_selectedShip, out the_ship);
+                row = the_ship._row + 1;
+                col = the_ship._col;
+                if (col >= 0 & col < GameController.HumanPlayer.PlayerGrid.Width)
+                {
+                    // if in the area try to deploy
+                    try
+                    {
+                        GameController.HumanPlayer.PlayerGrid.MoveShip(row, col, _selectedShip, _currentDirection);
+                    }
+                    catch (Exception ex)
+                    {
+                        Audio.PlaySoundEffect(GameResources.GameSound("Error"));
+                        UtilityFunctions.Message = ex.Message;
+                    }
+                }
+            }
+
             if (SwinGame.MouseClicked(MouseButton.LeftButton))
             {
                 ShipName selected;

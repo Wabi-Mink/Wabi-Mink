@@ -1,0 +1,714 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_game_resources" kind="class" prot="public">
+    <compoundname>battleships::GameResources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1ab7166838f357ab86315043b79ecf9dd5" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, Bitmap &gt;</type>
+        <definition>Dictionary&lt;string, Bitmap&gt; battleships.GameResources._Images</definition>
+        <argsstring></argsstring>
+        <name>_Images</name>
+        <initializer>= new Dictionary&lt;string, Bitmap&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="103" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="103" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1a3cf8a3e065a62129226e55a03df01f7f" compoundref="_game_resources_8cs" startline="254" endline="259">battleships.GameResources.FreeImages</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1afdcb12d14c0beeb7b20d3c8b100b492b" compoundref="_game_resources_8cs" startline="76" endline="79">battleships.GameResources.GameImage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1a55135dd17dcbc148cf8989d6a18ef85d" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, Font &gt;</type>
+        <definition>Dictionary&lt;string, Font&gt; battleships.GameResources._Fonts</definition>
+        <argsstring></argsstring>
+        <name>_Fonts</name>
+        <initializer>= new Dictionary&lt;string, Font&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="104" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="104" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1a63d53259902cbaa31b7c0bfeaac4e827" compoundref="_game_resources_8cs" startline="247" endline="252">battleships.GameResources.FreeFonts</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a3cc1471d94c19c40a9ed66b635a67a7a" compoundref="_game_resources_8cs" startline="65" endline="68">battleships.GameResources.GameFont</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1aee7d442b3cd287842b15b065b4855fcf" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, SoundEffect &gt;</type>
+        <definition>Dictionary&lt;string, SoundEffect&gt; battleships.GameResources._Sounds</definition>
+        <argsstring></argsstring>
+        <name>_Sounds</name>
+        <initializer>= new Dictionary&lt;string, SoundEffect&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="105" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="105" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1acee6614db1a3a2bd4eebc6bf9c96f9a1" compoundref="_game_resources_8cs" startline="261" endline="266">battleships.GameResources.FreeSounds</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1af980623df0dca10c249a8d906e952ea7" compoundref="_game_resources_8cs" startline="87" endline="90">battleships.GameResources.GameSound</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1a112d5f7d86a813625f48da077aab5c51" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, Music &gt;</type>
+        <definition>Dictionary&lt;string, Music&gt; battleships.GameResources._Music</definition>
+        <argsstring></argsstring>
+        <name>_Music</name>
+        <initializer>= new Dictionary&lt;string, Music&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="106" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="106" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1a770b1623f99df69d65c4f4cecd712e15" compoundref="_game_resources_8cs" startline="268" endline="273">battleships.GameResources.FreeMusic</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a725b8a2b8dcf9a30daf896d295bf2bcd" compoundref="_game_resources_8cs" startline="98" endline="101">battleships.GameResources.GameMusic</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1a928d855774cc86e31ce4e434818b2d17" prot="private" static="yes" mutable="no">
+        <type>Bitmap</type>
+        <definition>Bitmap battleships.GameResources._Background</definition>
+        <argsstring></argsstring>
+        <name>_Background</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="107" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="107" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" compoundref="_game_resources_8cs" startline="202" endline="215">battleships.GameResources.EndLoadingScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a7dabe4a4ed815329436a8796c405c7a1" compoundref="_game_resources_8cs" startline="158" endline="173">battleships.GameResources.PlaySwinGameIntro</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" compoundref="_game_resources_8cs" startline="144" endline="156">battleships.GameResources.ShowLoadingScreen</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1a6a454e9e26217f188d9513d1bfd2ef4f" prot="private" static="yes" mutable="no">
+        <type>Bitmap</type>
+        <definition>Bitmap battleships.GameResources._Animation</definition>
+        <argsstring></argsstring>
+        <name>_Animation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="108" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="108" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" compoundref="_game_resources_8cs" startline="202" endline="215">battleships.GameResources.EndLoadingScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" compoundref="_game_resources_8cs" startline="144" endline="156">battleships.GameResources.ShowLoadingScreen</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1aca282a2c017655db930bb320a7004dff" prot="private" static="yes" mutable="no">
+        <type>Bitmap</type>
+        <definition>Bitmap battleships.GameResources._LoaderFull</definition>
+        <argsstring></argsstring>
+        <name>_LoaderFull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="109" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" compoundref="_game_resources_8cs" startline="202" endline="215">battleships.GameResources.EndLoadingScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" compoundref="_game_resources_8cs" startline="144" endline="156">battleships.GameResources.ShowLoadingScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a8cf61afd0d3b8aecf358bccc836b50c6" compoundref="_game_resources_8cs" startline="175" endline="200">battleships.GameResources.ShowMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1af9541ac78f3dcf9b8aa850aeb426c355" prot="private" static="yes" mutable="no">
+        <type>Bitmap</type>
+        <definition>Bitmap battleships.GameResources._LoaderEmpty</definition>
+        <argsstring></argsstring>
+        <name>_LoaderEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="110" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="110" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" compoundref="_game_resources_8cs" startline="202" endline="215">battleships.GameResources.EndLoadingScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" compoundref="_game_resources_8cs" startline="144" endline="156">battleships.GameResources.ShowLoadingScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a8cf61afd0d3b8aecf358bccc836b50c6" compoundref="_game_resources_8cs" startline="175" endline="200">battleships.GameResources.ShowMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1a5385c871d31768838c9e96fb7c7d4c3c" prot="private" static="yes" mutable="no">
+        <type>Font</type>
+        <definition>Font battleships.GameResources._LoadingFont</definition>
+        <argsstring></argsstring>
+        <name>_LoadingFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="111" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="111" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" compoundref="_game_resources_8cs" startline="202" endline="215">battleships.GameResources.EndLoadingScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" compoundref="_game_resources_8cs" startline="144" endline="156">battleships.GameResources.ShowLoadingScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a8cf61afd0d3b8aecf358bccc836b50c6" compoundref="_game_resources_8cs" startline="175" endline="200">battleships.GameResources.ShowMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_game_resources_1a3487affb314d0f7ee0dba43f34ee366e" prot="private" static="yes" mutable="no">
+        <type>SoundEffect</type>
+        <definition>SoundEffect battleships.GameResources._StartSound</definition>
+        <argsstring></argsstring>
+        <name>_StartSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="112" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="112" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" compoundref="_game_resources_8cs" startline="202" endline="215">battleships.GameResources.EndLoadingScreen</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a7dabe4a4ed815329436a8796c405c7a1" compoundref="_game_resources_8cs" startline="158" endline="173">battleships.GameResources.PlaySwinGameIntro</referencedby>
+        <referencedby refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" compoundref="_game_resources_8cs" startline="144" endline="156">battleships.GameResources.ShowLoadingScreen</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a4a4451cd2d5a4af297e535da4a95d077" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.LoadFonts</definition>
+        <argsstring>()</argsstring>
+        <name>LoadFonts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="8" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="8" bodyend="14"/>
+        <references refid="classbattleships_1_1_game_resources_1a8264606d18b23ecd5a100b16f9acb92b" compoundref="_game_resources_8cs" startline="217" endline="220">battleships.GameResources.NewFont</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" compoundref="_game_resources_8cs" startline="119" endline="142">battleships.GameResources.LoadResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a2cd452f1d2b324e613aaa21bb4132320" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.LoadImages</definition>
+        <argsstring>()</argsstring>
+        <name>LoadImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="16" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="16" bodyend="41"/>
+        <references refid="classbattleships_1_1_game_resources_1a3e357095ee39dcc61e66f430ae30d004" compoundref="_game_resources_8cs" startline="222" endline="225">battleships.GameResources.NewImage</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" compoundref="_game_resources_8cs" startline="119" endline="142">battleships.GameResources.LoadResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a70eb2989242df38a8e86b608b6a1bef2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.LoadSounds</definition>
+        <argsstring>()</argsstring>
+        <name>LoadSounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="43" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="43" bodyend="52"/>
+        <references refid="classbattleships_1_1_game_resources_1a496cd60a619a1132100cd3244b73c3b0" compoundref="_game_resources_8cs" startline="237" endline="240">battleships.GameResources.NewSound</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" compoundref="_game_resources_8cs" startline="119" endline="142">battleships.GameResources.LoadResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1ab651091e7793fc594a3afd2aeee0d214" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.LoadMusic</definition>
+        <argsstring>()</argsstring>
+        <name>LoadMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="54" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="54" bodyend="57"/>
+        <references refid="classbattleships_1_1_game_resources_1a6f579634dd3214acc2db7e55c9d8d0bc" compoundref="_game_resources_8cs" startline="242" endline="245">battleships.GameResources.NewMusic</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" compoundref="_game_resources_8cs" startline="119" endline="142">battleships.GameResources.LoadResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.ShowLoadingScreen</definition>
+        <argsstring>()</argsstring>
+        <name>ShowLoadingScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="144" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="144" bodyend="156"/>
+        <references refid="classbattleships_1_1_game_resources_1a6a454e9e26217f188d9513d1bfd2ef4f" compoundref="_game_resources_8cs" startline="108">battleships.GameResources._Animation</references>
+        <references refid="classbattleships_1_1_game_resources_1a928d855774cc86e31ce4e434818b2d17" compoundref="_game_resources_8cs" startline="107">battleships.GameResources._Background</references>
+        <references refid="classbattleships_1_1_game_resources_1af9541ac78f3dcf9b8aa850aeb426c355" compoundref="_game_resources_8cs" startline="110">battleships.GameResources._LoaderEmpty</references>
+        <references refid="classbattleships_1_1_game_resources_1aca282a2c017655db930bb320a7004dff" compoundref="_game_resources_8cs" startline="109">battleships.GameResources._LoaderFull</references>
+        <references refid="classbattleships_1_1_game_resources_1a5385c871d31768838c9e96fb7c7d4c3c" compoundref="_game_resources_8cs" startline="111">battleships.GameResources._LoadingFont</references>
+        <references refid="classbattleships_1_1_game_resources_1a3487affb314d0f7ee0dba43f34ee366e" compoundref="_game_resources_8cs" startline="112">battleships.GameResources._StartSound</references>
+        <references refid="classbattleships_1_1_game_resources_1a7dabe4a4ed815329436a8796c405c7a1" compoundref="_game_resources_8cs" startline="158" endline="173">battleships.GameResources.PlaySwinGameIntro</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" compoundref="_game_resources_8cs" startline="119" endline="142">battleships.GameResources.LoadResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a7dabe4a4ed815329436a8796c405c7a1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.PlaySwinGameIntro</definition>
+        <argsstring>()</argsstring>
+        <name>PlaySwinGameIntro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="158" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="158" bodyend="173"/>
+        <references refid="classbattleships_1_1_game_resources_1a928d855774cc86e31ce4e434818b2d17" compoundref="_game_resources_8cs" startline="107">battleships.GameResources._Background</references>
+        <references refid="classbattleships_1_1_game_resources_1a3487affb314d0f7ee0dba43f34ee366e" compoundref="_game_resources_8cs" startline="112">battleships.GameResources._StartSound</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" compoundref="_game_resources_8cs" startline="144" endline="156">battleships.GameResources.ShowLoadingScreen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a8cf61afd0d3b8aecf358bccc836b50c6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.ShowMessage</definition>
+        <argsstring>(string message, int number)</argsstring>
+        <name>ShowMessage</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="175" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="175" bodyend="200"/>
+        <references refid="classbattleships_1_1_game_resources_1af9541ac78f3dcf9b8aa850aeb426c355" compoundref="_game_resources_8cs" startline="110">battleships.GameResources._LoaderEmpty</references>
+        <references refid="classbattleships_1_1_game_resources_1aca282a2c017655db930bb320a7004dff" compoundref="_game_resources_8cs" startline="109">battleships.GameResources._LoaderFull</references>
+        <references refid="classbattleships_1_1_game_resources_1a5385c871d31768838c9e96fb7c7d4c3c" compoundref="_game_resources_8cs" startline="111">battleships.GameResources._LoadingFont</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" compoundref="_game_resources_8cs" startline="119" endline="142">battleships.GameResources.LoadResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.EndLoadingScreen</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>EndLoadingScreen</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="202" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="202" bodyend="215"/>
+        <references refid="classbattleships_1_1_game_resources_1a6a454e9e26217f188d9513d1bfd2ef4f" compoundref="_game_resources_8cs" startline="108">battleships.GameResources._Animation</references>
+        <references refid="classbattleships_1_1_game_resources_1a928d855774cc86e31ce4e434818b2d17" compoundref="_game_resources_8cs" startline="107">battleships.GameResources._Background</references>
+        <references refid="classbattleships_1_1_game_resources_1af9541ac78f3dcf9b8aa850aeb426c355" compoundref="_game_resources_8cs" startline="110">battleships.GameResources._LoaderEmpty</references>
+        <references refid="classbattleships_1_1_game_resources_1aca282a2c017655db930bb320a7004dff" compoundref="_game_resources_8cs" startline="109">battleships.GameResources._LoaderFull</references>
+        <references refid="classbattleships_1_1_game_resources_1a5385c871d31768838c9e96fb7c7d4c3c" compoundref="_game_resources_8cs" startline="111">battleships.GameResources._LoadingFont</references>
+        <references refid="classbattleships_1_1_game_resources_1a3487affb314d0f7ee0dba43f34ee366e" compoundref="_game_resources_8cs" startline="112">battleships.GameResources._StartSound</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" compoundref="_game_resources_8cs" startline="119" endline="142">battleships.GameResources.LoadResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a8264606d18b23ecd5a100b16f9acb92b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.NewFont</definition>
+        <argsstring>(string fontName, string filename, int size)</argsstring>
+        <name>NewFont</name>
+        <param>
+          <type>string</type>
+          <declname>fontName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="217" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="217" bodyend="220"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1a4a4451cd2d5a4af297e535da4a95d077" compoundref="_game_resources_8cs" startline="8" endline="14">battleships.GameResources.LoadFonts</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a3e357095ee39dcc61e66f430ae30d004" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.NewImage</definition>
+        <argsstring>(string imageName, string filename)</argsstring>
+        <name>NewImage</name>
+        <param>
+          <type>string</type>
+          <declname>imageName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="222" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="222" bodyend="225"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1a2cd452f1d2b324e613aaa21bb4132320" compoundref="_game_resources_8cs" startline="16" endline="41">battleships.GameResources.LoadImages</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1af4612f466d43d69fc449a83b851496a3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.NewTransparentColorImage</definition>
+        <argsstring>(string imageName, string fileName, Color transColor)</argsstring>
+        <name>NewTransparentColorImage</name>
+        <param>
+          <type>string</type>
+          <declname>imageName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>transColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="227" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="227" bodyend="230"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1a7fbf72a77ff5efedd51e0fb834ed9200" compoundref="_game_resources_8cs" startline="232" endline="235">battleships.GameResources.NewTransparentColourImage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a7fbf72a77ff5efedd51e0fb834ed9200" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.NewTransparentColourImage</definition>
+        <argsstring>(string imageName, string fileName, Color transColor)</argsstring>
+        <name>NewTransparentColourImage</name>
+        <param>
+          <type>string</type>
+          <declname>imageName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>transColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="232" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="232" bodyend="235"/>
+        <references refid="classbattleships_1_1_game_resources_1af4612f466d43d69fc449a83b851496a3" compoundref="_game_resources_8cs" startline="227" endline="230">battleships.GameResources.NewTransparentColorImage</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a496cd60a619a1132100cd3244b73c3b0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.NewSound</definition>
+        <argsstring>(string soundName, string filename)</argsstring>
+        <name>NewSound</name>
+        <param>
+          <type>string</type>
+          <declname>soundName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="237" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="237" bodyend="240"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1a70eb2989242df38a8e86b608b6a1bef2" compoundref="_game_resources_8cs" startline="43" endline="52">battleships.GameResources.LoadSounds</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a6f579634dd3214acc2db7e55c9d8d0bc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.NewMusic</definition>
+        <argsstring>(string musicName, string filename)</argsstring>
+        <name>NewMusic</name>
+        <param>
+          <type>string</type>
+          <declname>musicName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="242" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="242" bodyend="245"/>
+        <referencedby refid="classbattleships_1_1_game_resources_1ab651091e7793fc594a3afd2aeee0d214" compoundref="_game_resources_8cs" startline="54" endline="57">battleships.GameResources.LoadMusic</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a63d53259902cbaa31b7c0bfeaac4e827" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.FreeFonts</definition>
+        <argsstring>()</argsstring>
+        <name>FreeFonts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="247" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="247" bodyend="252"/>
+        <references refid="classbattleships_1_1_game_resources_1a55135dd17dcbc148cf8989d6a18ef85d" compoundref="_game_resources_8cs" startline="104">battleships.GameResources._Fonts</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1a99e632b816cd08c5c5138766670ccaa6" compoundref="_game_resources_8cs" startline="275" endline="282">battleships.GameResources.FreeResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a3cf8a3e065a62129226e55a03df01f7f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.FreeImages</definition>
+        <argsstring>()</argsstring>
+        <name>FreeImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="254" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="254" bodyend="259"/>
+        <references refid="classbattleships_1_1_game_resources_1ab7166838f357ab86315043b79ecf9dd5" compoundref="_game_resources_8cs" startline="103">battleships.GameResources._Images</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1a99e632b816cd08c5c5138766670ccaa6" compoundref="_game_resources_8cs" startline="275" endline="282">battleships.GameResources.FreeResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1acee6614db1a3a2bd4eebc6bf9c96f9a1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.FreeSounds</definition>
+        <argsstring>()</argsstring>
+        <name>FreeSounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="261" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="261" bodyend="266"/>
+        <references refid="classbattleships_1_1_game_resources_1aee7d442b3cd287842b15b065b4855fcf" compoundref="_game_resources_8cs" startline="105">battleships.GameResources._Sounds</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1a99e632b816cd08c5c5138766670ccaa6" compoundref="_game_resources_8cs" startline="275" endline="282">battleships.GameResources.FreeResources</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a770b1623f99df69d65c4f4cecd712e15" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.FreeMusic</definition>
+        <argsstring>()</argsstring>
+        <name>FreeMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="268" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="268" bodyend="273"/>
+        <references refid="classbattleships_1_1_game_resources_1a112d5f7d86a813625f48da077aab5c51" compoundref="_game_resources_8cs" startline="106">battleships.GameResources._Music</references>
+        <referencedby refid="classbattleships_1_1_game_resources_1a99e632b816cd08c5c5138766670ccaa6" compoundref="_game_resources_8cs" startline="275" endline="282">battleships.GameResources.FreeResources</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a3cc1471d94c19c40a9ed66b635a67a7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Font</type>
+        <definition>static Font battleships.GameResources.GameFont</definition>
+        <argsstring>(string font)</argsstring>
+        <name>GameFont</name>
+        <param>
+          <type>string</type>
+          <declname>font</declname>
+        </param>
+        <briefdescription>
+<para>Gets a Font Loaded in the Resources </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>font</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of Font</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The Font Loaded with this Name</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="65" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="65" bodyend="68"/>
+        <references refid="classbattleships_1_1_game_resources_1a55135dd17dcbc148cf8989d6a18ef85d" compoundref="_game_resources_8cs" startline="104">battleships.GameResources._Fonts</references>
+        <referencedby refid="classbattleships_1_1_discovery_controller_1a642809d8631bc2887fe80628e1581f7b" compoundref="_discovery_controller_8cs" startline="57" endline="77">battleships.DiscoveryController.DrawDiscovery</referencedby>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" compoundref="_high_score_controller_8cs" startline="112" endline="139">battleships.HighScoreController.DrawHighScores</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1afdcb12d14c0beeb7b20d3c8b100b492b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bitmap</type>
+        <definition>static Bitmap battleships.GameResources.GameImage</definition>
+        <argsstring>(string image)</argsstring>
+        <name>GameImage</name>
+        <param>
+          <type>string</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+<para>Gets an Image loaded in the Resources </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of image</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The image loaded with this name</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="76" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="76" bodyend="79"/>
+        <references refid="classbattleships_1_1_game_resources_1ab7166838f357ab86315043b79ecf9dd5" compoundref="_game_resources_8cs" startline="103">battleships.GameResources._Images</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1af980623df0dca10c249a8d906e952ea7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SoundEffect</type>
+        <definition>static SoundEffect battleships.GameResources.GameSound</definition>
+        <argsstring>(string sound)</argsstring>
+        <name>GameSound</name>
+        <param>
+          <type>string</type>
+          <declname>sound</declname>
+        </param>
+        <briefdescription>
+<para>Gets an sound loaded in the Resources </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of sound</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The sound with this name</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="87" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="87" bodyend="90"/>
+        <references refid="classbattleships_1_1_game_resources_1aee7d442b3cd287842b15b065b4855fcf" compoundref="_game_resources_8cs" startline="105">battleships.GameResources._Sounds</references>
+        <referencedby refid="classbattleships_1_1_game_controller_1aec3745c3cbc01a765226ae3201e77471" compoundref="_game_controller_8cs" startline="169" endline="232">battleships.GameController.AttackCompleted</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a725b8a2b8dcf9a30daf896d295bf2bcd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Music</type>
+        <definition>static Music battleships.GameResources.GameMusic</definition>
+        <argsstring>(string music)</argsstring>
+        <name>GameMusic</name>
+        <param>
+          <type>string</type>
+          <declname>music</declname>
+        </param>
+        <briefdescription>
+<para>Gets the music loaded in the Resources </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>music</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of music</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The music with this name</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="98" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="98" bodyend="101"/>
+        <references refid="classbattleships_1_1_game_resources_1a112d5f7d86a813625f48da077aab5c51" compoundref="_game_resources_8cs" startline="106">battleships.GameResources._Music</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.LoadResources</definition>
+        <argsstring>()</argsstring>
+        <name>LoadResources</name>
+        <briefdescription>
+<para>The Resources Class stores all of the Games Media Resources, such as Images, Fonts Sounds, Music. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="119" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="119" bodyend="142"/>
+        <references refid="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" compoundref="_game_resources_8cs" startline="202" endline="215">battleships.GameResources.EndLoadingScreen</references>
+        <references refid="classbattleships_1_1_game_resources_1a4a4451cd2d5a4af297e535da4a95d077" compoundref="_game_resources_8cs" startline="8" endline="14">battleships.GameResources.LoadFonts</references>
+        <references refid="classbattleships_1_1_game_resources_1a2cd452f1d2b324e613aaa21bb4132320" compoundref="_game_resources_8cs" startline="16" endline="41">battleships.GameResources.LoadImages</references>
+        <references refid="classbattleships_1_1_game_resources_1ab651091e7793fc594a3afd2aeee0d214" compoundref="_game_resources_8cs" startline="54" endline="57">battleships.GameResources.LoadMusic</references>
+        <references refid="classbattleships_1_1_game_resources_1a70eb2989242df38a8e86b608b6a1bef2" compoundref="_game_resources_8cs" startline="43" endline="52">battleships.GameResources.LoadSounds</references>
+        <references refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" compoundref="_game_resources_8cs" startline="144" endline="156">battleships.GameResources.ShowLoadingScreen</references>
+        <references refid="classbattleships_1_1_game_resources_1a8cf61afd0d3b8aecf358bccc836b50c6" compoundref="_game_resources_8cs" startline="175" endline="200">battleships.GameResources.ShowMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_game_resources_1a99e632b816cd08c5c5138766670ccaa6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.GameResources.FreeResources</definition>
+        <argsstring>()</argsstring>
+        <name>FreeResources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="275" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="275" bodyend="282"/>
+        <references refid="classbattleships_1_1_game_resources_1a63d53259902cbaa31b7c0bfeaac4e827" compoundref="_game_resources_8cs" startline="247" endline="252">battleships.GameResources.FreeFonts</references>
+        <references refid="classbattleships_1_1_game_resources_1a3cf8a3e065a62129226e55a03df01f7f" compoundref="_game_resources_8cs" startline="254" endline="259">battleships.GameResources.FreeImages</references>
+        <references refid="classbattleships_1_1_game_resources_1a770b1623f99df69d65c4f4cecd712e15" compoundref="_game_resources_8cs" startline="268" endline="273">battleships.GameResources.FreeMusic</references>
+        <references refid="classbattleships_1_1_game_resources_1acee6614db1a3a2bd4eebc6bf9c96f9a1" compoundref="_game_resources_8cs" startline="261" endline="266">battleships.GameResources.FreeSounds</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" line="7" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/GameResources.cs" bodystart="6" bodyend="283"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_game_resources_1a6a454e9e26217f188d9513d1bfd2ef4f" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_Animation</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a928d855774cc86e31ce4e434818b2d17" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_Background</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a55135dd17dcbc148cf8989d6a18ef85d" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_Fonts</name></member>
+      <member refid="classbattleships_1_1_game_resources_1ab7166838f357ab86315043b79ecf9dd5" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_Images</name></member>
+      <member refid="classbattleships_1_1_game_resources_1af9541ac78f3dcf9b8aa850aeb426c355" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_LoaderEmpty</name></member>
+      <member refid="classbattleships_1_1_game_resources_1aca282a2c017655db930bb320a7004dff" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_LoaderFull</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a5385c871d31768838c9e96fb7c7d4c3c" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_LoadingFont</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a112d5f7d86a813625f48da077aab5c51" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_Music</name></member>
+      <member refid="classbattleships_1_1_game_resources_1aee7d442b3cd287842b15b065b4855fcf" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_Sounds</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a3487affb314d0f7ee0dba43f34ee366e" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>_StartSound</name></member>
+      <member refid="classbattleships_1_1_game_resources_1aba26cee9e96d3925ec48716eadd4a776" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>EndLoadingScreen</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a63d53259902cbaa31b7c0bfeaac4e827" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>FreeFonts</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a3cf8a3e065a62129226e55a03df01f7f" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>FreeImages</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a770b1623f99df69d65c4f4cecd712e15" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>FreeMusic</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a99e632b816cd08c5c5138766670ccaa6" prot="public" virt="non-virtual"><scope>battleships::GameResources</scope><name>FreeResources</name></member>
+      <member refid="classbattleships_1_1_game_resources_1acee6614db1a3a2bd4eebc6bf9c96f9a1" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>FreeSounds</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a3cc1471d94c19c40a9ed66b635a67a7a" prot="public" virt="non-virtual"><scope>battleships::GameResources</scope><name>GameFont</name></member>
+      <member refid="classbattleships_1_1_game_resources_1afdcb12d14c0beeb7b20d3c8b100b492b" prot="public" virt="non-virtual"><scope>battleships::GameResources</scope><name>GameImage</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a725b8a2b8dcf9a30daf896d295bf2bcd" prot="public" virt="non-virtual"><scope>battleships::GameResources</scope><name>GameMusic</name></member>
+      <member refid="classbattleships_1_1_game_resources_1af980623df0dca10c249a8d906e952ea7" prot="public" virt="non-virtual"><scope>battleships::GameResources</scope><name>GameSound</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a4a4451cd2d5a4af297e535da4a95d077" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>LoadFonts</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a2cd452f1d2b324e613aaa21bb4132320" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>LoadImages</name></member>
+      <member refid="classbattleships_1_1_game_resources_1ab651091e7793fc594a3afd2aeee0d214" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>LoadMusic</name></member>
+      <member refid="classbattleships_1_1_game_resources_1ad0e4cd0a78cf13525ad86d5eb8372780" prot="public" virt="non-virtual"><scope>battleships::GameResources</scope><name>LoadResources</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a70eb2989242df38a8e86b608b6a1bef2" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>LoadSounds</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a8264606d18b23ecd5a100b16f9acb92b" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>NewFont</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a3e357095ee39dcc61e66f430ae30d004" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>NewImage</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a6f579634dd3214acc2db7e55c9d8d0bc" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>NewMusic</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a496cd60a619a1132100cd3244b73c3b0" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>NewSound</name></member>
+      <member refid="classbattleships_1_1_game_resources_1af4612f466d43d69fc449a83b851496a3" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>NewTransparentColorImage</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a7fbf72a77ff5efedd51e0fb834ed9200" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>NewTransparentColourImage</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a7dabe4a4ed815329436a8796c405c7a1" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>PlaySwinGameIntro</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a819431e654fbc8bb4d9bf61d53a6feb4" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>ShowLoadingScreen</name></member>
+      <member refid="classbattleships_1_1_game_resources_1a8cf61afd0d3b8aecf358bccc836b50c6" prot="private" virt="non-virtual"><scope>battleships::GameResources</scope><name>ShowMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

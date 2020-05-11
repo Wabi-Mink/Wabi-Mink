@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_high_score_controller" kind="class" prot="public">
+    <compoundname>battleships::HighScoreController</compoundname>
+    <innerclass refid="structbattleships_1_1_high_score_controller_1_1_score" prot="private">battleships::HighScoreController::Score</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_high_score_controller_1aa4dbfbd7878986f39efabd5169daaadb" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.HighScoreController.NAME_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>NAME_WIDTH</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="18" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1aa41d878b3d2096f9700fe8a5ea4acab4" compoundref="_high_score_controller_8cs" startline="61" endline="85">battleships.HighScoreController.LoadScores</referencedby>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a6c130d0d1d197805a5c50f31cd228813" compoundref="_high_score_controller_8cs" startline="160" endline="200">battleships.HighScoreController.ReadHighScore</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_high_score_controller_1ae19a27d7a71ec1fd3ed29a4151b1705b" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int battleships.HighScoreController.SCORES_LEFT</definition>
+        <argsstring></argsstring>
+        <name>SCORES_LEFT</name>
+        <initializer>= 490</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="19" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" compoundref="_high_score_controller_8cs" startline="112" endline="139">battleships.HighScoreController.DrawHighScores</referencedby>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a6c130d0d1d197805a5c50f31cd228813" compoundref="_high_score_controller_8cs" startline="160" endline="200">battleships.HighScoreController.ReadHighScore</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_high_score_controller_1a44b0e29af51577906dacf1f6fd29000a" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="structbattleships_1_1_high_score_controller_1_1_score" kindref="compound">Score</ref> &gt;</type>
+        <definition>List&lt;Score&gt; battleships.HighScoreController._Scores</definition>
+        <argsstring></argsstring>
+        <name>_Scores</name>
+        <initializer>= new List&lt;<ref refid="structbattleships_1_1_high_score_controller_1_1_score" kindref="compound">Score</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="49" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" compoundref="_high_score_controller_8cs" startline="112" endline="139">battleships.HighScoreController.DrawHighScores</referencedby>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a6c130d0d1d197805a5c50f31cd228813" compoundref="_high_score_controller_8cs" startline="160" endline="200">battleships.HighScoreController.ReadHighScore</referencedby>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1aee937bcf7427069d65cea67533f99bbd" compoundref="_high_score_controller_8cs" startline="97" endline="107">battleships.HighScoreController.SaveScores</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_high_score_controller_1aa41d878b3d2096f9700fe8a5ea4acab4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.HighScoreController.LoadScores</definition>
+        <argsstring>()</argsstring>
+        <name>LoadScores</name>
+        <briefdescription>
+<para>Loads the scores from the highscores text file. </para>        </briefdescription>
+        <detaileddescription>
+<para>The format is <heading level="1">of scores</heading>
+</para><para>NNNSSS</para><para>Where NNN is the name and SSS is the score </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="61" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="61" bodyend="85"/>
+        <references refid="classbattleships_1_1_high_score_controller_1aa4dbfbd7878986f39efabd5169daaadb" compoundref="_high_score_controller_8cs" startline="18">battleships.HighScoreController.NAME_WIDTH</references>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" compoundref="_high_score_controller_8cs" startline="112" endline="139">battleships.HighScoreController.DrawHighScores</referencedby>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a6c130d0d1d197805a5c50f31cd228813" compoundref="_high_score_controller_8cs" startline="160" endline="200">battleships.HighScoreController.ReadHighScore</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_high_score_controller_1aee937bcf7427069d65cea67533f99bbd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.HighScoreController.SaveScores</definition>
+        <argsstring>()</argsstring>
+        <name>SaveScores</name>
+        <briefdescription>
+<para>Saves the scores back to the highscores text file. </para>        </briefdescription>
+        <detaileddescription>
+<para>The format is <heading level="1">of scores</heading>
+</para><para>NNNSSS</para><para>Where NNN is the name and SSS is the score </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="97" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="97" bodyend="107"/>
+        <references refid="classbattleships_1_1_high_score_controller_1a44b0e29af51577906dacf1f6fd29000a" compoundref="_high_score_controller_8cs" startline="49">battleships.HighScoreController._Scores</references>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a6c130d0d1d197805a5c50f31cd228813" compoundref="_high_score_controller_8cs" startline="160" endline="200">battleships.HighScoreController.ReadHighScore</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.HighScoreController.DrawHighScores</definition>
+        <argsstring>()</argsstring>
+        <name>DrawHighScores</name>
+        <briefdescription>
+<para>Draws the high scores to the screen. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="112" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="112" bodyend="139"/>
+        <references refid="classbattleships_1_1_high_score_controller_1a44b0e29af51577906dacf1f6fd29000a" compoundref="_high_score_controller_8cs" startline="49">battleships.HighScoreController._Scores</references>
+        <references refid="classbattleships_1_1_game_resources_1a3cc1471d94c19c40a9ed66b635a67a7a" compoundref="_game_resources_8cs" startline="65" endline="68">battleships.GameResources.GameFont</references>
+        <references refid="classbattleships_1_1_high_score_controller_1aa41d878b3d2096f9700fe8a5ea4acab4" compoundref="_high_score_controller_8cs" startline="61" endline="85">battleships.HighScoreController.LoadScores</references>
+        <references refid="structbattleships_1_1_high_score_controller_1_1_score_1ab6178e5dde538b1f2044f596df4b6a85" compoundref="_high_score_controller_8cs" startline="27">battleships.HighScoreController.Score.Name</references>
+        <references refid="classbattleships_1_1_high_score_controller_1ae19a27d7a71ec1fd3ed29a4151b1705b" compoundref="_high_score_controller_8cs" startline="19">battleships.HighScoreController.SCORES_LEFT</references>
+        <references refid="structbattleships_1_1_high_score_controller_1_1_score_1adfa426d065892f29e4a9bda0b9eec336" compoundref="_high_score_controller_8cs" startline="28">battleships.HighScoreController.Score.Value</references>
+        <referencedby refid="classbattleships_1_1_high_score_controller_1a6c130d0d1d197805a5c50f31cd228813" compoundref="_high_score_controller_8cs" startline="160" endline="200">battleships.HighScoreController.ReadHighScore</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_high_score_controller_1a4322d3f66d0d024f8da70fc9eec6190e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.HighScoreController.HandleHighScoreInput</definition>
+        <argsstring>()</argsstring>
+        <name>HandleHighScoreInput</name>
+        <briefdescription>
+<para>Handles the user input during the top score screen. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="145" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="145" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_high_score_controller_1a6c130d0d1d197805a5c50f31cd228813" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void battleships.HighScoreController.ReadHighScore</definition>
+        <argsstring>(int value)</argsstring>
+        <name>ReadHighScore</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Read the user&apos;s name for their highsSwinGame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the player&apos;s sSwinGame.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>This verifies if the score is a highsSwinGame. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="160" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="160" bodyend="200"/>
+        <references refid="classbattleships_1_1_high_score_controller_1a44b0e29af51577906dacf1f6fd29000a" compoundref="_high_score_controller_8cs" startline="49">battleships.HighScoreController._Scores</references>
+        <references refid="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" compoundref="_high_score_controller_8cs" startline="112" endline="139">battleships.HighScoreController.DrawHighScores</references>
+        <references refid="classbattleships_1_1_high_score_controller_1aa41d878b3d2096f9700fe8a5ea4acab4" compoundref="_high_score_controller_8cs" startline="61" endline="85">battleships.HighScoreController.LoadScores</references>
+        <references refid="classbattleships_1_1_high_score_controller_1aa4dbfbd7878986f39efabd5169daaadb" compoundref="_high_score_controller_8cs" startline="18">battleships.HighScoreController.NAME_WIDTH</references>
+        <references refid="classbattleships_1_1_high_score_controller_1aee937bcf7427069d65cea67533f99bbd" compoundref="_high_score_controller_8cs" startline="97" endline="107">battleships.HighScoreController.SaveScores</references>
+        <references refid="classbattleships_1_1_high_score_controller_1ae19a27d7a71ec1fd3ed29a4151b1705b" compoundref="_high_score_controller_8cs" startline="19">battleships.HighScoreController.SCORES_LEFT</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controls displaying and collecting high score data. </para>    </briefdescription>
+    <detaileddescription>
+<para>Data is saved to a file. </para>    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" line="17" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/HighScoreController.cs" bodystart="16" bodyend="201"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_high_score_controller_1a44b0e29af51577906dacf1f6fd29000a" prot="private" virt="non-virtual"><scope>battleships::HighScoreController</scope><name>_Scores</name></member>
+      <member refid="classbattleships_1_1_high_score_controller_1a16064e2f7af89ee144e62a53d2ba59a2" prot="public" virt="non-virtual"><scope>battleships::HighScoreController</scope><name>DrawHighScores</name></member>
+      <member refid="classbattleships_1_1_high_score_controller_1a4322d3f66d0d024f8da70fc9eec6190e" prot="public" virt="non-virtual"><scope>battleships::HighScoreController</scope><name>HandleHighScoreInput</name></member>
+      <member refid="classbattleships_1_1_high_score_controller_1aa41d878b3d2096f9700fe8a5ea4acab4" prot="private" virt="non-virtual"><scope>battleships::HighScoreController</scope><name>LoadScores</name></member>
+      <member refid="classbattleships_1_1_high_score_controller_1aa4dbfbd7878986f39efabd5169daaadb" prot="private" virt="non-virtual"><scope>battleships::HighScoreController</scope><name>NAME_WIDTH</name></member>
+      <member refid="classbattleships_1_1_high_score_controller_1a6c130d0d1d197805a5c50f31cd228813" prot="public" virt="non-virtual"><scope>battleships::HighScoreController</scope><name>ReadHighScore</name></member>
+      <member refid="classbattleships_1_1_high_score_controller_1aee937bcf7427069d65cea67533f99bbd" prot="private" virt="non-virtual"><scope>battleships::HighScoreController</scope><name>SaveScores</name></member>
+      <member refid="classbattleships_1_1_high_score_controller_1ae19a27d7a71ec1fd3ed29a4151b1705b" prot="private" virt="non-virtual"><scope>battleships::HighScoreController</scope><name>SCORES_LEFT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

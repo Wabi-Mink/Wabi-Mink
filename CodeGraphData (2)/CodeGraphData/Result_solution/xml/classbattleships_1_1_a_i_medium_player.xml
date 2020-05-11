@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_a_i_medium_player" kind="class" prot="public">
+    <compoundname>battleships::AIMediumPlayer</compoundname>
+    <basecompoundref refid="classbattleships_1_1_a_i_player" prot="public" virt="non-virtual">battleships.AIPlayer</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classbattleships_1_1_a_i_medium_player_1a095de0cb9c7a36f1206827d6a0cb6397" prot="private" static="no">
+        <name>AIStates</name>
+        <enumvalue id="classbattleships_1_1_a_i_medium_player_1a095de0cb9c7a36f1206827d6a0cb6397a843627586c62e389041a4d8800143974" prot="public">
+          <name>Searching</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classbattleships_1_1_a_i_medium_player_1a095de0cb9c7a36f1206827d6a0cb6397a8a9ba88adca0a31e32fa4b9d46b18446" prot="public">
+          <name>TargetingShip</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Private enumarator for AI states. currently there are two states, the AI can be searching for a ship, or if it has found a ship it will target the same ship </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="19" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" prot="private" static="no" mutable="no">
+        <type><ref refid="classbattleships_1_1_a_i_medium_player_1a095de0cb9c7a36f1206827d6a0cb6397" kindref="member">AIStates</ref></type>
+        <definition>AIStates battleships.AIMediumPlayer._CurrentState</definition>
+        <argsstring></argsstring>
+        <name>_CurrentState</name>
+        <initializer>= AIStates.Searching</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="24" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" compoundref="_a_i_medium_player_8cs" startline="105" endline="119">battleships.AIMediumPlayer.ProcessShot</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" compoundref="_a_i_medium_player_8cs" startline="77" endline="84">battleships.AIMediumPlayer.TargetCoords</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_a_i_medium_player_1a6ff5f15f9e41187a1a7dd9422143a227" prot="private" static="no" mutable="no">
+        <type>Stack&lt; <ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref> &gt;</type>
+        <definition>Stack&lt;Location&gt; battleships.AIMediumPlayer._Targets</definition>
+        <argsstring></argsstring>
+        <name>_Targets</name>
+        <initializer>= new Stack&lt;<ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="25" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" compoundref="_a_i_medium_player_8cs" startline="77" endline="84">battleships.AIMediumPlayer.TargetCoords</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbattleships_1_1_a_i_medium_player_1a0ff3c4b576ca6c981f9bd8d42c441dcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.AIMediumPlayer.AIMediumPlayer</definition>
+        <argsstring>(BattleShipsGame controller)</argsstring>
+        <name>AIMediumPlayer</name>
+        <param>
+          <type><ref refid="classbattleships_1_1_battle_ships_game" kindref="compound">BattleShipsGame</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="27" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void battleships.AIMediumPlayer.GenerateCoords</definition>
+        <argsstring>(ref int row, ref int column)</argsstring>
+        <name>GenerateCoords</name>
+        <reimplements refid="classbattleships_1_1_a_i_player_1a054a0e09c3d990487a2c22c559e0a645">GenerateCoords</reimplements>
+        <param>
+          <type>ref int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+<para>GenerateCoordinates should generate random shooting coordinates only when it has not found a ship, or has destroyed a ship and needs new shooting coordinates </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generated row</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generated column</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="38" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="38" bodyend="69"/>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" compoundref="_a_i_medium_player_8cs" startline="24">battleships.AIMediumPlayer._CurrentState</references>
+        <references refid="classbattleships_1_1_player_1afa4e3c2651f0100aff0f7802af8e94f1" compoundref="_player_8cs" startline="74">battleships.Player.EnemyGrid</references>
+        <references refid="interfacebattleships_1_1_i_sea_grid_1a5ec9d3c93bf25602616426e4ff81a142" compoundref="_i_sea_grid_8cs" startline="12">battleships.ISeaGrid.Height</references>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a66bb37af46616ab88ea350a05ba31821" compoundref="_a_i_medium_player_8cs" startline="91" endline="95">battleships.AIMediumPlayer.SearchCoords</references>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" compoundref="_a_i_medium_player_8cs" startline="77" endline="84">battleships.AIMediumPlayer.TargetCoords</references>
+        <references refid="interfacebattleships_1_1_i_sea_grid_1ac6829a2f526e915b1fa33444d73286d8" compoundref="_i_sea_grid_8cs" startline="11">battleships.ISeaGrid.Width</references>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void battleships.AIMediumPlayer.ProcessShot</definition>
+        <argsstring>(int row, int col, AttackResult result)</argsstring>
+        <name>ProcessShot</name>
+        <reimplements refid="classbattleships_1_1_a_i_player_1a3807d853955843d466059491358face4">ProcessShot</reimplements>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_attack_result" kindref="compound">AttackResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+<para>ProcessShot will be called uppon when a ship is found. It will create a stack with targets it will try to hit. These targets will be around the tile that has been hit. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row it needs to process</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>col</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the column it needs to process</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the result of the last shot (should be hit)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="105" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="105" bodyend="119"/>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" compoundref="_a_i_medium_player_8cs" startline="24">battleships.AIMediumPlayer._CurrentState</references>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" compoundref="_a_i_medium_player_8cs" startline="126" endline="132">battleships.AIMediumPlayer.AddTarget</references>
+        <references refid="classbattleships_1_1_attack_result_1aaf59a980720cd5896f56b370ff6f4700" compoundref="_attack_result_8cs" startline="21">battleships.AttackResult.Value</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.AIMediumPlayer.TargetCoords</definition>
+        <argsstring>(ref int row, ref int column)</argsstring>
+        <name>TargetCoords</name>
+        <param>
+          <type>ref int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+<para>TargetCoords is used when a ship has been hit and it will try and destroy this ship </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>row generated around the hit tile</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>column generated around the hit tile</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="77" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="77" bodyend="84"/>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" compoundref="_a_i_medium_player_8cs" startline="24">battleships.AIMediumPlayer._CurrentState</references>
+        <references refid="classbattleships_1_1_a_i_medium_player_1a6ff5f15f9e41187a1a7dd9422143a227" compoundref="_a_i_medium_player_8cs" startline="25">battleships.AIMediumPlayer._Targets</references>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_a_i_medium_player_1a66bb37af46616ab88ea350a05ba31821" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.AIMediumPlayer.SearchCoords</definition>
+        <argsstring>(ref int row, ref int column)</argsstring>
+        <name>SearchCoords</name>
+        <param>
+          <type>ref int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+<para>SearchCoords will randomly generate shots within the grid as long as its not hit that tile already </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generated row</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the generated column</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="91" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="91" bodyend="95"/>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" compoundref="_a_i_medium_player_8cs" startline="38" endline="69">battleships.AIMediumPlayer.GenerateCoords</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void battleships.AIMediumPlayer.AddTarget</definition>
+        <argsstring>(int row, int column)</argsstring>
+        <name>AddTarget</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+<para>AddTarget will add the targets it will shoot onto a stack </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row of the targets location</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the column of the targets location</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="126" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="126" bodyend="132"/>
+        <references refid="classbattleships_1_1_player_1afa4e3c2651f0100aff0f7802af8e94f1" compoundref="_player_8cs" startline="74">battleships.Player.EnemyGrid</references>
+        <references refid="interfacebattleships_1_1_i_sea_grid_1a5ec9d3c93bf25602616426e4ff81a142" compoundref="_i_sea_grid_8cs" startline="12">battleships.ISeaGrid.Height</references>
+        <references refid="interfacebattleships_1_1_i_sea_grid_1ac6829a2f526e915b1fa33444d73286d8" compoundref="_i_sea_grid_8cs" startline="11">battleships.ISeaGrid.Width</references>
+        <referencedby refid="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" compoundref="_a_i_medium_player_8cs" startline="105" endline="119">battleships.AIMediumPlayer.ProcessShot</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>battleships.AIMediumPlayer</label>
+        <link refid="classbattleships_1_1_a_i_medium_player"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>IEnumerable</label>
+      </node>
+      <node id="18">
+        <label>Player</label>
+        <link refid="classbattleships_1_1_player"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>AIPlayer</label>
+        <link refid="classbattleships_1_1_a_i_player"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="28">
+        <label>ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+      <node id="29">
+        <label>battleships.Tile</label>
+        <link refid="classbattleships_1_1_tile"/>
+        <childnode refid="30" relation="usage">
+          <edgelabel>_Ship</edgelabel>
+        </childnode>
+      </node>
+      <node id="24">
+        <label>battleships.BattleShipsGame</label>
+        <link refid="classbattleships_1_1_battle_ships_game"/>
+        <childnode refid="25" relation="usage">
+          <edgelabel>_players</edgelabel>
+        </childnode>
+      </node>
+      <node id="30">
+        <label>battleships.Ship</label>
+        <link refid="classbattleships_1_1_ship"/>
+      </node>
+      <node id="20">
+        <label>battleships.AIMediumPlayer</label>
+        <link refid="classbattleships_1_1_a_i_medium_player"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>battleships.Player</label>
+        <link refid="classbattleships_1_1_player"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>_game</edgelabel>
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>_enemyGrid</edgelabel>
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>_playerGrid</edgelabel>
+        </childnode>
+      </node>
+      <node id="23">
+        <label>IEnumerable</label>
+      </node>
+      <node id="27">
+        <label>battleships.SeaGrid</label>
+        <link refid="classbattleships_1_1_sea_grid"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>_GameTiles</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>Player</label>
+        <link refid="classbattleships_1_1_player"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>_game</edgelabel>
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>_enemyGrid</edgelabel>
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>_playerGrid</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>AIPlayer</label>
+        <link refid="classbattleships_1_1_a_i_player"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>battleships.ISeaGrid</label>
+        <link refid="interfacebattleships_1_1_i_sea_grid"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" line="12" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIMediumPlayer.cs" bodystart="11" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_a_i_medium_player_1a9eb0ccae125a8e0d0f4c9d5fa001cc22" prot="private" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>_CurrentState</name></member>
+      <member refid="classbattleships_1_1_player_1aa5b7925b964a30672390c3279869aa82" prot="protected" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>_game</name></member>
+      <member refid="classbattleships_1_1_player_1a549221d3e7c53232283a31fa562d883b" prot="protected" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>_Random</name></member>
+      <member refid="classbattleships_1_1_a_i_medium_player_1a6ff5f15f9e41187a1a7dd9422143a227" prot="private" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>_Targets</name></member>
+      <member refid="classbattleships_1_1_a_i_medium_player_1a80470f847fbbaf5fe5a9d011b13702da" prot="private" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>AddTarget</name></member>
+      <member refid="classbattleships_1_1_a_i_medium_player_1a0ff3c4b576ca6c981f9bd8d42c441dcf" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>AIMediumPlayer</name></member>
+      <member refid="classbattleships_1_1_a_i_player_1afdd296a36224d74c83275ec94a0ae029" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>AIPlayer</name></member>
+      <member refid="classbattleships_1_1_a_i_medium_player_1a095de0cb9c7a36f1206827d6a0cb6397" prot="private" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>AIStates</name></member>
+      <member refid="classbattleships_1_1_a_i_player_1addcfd08be0b45f04c405224e9628945a" prot="public" virt="virtual"><scope>battleships::AIMediumPlayer</scope><name>Attack</name></member>
+      <member refid="classbattleships_1_1_player_1a20b58b6ef17aedb3681453e9274bff8c" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>Enemy</name></member>
+      <member refid="classbattleships_1_1_player_1afa4e3c2651f0100aff0f7802af8e94f1" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>EnemyGrid</name></member>
+      <member refid="classbattleships_1_1_player_1a0d364b1c253c4ffa83c12c8a52091b09" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>Game</name></member>
+      <member refid="classbattleships_1_1_a_i_medium_player_1aea79586bf1dfe1420959067b0b45f786" prot="protected" virt="virtual"><scope>battleships::AIMediumPlayer</scope><name>GenerateCoords</name></member>
+      <member refid="classbattleships_1_1_player_1a15698d4caf8e6ffc282319351441c90c" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>get_Ship</name></member>
+      <member refid="classbattleships_1_1_player_1ae6d890ffce0e26115ba241334d1bb9f1" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>GetEnumerator</name></member>
+      <member refid="classbattleships_1_1_player_1a79f783d11b08bb60985d45f42fad5483" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>GetShipEnumerator</name></member>
+      <member refid="classbattleships_1_1_player_1a1899c8d59f73b68f2068d0ec818b8b58" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>Hits</name></member>
+      <member refid="classbattleships_1_1_player_1adebb7ac02d1131965556b5b59455f37e" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>IsDestroyed</name></member>
+      <member refid="classbattleships_1_1_player_1a324262991267be9bd03089c05def45ac" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>Missed</name></member>
+      <member refid="classbattleships_1_1_player_1a218e305df4ffb97f002c585964df0e94" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>Player</name></member>
+      <member refid="classbattleships_1_1_player_1a224a5ec515b83d78ff01658cfa9874db" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>PlayerGrid</name></member>
+      <member refid="classbattleships_1_1_a_i_medium_player_1ac57e8a1eb70cf95be424f30091eb0c4e" prot="protected" virt="virtual"><scope>battleships::AIMediumPlayer</scope><name>ProcessShot</name></member>
+      <member refid="classbattleships_1_1_player_1a24ead603cef9055f2da6bfa07d68de1c" prot="public" virt="virtual"><scope>battleships::AIMediumPlayer</scope><name>RandomizeDeployment</name></member>
+      <member refid="classbattleships_1_1_player_1ac15a1f4ee3de910ea859e834ca3a7547" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>ReadyToDeploy</name></member>
+      <member refid="classbattleships_1_1_player_1a253395c2c80ef1df53d0b55e0cfc3282" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>Score</name></member>
+      <member refid="classbattleships_1_1_a_i_medium_player_1a66bb37af46616ab88ea350a05ba31821" prot="private" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>SearchCoords</name></member>
+      <member refid="classbattleships_1_1_player_1a20609c2cf492f41ee37f1307ae7a808e" prot="package" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>Shoot</name></member>
+      <member refid="classbattleships_1_1_player_1a2c5cf0f98e96aeac6b2e6ccb4167e561" prot="public" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>Shots</name></member>
+      <member refid="classbattleships_1_1_a_i_medium_player_1a74dfc2fef9adbbc05392c1ccd7a09fe8" prot="private" virt="non-virtual"><scope>battleships::AIMediumPlayer</scope><name>TargetCoords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

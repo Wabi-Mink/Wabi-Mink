@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbattleships_1_1_a_i_hard_player_1_1_target" kind="class" prot="protected">
+    <compoundname>battleships::AIHardPlayer::Target</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbattleships_1_1_a_i_hard_player_1_1_target_1a4e25310b42438add40a1e37e279704f3" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref></type>
+        <definition>readonly Location battleships.AIHardPlayer.Target._ShotAt</definition>
+        <argsstring></argsstring>
+        <name>_ShotAt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" line="22" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a70ca7e385a626d771ac6db3b957d8a60" compoundref="_a_i_hard_player_8cs" startline="51" endline="55">battleships.AIHardPlayer.Target.Target</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbattleships_1_1_a_i_hard_player_1_1_target_1a33342e55bc23cfdc6e1cdd94a43247b8" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref></type>
+        <definition>readonly Location battleships.AIHardPlayer.Target._Source</definition>
+        <argsstring></argsstring>
+        <name>_Source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" line="23" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a70ca7e385a626d771ac6db3b957d8a60" compoundref="_a_i_hard_player_8cs" startline="51" endline="55">battleships.AIHardPlayer.Target.Target</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classbattleships_1_1_a_i_hard_player_1_1_target_1a485b24dc5468cb4f45e36c9424202caa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref></type>
+        <definition>Location battleships.AIHardPlayer.Target.ShotAt</definition>
+        <argsstring></argsstring>
+        <name>ShotAt</name>
+        <briefdescription>
+<para>The target shot at </para>        </briefdescription>
+        <detaileddescription>
+<para>The target shot at</para><para><simplesect kind="return"><para>The target shot at</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" line="30" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a9d5a8f7f93f0836164b9afdd612f6f5d" compoundref="_a_i_hard_player_8cs" startline="395" endline="401">battleships.AIHardPlayer.AddTarget</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a264d7b0aac5cea43406664e5f882f787" compoundref="_a_i_hard_player_8cs" startline="231" endline="274">battleships.AIHardPlayer.ProcessDestroy</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a855ada8b410e912788bdffc608130ebc" compoundref="_a_i_hard_player_8cs" startline="341" endline="354">battleships.AIHardPlayer.ReOrderTargets</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_a_i_hard_player_1_1_target_1ad44ab7bf06c40df920e3381378dcc1cd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref></type>
+        <definition>Location battleships.AIHardPlayer.Target.Source</definition>
+        <argsstring></argsstring>
+        <name>Source</name>
+        <briefdescription>
+<para>The source that added this location as a target. </para>        </briefdescription>
+        <detaileddescription>
+<para>The source that added this location as a target.</para><para><simplesect kind="return"><para>The source that added this location as a target.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" line="43" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a264d7b0aac5cea43406664e5f882f787" compoundref="_a_i_hard_player_8cs" startline="231" endline="274">battleships.AIHardPlayer.ProcessDestroy</referencedby>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a664511d5aae262e57d48d8a715e5e1ad" compoundref="_a_i_hard_player_8cs" startline="283" endline="305">battleships.AIHardPlayer.RemoveShotsAround</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_a_i_hard_player_1_1_target_1a3ab7e58eba1d8afb7f035a05bda46c24" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool battleships.AIHardPlayer.Target.SameRow</definition>
+        <argsstring></argsstring>
+        <name>SameRow</name>
+        <briefdescription>
+<para>If source shot and shootat shot are on the same row then give a boolean true </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" line="61" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a855ada8b410e912788bdffc608130ebc" compoundref="_a_i_hard_player_8cs" startline="341" endline="354">battleships.AIHardPlayer.ReOrderTargets</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classbattleships_1_1_a_i_hard_player_1_1_target_1a72615ecb34f91e5f1a23a45783b2e8ba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool battleships.AIHardPlayer.Target.SameColumn</definition>
+        <argsstring></argsstring>
+        <name>SameColumn</name>
+        <briefdescription>
+<para>If source shot and shootat shot are on the same column then give a boolean true </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" line="73" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="classbattleships_1_1_a_i_hard_player_1a855ada8b410e912788bdffc608130ebc" compoundref="_a_i_hard_player_8cs" startline="341" endline="354">battleships.AIHardPlayer.ReOrderTargets</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classbattleships_1_1_a_i_hard_player_1_1_target_1a70ca7e385a626d771ac6db3b957d8a60" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>battleships.AIHardPlayer.Target.Target</definition>
+        <argsstring>(Location shootat, Location source)</argsstring>
+        <name>Target</name>
+        <param>
+          <type><ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref></type>
+          <declname>shootat</declname>
+        </param>
+        <param>
+          <type><ref refid="classbattleships_1_1_a_i_player_1_1_location" kindref="compound">Location</ref></type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" line="51" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" bodystart="51" bodyend="55"/>
+        <references refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a4e25310b42438add40a1e37e279704f3" compoundref="_a_i_hard_player_8cs" startline="22">battleships.AIHardPlayer.Target._ShotAt</references>
+        <references refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a33342e55bc23cfdc6e1cdd94a43247b8" compoundref="_a_i_hard_player_8cs" startline="23">battleships.AIHardPlayer.Target._Source</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classbattleships_1_1_a_i_hard_player_1_1_target" kindref="compound">Target</ref> allows the AI to know more things, for example the source of a shot target </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" line="21" column="1" bodyfile="D:/Google Drive Accounts/Monique.n.kuhn Drive/Study/Uni Work/2020/S1/SWE20001/SWE20001 Group Project/Battleship_Project/battleship/battleships/src/Model/AIHardPlayer.cs" bodystart="20" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a4e25310b42438add40a1e37e279704f3" prot="private" virt="non-virtual"><scope>battleships::AIHardPlayer::Target</scope><name>_ShotAt</name></member>
+      <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a33342e55bc23cfdc6e1cdd94a43247b8" prot="private" virt="non-virtual"><scope>battleships::AIHardPlayer::Target</scope><name>_Source</name></member>
+      <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a72615ecb34f91e5f1a23a45783b2e8ba" prot="public" virt="non-virtual"><scope>battleships::AIHardPlayer::Target</scope><name>SameColumn</name></member>
+      <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a3ab7e58eba1d8afb7f035a05bda46c24" prot="public" virt="non-virtual"><scope>battleships::AIHardPlayer::Target</scope><name>SameRow</name></member>
+      <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a485b24dc5468cb4f45e36c9424202caa" prot="public" virt="non-virtual"><scope>battleships::AIHardPlayer::Target</scope><name>ShotAt</name></member>
+      <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1ad44ab7bf06c40df920e3381378dcc1cd" prot="public" virt="non-virtual"><scope>battleships::AIHardPlayer::Target</scope><name>Source</name></member>
+      <member refid="classbattleships_1_1_a_i_hard_player_1_1_target_1a70ca7e385a626d771ac6db3b957d8a60" prot="package" virt="non-virtual"><scope>battleships::AIHardPlayer::Target</scope><name>Target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
