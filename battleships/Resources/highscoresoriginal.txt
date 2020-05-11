@@ -1,5 +1,5 @@
 10
-AAAAAAAA
+AAA
 100
 BBB
 90
@@ -13,9 +13,9 @@ FFF
 50
 GGG
 40
-Lam Duong
+HHH
 30
-Monique
+III
 20
-Zane Ross
+JJJ
 10

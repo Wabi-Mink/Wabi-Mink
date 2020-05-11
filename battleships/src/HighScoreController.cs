@@ -15,7 +15,7 @@ namespace battleships
     /// </remarks>
     static class HighScoreController
     {
-        private const int NAME_WIDTH = 3;
+        private const int NAME_WIDTH = 10;
         private const int SCORES_LEFT = 490;
 
         /// <summary>
@@ -74,10 +74,13 @@ namespace battleships
             for (i = 1; i <= loopTo; i++)
             {
                 Score s;
-                string line;
-                line = input.ReadLine();
-                s.Name = line.Substring(0, NAME_WIDTH);
-                s.Value = Convert.ToInt32(line.Substring(NAME_WIDTH));
+                string nameline;
+                nameline = input.ReadLine();
+                s.Name = nameline;
+                int scoreline;
+                scoreline = Convert.ToInt32(input.ReadLine());
+                Console.WriteLine(scoreline); 
+                s.Value = scoreline;
                 _Scores.Add(s);
             }
 
@@ -101,8 +104,10 @@ namespace battleships
             StreamWriter output;
             output = new StreamWriter(filename);
             output.WriteLine(_Scores.Count);
-            foreach (Score s in _Scores)
-                output.WriteLine(s.Name + s.Value);
+            foreach (Score s in _Scores) {                    
+                output.WriteLine(s.Name);
+                output.WriteLine(s.Value);
+            }
             output.Close();
         }
 
@@ -129,11 +134,13 @@ namespace battleships
                 // for scores 1 - 9 use 01 - 09
                 if (i < 9)
                 {
-                    SwinGame.DrawText(" " + (i + 1) + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
+                    int spacenum = ((NAME_WIDTH + 3) - s.Name.Length);
+                    SwinGame.DrawText(" " + (i + 1) + ":   " + s.Name + "".PadRight(spacenum) + s.Value, Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
                 }
                 else
                 {
-                    SwinGame.DrawText(i + 1 + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
+                    int spacenum = ((NAME_WIDTH + 3) - s.Name.Length);
+                    SwinGame.DrawText(i + 1 + ":   " + s.Name + "".PadRight(spacenum) + s.Value, Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
                 }
             }
         }
@@ -172,7 +179,7 @@ namespace battleships
                 int x;
                 x = SCORES_LEFT + SwinGame.TextWidth(GameResources.GameFont("Courier"), "Name: ") ;
                 // prints the actual text you're typing
-                SwinGame.StartReadingText(Color.White, NAME_WIDTH + 1, GameResources.GameFont("Courier"), x, ENTRY_TOP);
+                SwinGame.StartReadingText(Color.White, NAME_WIDTH, GameResources.GameFont("Courier"), x, ENTRY_TOP);
 
                 // Read the text from the user
                 while (SwinGame.ReadingText())
@@ -185,9 +192,9 @@ namespace battleships
                 }
 
                 s.Name = SwinGame.TextReadAsASCII();
-                if (s.Name.Length < 3)
+                if (s.Name.Length < NAME_WIDTH)
                 {
-                    s.Name = (s.Name + new string(' ', 3 - s.Name.Length));
+                    s.Name = (s.Name + new string(' ', NAME_WIDTH - s.Name.Length));
                 }
 
                 _Scores.RemoveAt(_Scores.Count - 1);

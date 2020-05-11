@@ -142,8 +142,11 @@ namespace battleships
             {
                 UtilityFunctions.AddExplosion(row, column);
             }
-
-            Audio.PlaySoundEffect(GameResources.GameSound("Hit"));
+            
+            if (Variables._isMute == false) //mute extension
+            {
+                Audio.PlaySoundEffect(GameResources.GameSound("Hit"));
+            }
             UtilityFunctions.DrawAnimationSequence();
         }
 
@@ -154,7 +157,10 @@ namespace battleships
                 UtilityFunctions.AddSplash(row, column);
             }
 
-            Audio.PlaySoundEffect(GameResources.GameSound("Miss"));
+            if (Variables._isMute == false) //mute extension
+            {
+                Audio.PlaySoundEffect(GameResources.GameSound("Miss"));
+            }
             UtilityFunctions.DrawAnimationSequence();
         }
 
@@ -185,14 +191,24 @@ namespace battleships
                 case ResultOfAttack.Destroyed:
                 {
                     PlayHitSequence(result.Row, result.Column, isHuman);
-                    Audio.PlaySoundEffect(GameResources.GameSound("Sink"));
+
+                    if (Variables._isMute == false) //mute extension
+                        {
+                        Audio.PlaySoundEffect(GameResources.GameSound("Sink"));
+                    }
+
                     break;
                 }
 
                 case ResultOfAttack.GameOver:
                 {
                     PlayHitSequence(result.Row, result.Column, isHuman);
-                    Audio.PlaySoundEffect(GameResources.GameSound("Sink"));
+                    
+                    if (Variables._isMute == false) //mute extension
+                        {
+                        Audio.PlaySoundEffect(GameResources.GameSound("Sink"));
+                    }
+
                     while (Audio.SoundEffectPlaying(GameResources.GameSound("Sink")))
                     {
                         SwinGame.Delay(10);
@@ -201,11 +217,17 @@ namespace battleships
 
                     if (HumanPlayer.IsDestroyed)
                     {
-                        Audio.PlaySoundEffect(GameResources.GameSound("Lose"));
+                        if (Variables._isMute == false) //mute extension
+                            {
+                            Audio.PlaySoundEffect(GameResources.GameSound("Lose"));
+                        }
                     }
                     else
                     {
-                        Audio.PlaySoundEffect(GameResources.GameSound("Winner"));
+                        if (Variables._isMute == false) //mute extension
+                            {
+                            Audio.PlaySoundEffect(GameResources.GameSound("Winner"));
+                        }                  
                     }
 
                     break;
@@ -225,7 +247,10 @@ namespace battleships
 
                 case ResultOfAttack.ShotAlready:
                 {
-                    Audio.PlaySoundEffect(GameResources.GameSound("Error"));
+                    if (Variables._isMute == false) //mute extension
+                        {
+                        Audio.PlaySoundEffect(GameResources.GameSound("Error"));
+                    }
                     break;
                 }
             }

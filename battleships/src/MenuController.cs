@@ -2,6 +2,12 @@
 
 namespace battleships
 {
+    //mute extension
+    public class Variables
+    {
+        public static bool _isMute = false;
+        public static string _muteMenuText = "Mute";
+    }
 
     /// <summary>
     /// The menu controller handles the drawing and user interactions
@@ -18,7 +24,18 @@ namespace battleships
         /// <remarks>
         /// These are the text captions for the menu items.
         /// </remarks>
-        private readonly static string[][] _menuStructure = new[] { new string[] { "PLAY", "SETUP", "SCORES", "QUIT" }, new string[] { "RETURN", "SURRENDER", "QUIT" }, new string[] { "EASY", "MEDIUM", "HARD" } };
+        private readonly static string[][] _menuStructure = new[] {
+            new string[] { "PLAY", "SETUP", "SCORES", "MUTE", "QUIT" }, //mute extension
+            new string[] { "RETURN", "SURRENDER", "QUIT" },
+            new string[] { "EASY", "MEDIUM", "HARD" } 
+        };
+
+        //mute extension
+        private readonly static string[][] _menuStructureUnmute = new[] {
+            new string[] { "PLAY", "SETUP", "SCORES", "UNMUTE", "QUIT" }, //mute extension
+            new string[] { "RETURN", "SURRENDER", "QUIT" },
+            new string[] { "EASY", "MEDIUM", "HARD" } 
+        };
 
 
         private const int MENU_TOP = 575;
@@ -28,20 +45,25 @@ namespace battleships
         private const int BUTTON_HEIGHT = 15;
         private const int BUTTON_SEP = BUTTON_WIDTH + MENU_GAP;
         private const int TEXT_OFFSET = 0;
+
         private const int MAIN_MENU = 0;
         private const int GAME_MENU = 1;
         private const int SETUP_MENU = 2;
+
         private const int MAIN_MENU_PLAY_BUTTON = 0;
         private const int MAIN_MENU_SETUP_BUTTON = 1;
         private const int MAIN_MENU_TOP_SCORES_BUTTON = 2;
-        private const int MAIN_MENU_QUIT_BUTTON = 3;
+        private const int MAIN_MENU_MUTE_BTTON = 3; //mute extension
+        private const int MAIN_MENU_QUIT_BUTTON = 4;
+
         private const int SETUP_MENU_EASY_BUTTON = 0;
         private const int SETUP_MENU_MEDIUM_BUTTON = 1;
         private const int SETUP_MENU_HARD_BUTTON = 2;
-        private const int SETUP_MENU_EXIT_BUTTON = 3;
+
         private const int GAME_MENU_RETURN_BUTTON = 0;
         private const int GAME_MENU_SURRENDER_BUTTON = 1;
         private const int GAME_MENU_QUIT_BUTTON = 2;
+
         private readonly static Color MENU_COLOR = SwinGame.RGBAColor(2, 167, 252, 255);
         private readonly static Color HIGHLIGHT_COLOR = SwinGame.RGBAColor(1, 57, 86, 255);
 
@@ -94,15 +116,28 @@ namespace battleships
 
             if (SwinGame.MouseClicked(MouseButton.LeftButton))
             {
-                int i;
-                var loopTo = _menuStructure[menu].Length - 1;
-                for (i = 0; i <= loopTo; i++)
+                if (Variables._isMute == false)
                 {
-                    // IsMouseOver the i'th button of the menu
-                    if (IsMouseOverMenu(i, level, xOffset))
+                    for (int i = 0; i <= (_menuStructure[menu].Length - 1); i++)
                     {
-                        PerformMenuAction(menu, i);
-                        return true;
+                        // IsMouseOver the i'th button of the menu
+                        if (IsMouseOverMenu(i, level, xOffset))
+                        {
+                            PerformMenuAction(menu, i);
+                            return true;
+                        }
+                    }
+                }
+                else //mute extension
+                {
+                    for (int i = 0; i <= (_menuStructureUnmute[menu].Length - 1); i++)
+                    {
+                        // IsMouseOver the i'th button of the menu
+                        if (IsMouseOverMenu(i, level, xOffset))
+                        {
+                            PerformMenuAction(menu, i);
+                            return true;
+                        }
                     }
                 }
 
@@ -175,24 +210,41 @@ namespace battleships
         /// </remarks>
         private static void DrawButtons(int menu, int level, int xOffset)
         {
-            int btnTop;
+            int btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level;
             var toDraw = default(Rectangle);
-            btnTop = MENU_TOP - (MENU_GAP + BUTTON_HEIGHT) * level;
-            int i;
-            var loopTo = _menuStructure[menu].Length - 1;
-            for (i = 0; i <= loopTo; i++)
+
+            if (Variables._isMute == false)
             {
-                int btnLeft;
-                btnLeft = MENU_LEFT + BUTTON_SEP * (i + xOffset);
-                // SwinGame.FillRectangle(Color.White, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT)
-                toDraw.X = btnLeft + TEXT_OFFSET;
-                toDraw.Y = btnTop + TEXT_OFFSET;
-                toDraw.Width = BUTTON_WIDTH;
-                toDraw.Height = BUTTON_HEIGHT;
-                SwinGame.DrawTextLines(_menuStructure[menu][i], MENU_COLOR, Color.Black, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, toDraw);
-                if (SwinGame.MouseDown(MouseButton.LeftButton) & IsMouseOverMenu(i, level, xOffset))
+                for (int i = 0; i <= (_menuStructure[menu].Length - 1); i++)
                 {
-                    SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
+                    int btnLeft = MENU_LEFT + BUTTON_SEP * (i + xOffset);
+                    // SwinGame.FillRectangle(Color.White, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT)
+                    toDraw.X = btnLeft + TEXT_OFFSET;
+                    toDraw.Y = btnTop + TEXT_OFFSET;
+                    toDraw.Width = BUTTON_WIDTH;
+                    toDraw.Height = BUTTON_HEIGHT;
+                    SwinGame.DrawTextLines(_menuStructure[menu][i], MENU_COLOR, Color.Black, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, toDraw);
+                    if (SwinGame.MouseDown(MouseButton.LeftButton) & IsMouseOverMenu(i, level, xOffset))
+                    {
+                        SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
+                    }
+                }
+            }
+            else //mute extension
+            {
+                for (int i = 0; i <= (_menuStructureUnmute[menu].Length - 1); i++)
+                {
+                    int btnLeft = MENU_LEFT + BUTTON_SEP * (i + xOffset);
+                    // SwinGame.FillRectangle(Color.White, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT)
+                    toDraw.X = btnLeft + TEXT_OFFSET;
+                    toDraw.Y = btnTop + TEXT_OFFSET;
+                    toDraw.Width = BUTTON_WIDTH;
+                    toDraw.Height = BUTTON_HEIGHT;
+                    SwinGame.DrawTextLines(_menuStructureUnmute[menu][i], MENU_COLOR, Color.Black, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, toDraw);
+                    if (SwinGame.MouseDown(MouseButton.LeftButton) & IsMouseOverMenu(i, level, xOffset))
+                    {
+                        SwinGame.DrawRectangle(HIGHLIGHT_COLOR, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT);
+                    }
                 }
             }
         }
@@ -273,6 +325,24 @@ namespace battleships
                 case MAIN_MENU_TOP_SCORES_BUTTON:
                 {
                     GameController.AddNewState(GameState.ViewingHighScores);
+                    break;
+                }
+
+                //mute extension
+                case MAIN_MENU_MUTE_BTTON:
+                {
+                    switch (Variables._isMute)
+                    {
+                        case true:
+                            Variables._isMute = false;
+                            SwinGame.PlayMusic(GameResources.GameMusic("Background"));
+                            break;
+
+                        case false:
+                            Variables._isMute = true;
+                            SwinGame.StopMusic();
+                            break;
+                    }
                     break;
                 }
 
